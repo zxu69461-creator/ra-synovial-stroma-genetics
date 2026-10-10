@@ -1,0 +1,1257 @@
+atlas,trait,state,state_group,n_cell,assoc_mcz,assoc_mcp,fdr,hetero_mcz,hetero_mcp
+discovery,ra_eur,B ABC CD11c+,B/plasma,171.0,5.562112,0.000999,0.002248,2.077227,0.022977
+discovery,ra_eur,B activated CD69+,B/plasma,391.0,5.483861,0.000999,0.002248,3.92026,0.000999
+discovery,ra_eur,B switched memory,B/plasma,386.0,6.116321,0.000999,0.002248,5.022548,0.000999
+discovery,ra_eur,B unswitched memory,B/plasma,353.0,4.798615,0.000999,0.002248,3.558557,0.000999
+discovery,ra_eur,DC LAMP3+ mreg,Myeloid,96.0,6.317421,0.000999,0.002248,-0.122298,0.524476
+discovery,ra_eur,DC2,Myeloid,3445.0,7.692173,0.000999,0.002248,4.468748,0.002997
+discovery,ra_eur,DC3,Myeloid,535.0,6.20129,0.000999,0.002248,3.315344,0.000999
+discovery,ra_eur,DC4,Myeloid,136.0,4.468034,0.000999,0.002248,1.060671,0.142857
+discovery,ra_eur,EC arterial,Endothelial,683.0,-0.019984,0.490509,0.69704,1.238459,0.10989
+discovery,ra_eur,EC capillary COL4A1+,Endothelial,919.0,0.187527,0.407592,0.594865,2.402344,0.017982
+discovery,ra_eur,EC capillary SPARC+,Endothelial,809.0,-0.232285,0.572428,0.792592,1.795111,0.045954
+discovery,ra_eur,EC lymphatic,Endothelial,114.0,1.917542,0.044955,0.075862,3.45661,0.001998
+discovery,ra_eur,EC venous HLA-DR+,Endothelial,355.0,0.409972,0.333666,0.514799,2.335417,0.00999
+discovery,ra_eur,EC venous ICAM1+,Endothelial,1279.000122,0.882526,0.188811,0.299877,3.805836,0.002997
+discovery,ra_eur,EC venous LIFR+,Endothelial,2849.999756,0.220272,0.406593,0.594865,3.161516,0.005994
+discovery,ra_eur,Fib CD34+ sublining,Stromal,1538.0,-3.890299,1.0,1.0,2.098942,0.032967
+discovery,ra_eur,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-4.074362,1.0,1.0,1.351339,0.107892
+discovery,ra_eur,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-2.790102,1.0,1.0,4.628628,0.000999
+discovery,ra_eur,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-3.171554,1.0,1.0,-0.161078,0.539461
+discovery,ra_eur,Fib CTSK+ sublining,Stromal,2873.0,-2.273083,0.994006,1.0,2.254924,0.033966
+discovery,ra_eur,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-3.212358,1.0,1.0,2.408272,0.021978
+discovery,ra_eur,Fib CXCL12-hi sublining,Stromal,369.0,-3.12261,1.0,1.0,3.915727,0.000999
+discovery,ra_eur,Fib LOXL2+ glycolytic,Stromal,1407.000122,-1.357564,0.916084,1.0,1.281959,0.117882
+discovery,ra_eur,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-3.436144,1.0,1.0,1.818548,0.051948
+discovery,ra_eur,Fib NOTCH3+ sublining,Stromal,2552.0,-2.69763,0.999001,1.0,4.048226,0.002997
+discovery,ra_eur,Fib POSTN+ sublining,Stromal,2407.0,-2.524665,1.0,1.0,2.733302,0.008991
+discovery,ra_eur,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-2.66371,1.0,1.0,1.44325,0.075924
+discovery,ra_eur,Fib PRG4+ lining,Stromal,2821.0,-1.279911,0.912088,1.0,3.532793,0.004995
+discovery,ra_eur,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-4.317058,1.0,1.0,1.228582,0.121878
+discovery,ra_eur,Mac APOE+ lipid,Myeloid,1176.999878,6.071187,0.000999,0.002248,3.720616,0.000999
+discovery,ra_eur,Mac GPNMB+ HLA-high,Myeloid,1632.999878,5.954208,0.000999,0.002248,1.858884,0.045954
+discovery,ra_eur,Mac MERTK+ LYVE1+,Myeloid,1370.0,5.47622,0.000999,0.002248,3.530149,0.003996
+discovery,ra_eur,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,6.130792,0.000999,0.002248,3.958223,0.000999
+discovery,ra_eur,Mac SPP1+,Myeloid,3583.0,4.698791,0.000999,0.002248,4.995976,0.001998
+discovery,ra_eur,Mac STAT1+ CXCL10+,Myeloid,2583.0,5.693372,0.000999,0.002248,3.128952,0.008991
+discovery,ra_eur,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,4.938231,0.000999,0.002248,3.86091,0.003996
+discovery,ra_eur,Mac hypoxic glycolytic,Myeloid,2644.0,5.358208,0.000999,0.002248,5.369476,0.000999
+discovery,ra_eur,Mono IL1B+ FCN1+,Myeloid,2404.0,1.998939,0.034965,0.060907,6.832467,0.000999
+discovery,ra_eur,Mural,Stromal,583.0,-3.637925,1.0,1.0,0.213113,0.336663
+discovery,ra_eur,NK CD56bright,T/NK,527.0,4.606206,0.000999,0.002248,4.299266,0.000999
+discovery,ra_eur,NK CD56dim cytotoxic,T/NK,2430.000244,3.514091,0.002997,0.005994,3.919998,0.007992
+discovery,ra_eur,NK IFN-response,T/NK,66.0,3.797042,0.000999,0.002248,1.04102,0.140859
+discovery,ra_eur,Plasma cell,B/plasma,162.0,1.466265,0.091908,0.150395,3.409144,0.001998
+discovery,ra_eur,T CD161+ innate-like,T/NK,2118.0,7.508837,0.000999,0.002248,6.65083,0.000999
+discovery,ra_eur,T CD4+ GPR183+ memory,T/NK,2899.0,3.673668,0.001998,0.00415,7.304282,0.000999
+discovery,ra_eur,T CD4+ IL7R+ memory,T/NK,1042.0,4.422391,0.000999,0.002248,3.029498,0.000999
+discovery,ra_eur,T CD4+ Tph,T/NK,1344.999878,7.60123,0.000999,0.002248,4.591528,0.000999
+discovery,ra_eur,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,4.937922,0.000999,0.002248,6.214938,0.000999
+discovery,ra_eur,T CD4+ Treg,T/NK,1343.000122,9.882656,0.000999,0.002248,10.663512,0.000999
+discovery,ra_eur,T CD4+ naive,T/NK,1970.0,5.473542,0.000999,0.002248,3.389839,0.005994
+discovery,ra_eur,T CD8+ ZNF683+ resident memory,T/NK,781.0,1.934817,0.030969,0.055744,1.437481,0.068931
+discovery,ra_eur,T GZMK+ HLA-DR+ memory,T/NK,3396.0,3.862986,0.001998,0.00415,7.655718,0.000999
+discovery,ra_eur,T gd/NK-like TRDC+,T/NK,1010.0,3.098969,0.008991,0.016742,2.44975,0.028971
+discovery,ra_eur,pDC,Myeloid,171.0,3.335792,0.003996,0.007707,1.782515,0.035964
+discovery,ra_eur_noMHC,B ABC CD11c+,B/plasma,171.0,2.551927,0.012987,0.029221,0.574653,0.292707
+discovery,ra_eur_noMHC,B activated CD69+,B/plasma,391.0,2.365182,0.016983,0.035272,3.70438,0.000999
+discovery,ra_eur_noMHC,B switched memory,B/plasma,386.0,2.442283,0.012987,0.029221,4.318806,0.000999
+discovery,ra_eur_noMHC,B unswitched memory,B/plasma,353.0,2.326578,0.022977,0.045954,2.501029,0.004995
+discovery,ra_eur_noMHC,DC LAMP3+ mreg,Myeloid,96.0,3.9739,0.000999,0.00415,2.507047,0.010989
+discovery,ra_eur_noMHC,DC2,Myeloid,3445.0,3.866829,0.000999,0.00415,2.024115,0.03996
+discovery,ra_eur_noMHC,DC3,Myeloid,535.0,3.405058,0.001998,0.007193,0.816852,0.208791
+discovery,ra_eur_noMHC,DC4,Myeloid,136.0,2.671416,0.007992,0.020551,1.96328,0.023976
+discovery,ra_eur_noMHC,EC arterial,Endothelial,683.0,-2.169093,0.997003,1.0,0.935453,0.16983
+discovery,ra_eur_noMHC,EC capillary COL4A1+,Endothelial,919.0,-0.833147,0.804196,1.0,1.678534,0.057942
+discovery,ra_eur_noMHC,EC capillary SPARC+,Endothelial,809.0,-1.375523,0.924076,1.0,1.531166,0.06993
+discovery,ra_eur_noMHC,EC lymphatic,Endothelial,114.0,1.23872,0.11988,0.208823,3.570694,0.000999
+discovery,ra_eur_noMHC,EC venous HLA-DR+,Endothelial,355.0,-1.33138,0.925075,1.0,0.215764,0.407592
+discovery,ra_eur_noMHC,EC venous ICAM1+,Endothelial,1279.000122,-0.450925,0.653347,1.0,3.60154,0.002997
+discovery,ra_eur_noMHC,EC venous LIFR+,Endothelial,2849.999756,-1.671361,0.964036,1.0,1.986778,0.035964
+discovery,ra_eur_noMHC,Fib CD34+ sublining,Stromal,1538.0,-2.954126,1.0,1.0,2.491448,0.013986
+discovery,ra_eur_noMHC,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-3.092747,1.0,1.0,1.267476,0.098901
+discovery,ra_eur_noMHC,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-0.974982,0.832168,1.0,3.110286,0.010989
+discovery,ra_eur_noMHC,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-0.943057,0.829171,1.0,0.451119,0.26973
+discovery,ra_eur_noMHC,Fib CTSK+ sublining,Stromal,2873.0,-1.429505,0.941059,1.0,2.993236,0.006993
+discovery,ra_eur_noMHC,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-2.221089,0.992008,1.0,3.424388,0.005994
+discovery,ra_eur_noMHC,Fib CXCL12-hi sublining,Stromal,369.0,-1.816708,0.976024,1.0,5.169915,0.000999
+discovery,ra_eur_noMHC,Fib LOXL2+ glycolytic,Stromal,1407.000122,-1.023281,0.848152,1.0,1.852848,0.044955
+discovery,ra_eur_noMHC,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-1.217678,0.887113,1.0,1.016711,0.144855
+discovery,ra_eur_noMHC,Fib NOTCH3+ sublining,Stromal,2552.0,-2.006047,0.989011,1.0,3.356947,0.003996
+discovery,ra_eur_noMHC,Fib POSTN+ sublining,Stromal,2407.0,-1.721034,0.971029,1.0,2.18114,0.026973
+discovery,ra_eur_noMHC,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-1.167361,0.883117,1.0,2.439192,0.01998
+discovery,ra_eur_noMHC,Fib PRG4+ lining,Stromal,2821.0,-1.159833,0.9001,1.0,4.39682,0.000999
+discovery,ra_eur_noMHC,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-3.289234,1.0,1.0,2.913142,0.008991
+discovery,ra_eur_noMHC,Mac APOE+ lipid,Myeloid,1176.999878,3.57935,0.000999,0.00415,1.55575,0.063936
+discovery,ra_eur_noMHC,Mac GPNMB+ HLA-high,Myeloid,1632.999878,2.6142,0.008991,0.022069,2.734714,0.015984
+discovery,ra_eur_noMHC,Mac MERTK+ LYVE1+,Myeloid,1370.0,4.458218,0.000999,0.00415,3.560392,0.003996
+discovery,ra_eur_noMHC,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,3.197908,0.002997,0.00952,3.462009,0.003996
+discovery,ra_eur_noMHC,Mac SPP1+,Myeloid,3583.0,2.641899,0.007992,0.020551,2.715804,0.016983
+discovery,ra_eur_noMHC,Mac STAT1+ CXCL10+,Myeloid,2583.0,3.30105,0.006993,0.020551,1.830666,0.052947
+discovery,ra_eur_noMHC,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,3.567116,0.001998,0.007193,4.641416,0.000999
+discovery,ra_eur_noMHC,Mac hypoxic glycolytic,Myeloid,2644.0,3.667061,0.002997,0.00952,2.868227,0.011988
+discovery,ra_eur_noMHC,Mono IL1B+ FCN1+,Myeloid,2404.0,1.105139,0.134865,0.227585,3.082712,0.00999
+discovery,ra_eur_noMHC,Mural,Stromal,583.0,-2.404603,0.999001,1.0,-0.506326,0.656344
+discovery,ra_eur_noMHC,NK CD56bright,T/NK,527.0,4.935178,0.000999,0.00415,3.590194,0.000999
+discovery,ra_eur_noMHC,NK CD56dim cytotoxic,T/NK,2430.000244,2.434167,0.013986,0.03021,1.425735,0.070929
+discovery,ra_eur_noMHC,NK IFN-response,T/NK,66.0,4.930042,0.000999,0.00415,0.785436,0.242757
+discovery,ra_eur_noMHC,Plasma cell,B/plasma,162.0,-0.685995,0.72028,1.0,1.512881,0.077922
+discovery,ra_eur_noMHC,T CD161+ innate-like,T/NK,2118.0,7.71688,0.000999,0.00415,6.586282,0.000999
+discovery,ra_eur_noMHC,T CD4+ GPR183+ memory,T/NK,2899.0,6.465861,0.000999,0.00415,6.06411,0.000999
+discovery,ra_eur_noMHC,T CD4+ IL7R+ memory,T/NK,1042.0,6.432202,0.000999,0.00415,4.115744,0.000999
+discovery,ra_eur_noMHC,T CD4+ Tph,T/NK,1344.999878,7.782064,0.000999,0.00415,6.287619,0.000999
+discovery,ra_eur_noMHC,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,6.374994,0.000999,0.00415,6.85441,0.000999
+discovery,ra_eur_noMHC,T CD4+ Treg,T/NK,1343.000122,9.757722,0.000999,0.00415,9.888174,0.000999
+discovery,ra_eur_noMHC,T CD4+ naive,T/NK,1970.0,6.406792,0.000999,0.00415,4.941297,0.000999
+discovery,ra_eur_noMHC,T CD8+ ZNF683+ resident memory,T/NK,781.0,2.746648,0.007992,0.020551,2.356293,0.024975
+discovery,ra_eur_noMHC,T GZMK+ HLA-DR+ memory,T/NK,3396.0,2.040922,0.034965,0.067433,6.029986,0.000999
+discovery,ra_eur_noMHC,T gd/NK-like TRDC+,T/NK,1010.0,1.992866,0.03996,0.074408,1.845641,0.061938
+discovery,ra_eur_noMHC,pDC,Myeloid,171.0,1.547288,0.06993,0.125874,1.889111,0.031968
+discovery,ra_eur_seropos,B ABC CD11c+,B/plasma,171.0,5.65959,0.000999,0.002158,2.053225,0.016983
+discovery,ra_eur_seropos,B activated CD69+,B/plasma,391.0,5.183656,0.000999,0.002158,3.492011,0.000999
+discovery,ra_eur_seropos,B switched memory,B/plasma,386.0,5.83946,0.000999,0.002158,4.73432,0.000999
+discovery,ra_eur_seropos,B unswitched memory,B/plasma,353.0,4.542511,0.000999,0.002158,3.172042,0.001998
+discovery,ra_eur_seropos,DC LAMP3+ mreg,Myeloid,96.0,5.609156,0.000999,0.002158,-0.112071,0.544456
+discovery,ra_eur_seropos,DC2,Myeloid,3445.0,7.185255,0.000999,0.002158,4.870734,0.000999
+discovery,ra_eur_seropos,DC3,Myeloid,535.0,5.565441,0.000999,0.002158,3.670813,0.000999
+discovery,ra_eur_seropos,DC4,Myeloid,136.0,3.462725,0.000999,0.002158,1.417972,0.082917
+discovery,ra_eur_seropos,EC arterial,Endothelial,683.0,0.369638,0.345654,0.492613,1.052715,0.142857
+discovery,ra_eur_seropos,EC capillary COL4A1+,Endothelial,919.0,0.331354,0.346653,0.492613,2.181372,0.021978
+discovery,ra_eur_seropos,EC capillary SPARC+,Endothelial,809.0,-0.142616,0.543457,0.752478,2.03031,0.030969
+discovery,ra_eur_seropos,EC lymphatic,Endothelial,114.0,1.718789,0.066933,0.11295,3.221768,0.001998
+discovery,ra_eur_seropos,EC venous HLA-DR+,Endothelial,355.0,0.493557,0.286713,0.442358,1.890503,0.030969
+discovery,ra_eur_seropos,EC venous ICAM1+,Endothelial,1279.000122,1.126347,0.118881,0.188811,3.453224,0.002997
+discovery,ra_eur_seropos,EC venous LIFR+,Endothelial,2849.999756,0.421747,0.314685,0.472028,2.971168,0.005994
+discovery,ra_eur_seropos,Fib CD34+ sublining,Stromal,1538.0,-3.810006,1.0,1.0,1.61099,0.062937
+discovery,ra_eur_seropos,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-3.926224,1.0,1.0,1.412278,0.095904
+discovery,ra_eur_seropos,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-2.722872,0.999001,1.0,4.264896,0.002997
+discovery,ra_eur_seropos,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-2.999921,0.999001,1.0,-0.25689,0.565435
+discovery,ra_eur_seropos,Fib CTSK+ sublining,Stromal,2873.0,-2.441682,0.997003,1.0,2.300098,0.026973
+discovery,ra_eur_seropos,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-3.026864,1.0,1.0,2.102622,0.035964
+discovery,ra_eur_seropos,Fib CXCL12-hi sublining,Stromal,369.0,-3.161452,1.0,1.0,4.107894,0.000999
+discovery,ra_eur_seropos,Fib LOXL2+ glycolytic,Stromal,1407.000122,-1.102806,0.867133,1.0,1.070502,0.13986
+discovery,ra_eur_seropos,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-3.220602,0.999001,1.0,1.564308,0.075924
+discovery,ra_eur_seropos,Fib NOTCH3+ sublining,Stromal,2552.0,-2.559636,0.999001,1.0,3.557168,0.003996
+discovery,ra_eur_seropos,Fib POSTN+ sublining,Stromal,2407.0,-2.435133,0.997003,1.0,2.408038,0.017982
+discovery,ra_eur_seropos,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-2.312909,0.998002,1.0,1.659038,0.062937
+discovery,ra_eur_seropos,Fib PRG4+ lining,Stromal,2821.0,-1.04136,0.858142,1.0,3.62239,0.004995
+discovery,ra_eur_seropos,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-3.892656,1.0,1.0,0.943815,0.158841
+discovery,ra_eur_seropos,Mac APOE+ lipid,Myeloid,1176.999878,5.791877,0.000999,0.002158,4.13215,0.000999
+discovery,ra_eur_seropos,Mac GPNMB+ HLA-high,Myeloid,1632.999878,5.965326,0.000999,0.002158,2.087217,0.041958
+discovery,ra_eur_seropos,Mac MERTK+ LYVE1+,Myeloid,1370.0,5.03938,0.000999,0.002158,3.753456,0.000999
+discovery,ra_eur_seropos,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,5.653826,0.000999,0.002158,4.652168,0.000999
+discovery,ra_eur_seropos,Mac SPP1+,Myeloid,3583.0,4.272764,0.000999,0.002158,6.29048,0.000999
+discovery,ra_eur_seropos,Mac STAT1+ CXCL10+,Myeloid,2583.0,5.055689,0.000999,0.002158,3.635748,0.003996
+discovery,ra_eur_seropos,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,4.692513,0.000999,0.002158,4.241178,0.000999
+discovery,ra_eur_seropos,Mac hypoxic glycolytic,Myeloid,2644.0,4.51002,0.000999,0.002158,6.423378,0.000999
+discovery,ra_eur_seropos,Mono IL1B+ FCN1+,Myeloid,2404.0,1.609755,0.060939,0.106152,6.710294,0.000999
+discovery,ra_eur_seropos,Mural,Stromal,583.0,-3.465418,1.0,1.0,0.294424,0.321678
+discovery,ra_eur_seropos,NK CD56bright,T/NK,527.0,6.425112,0.000999,0.002158,4.444937,0.000999
+discovery,ra_eur_seropos,NK CD56dim cytotoxic,T/NK,2430.000244,3.991436,0.001998,0.003853,4.112992,0.007992
+discovery,ra_eur_seropos,NK IFN-response,T/NK,66.0,4.049451,0.000999,0.002158,0.542931,0.301698
+discovery,ra_eur_seropos,Plasma cell,B/plasma,162.0,1.257032,0.10989,0.17982,3.561151,0.000999
+discovery,ra_eur_seropos,T CD161+ innate-like,T/NK,2118.0,8.002998,0.000999,0.002158,6.976444,0.000999
+discovery,ra_eur_seropos,T CD4+ GPR183+ memory,T/NK,2899.0,4.191057,0.000999,0.002158,6.957443,0.000999
+discovery,ra_eur_seropos,T CD4+ IL7R+ memory,T/NK,1042.0,5.284877,0.000999,0.002158,2.896319,0.002997
+discovery,ra_eur_seropos,T CD4+ Tph,T/NK,1344.999878,7.904982,0.000999,0.002158,4.788504,0.000999
+discovery,ra_eur_seropos,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,5.237696,0.001998,0.003853,6.12861,0.000999
+discovery,ra_eur_seropos,T CD4+ Treg,T/NK,1343.000122,10.475773,0.000999,0.002158,10.222866,0.000999
+discovery,ra_eur_seropos,T CD4+ naive,T/NK,1970.0,5.560594,0.000999,0.002158,3.757271,0.000999
+discovery,ra_eur_seropos,T CD8+ ZNF683+ resident memory,T/NK,781.0,2.8391,0.006993,0.013021,1.532906,0.056943
+discovery,ra_eur_seropos,T GZMK+ HLA-DR+ memory,T/NK,3396.0,4.614596,0.000999,0.002158,7.851965,0.000999
+discovery,ra_eur_seropos,T gd/NK-like TRDC+,T/NK,1010.0,2.87043,0.00999,0.017982,2.01986,0.043956
+discovery,ra_eur_seropos,pDC,Myeloid,171.0,3.502342,0.001998,0.003853,1.005647,0.14985
+discovery,fg_ra,B ABC CD11c+,B/plasma,171.0,5.213837,0.000999,0.002158,2.389908,0.005994
+discovery,fg_ra,B activated CD69+,B/plasma,391.0,4.470894,0.000999,0.002158,3.241135,0.001998
+discovery,fg_ra,B switched memory,B/plasma,386.0,5.246156,0.000999,0.002158,5.277676,0.000999
+discovery,fg_ra,B unswitched memory,B/plasma,353.0,3.562442,0.002997,0.005994,4.057098,0.000999
+discovery,fg_ra,DC LAMP3+ mreg,Myeloid,96.0,5.042522,0.000999,0.002158,-0.651114,0.735265
+discovery,fg_ra,DC2,Myeloid,3445.0,6.768933,0.000999,0.002158,3.860533,0.004995
+discovery,fg_ra,DC3,Myeloid,535.0,5.821732,0.000999,0.002158,3.847721,0.001998
+discovery,fg_ra,DC4,Myeloid,136.0,3.647172,0.000999,0.002158,0.627568,0.256743
+discovery,fg_ra,EC arterial,Endothelial,683.0,-0.323461,0.606394,0.90959,0.563325,0.266733
+discovery,fg_ra,EC capillary COL4A1+,Endothelial,919.0,-1.051106,0.849151,1.0,2.05202,0.031968
+discovery,fg_ra,EC capillary SPARC+,Endothelial,809.0,-0.948362,0.826174,1.0,1.067187,0.142857
+discovery,fg_ra,EC lymphatic,Endothelial,114.0,0.457244,0.275724,0.451185,3.467264,0.000999
+discovery,fg_ra,EC venous HLA-DR+,Endothelial,355.0,-0.44032,0.661339,0.965197,3.067044,0.001998
+discovery,fg_ra,EC venous ICAM1+,Endothelial,1279.000122,0.042921,0.474525,0.732125,3.450091,0.002997
+discovery,fg_ra,EC venous LIFR+,Endothelial,2849.999756,-0.762206,0.773227,1.0,3.704138,0.002997
+discovery,fg_ra,Fib CD34+ sublining,Stromal,1538.0,-3.434557,1.0,1.0,1.381171,0.098901
+discovery,fg_ra,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-3.582428,1.0,1.0,0.974353,0.160839
+discovery,fg_ra,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-2.896532,1.0,1.0,4.386491,0.001998
+discovery,fg_ra,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-2.283431,0.993007,1.0,0.320173,0.344655
+discovery,fg_ra,Fib CTSK+ sublining,Stromal,2873.0,-1.82779,0.973027,1.0,2.758446,0.021978
+discovery,fg_ra,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-2.583392,0.998002,1.0,2.7977,0.012987
+discovery,fg_ra,Fib CXCL12-hi sublining,Stromal,369.0,-2.854005,1.0,1.0,3.288569,0.003996
+discovery,fg_ra,Fib LOXL2+ glycolytic,Stromal,1407.000122,0.289447,0.396603,0.6299,1.078683,0.152847
+discovery,fg_ra,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-2.369099,0.992008,1.0,3.794546,0.002997
+discovery,fg_ra,Fib NOTCH3+ sublining,Stromal,2552.0,-2.263419,0.994006,1.0,2.726354,0.011988
+discovery,fg_ra,Fib POSTN+ sublining,Stromal,2407.0,-2.074765,0.984016,1.0,2.174389,0.028971
+discovery,fg_ra,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-2.005867,0.988012,1.0,2.150296,0.024975
+discovery,fg_ra,Fib PRG4+ lining,Stromal,2821.0,-0.5712,0.679321,0.96535,3.502046,0.002997
+discovery,fg_ra,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-3.294632,1.0,1.0,0.9502,0.157842
+discovery,fg_ra,Mac APOE+ lipid,Myeloid,1176.999878,5.494746,0.000999,0.002158,3.813726,0.000999
+discovery,fg_ra,Mac GPNMB+ HLA-high,Myeloid,1632.999878,5.599815,0.000999,0.002158,1.999567,0.041958
+discovery,fg_ra,Mac MERTK+ LYVE1+,Myeloid,1370.0,4.535462,0.000999,0.002158,3.444,0.002997
+discovery,fg_ra,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,5.34874,0.000999,0.002158,4.256874,0.000999
+discovery,fg_ra,Mac SPP1+,Myeloid,3583.0,4.376226,0.000999,0.002158,5.461674,0.000999
+discovery,fg_ra,Mac STAT1+ CXCL10+,Myeloid,2583.0,4.683014,0.000999,0.002158,2.616977,0.020979
+discovery,fg_ra,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,4.407411,0.000999,0.002158,4.277188,0.000999
+discovery,fg_ra,Mac hypoxic glycolytic,Myeloid,2644.0,4.55425,0.000999,0.002158,6.341716,0.000999
+discovery,fg_ra,Mono IL1B+ FCN1+,Myeloid,2404.0,1.747793,0.052947,0.089348,7.325295,0.000999
+discovery,fg_ra,Mural,Stromal,583.0,-2.652428,0.999001,1.0,-0.318452,0.546454
+discovery,fg_ra,NK CD56bright,T/NK,527.0,6.340944,0.000999,0.002158,3.300719,0.000999
+discovery,fg_ra,NK CD56dim cytotoxic,T/NK,2430.000244,4.81679,0.000999,0.002158,4.894418,0.000999
+discovery,fg_ra,NK IFN-response,T/NK,66.0,3.223583,0.001998,0.00415,0.247087,0.428571
+discovery,fg_ra,Plasma cell,B/plasma,162.0,3.73567,0.003996,0.007707,3.73706,0.000999
+discovery,fg_ra,T CD161+ innate-like,T/NK,2118.0,6.488756,0.000999,0.002158,6.732934,0.000999
+discovery,fg_ra,T CD4+ GPR183+ memory,T/NK,2899.0,3.721008,0.000999,0.002158,6.632652,0.000999
+discovery,fg_ra,T CD4+ IL7R+ memory,T/NK,1042.0,4.509036,0.000999,0.002158,2.898034,0.001998
+discovery,fg_ra,T CD4+ Tph,T/NK,1344.999878,7.424495,0.000999,0.002158,4.266142,0.000999
+discovery,fg_ra,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,4.93953,0.000999,0.002158,4.167743,0.001998
+discovery,fg_ra,T CD4+ Treg,T/NK,1343.000122,9.980614,0.000999,0.002158,9.572819,0.000999
+discovery,fg_ra,T CD4+ naive,T/NK,1970.0,4.767026,0.000999,0.002158,3.807843,0.000999
+discovery,fg_ra,T CD8+ ZNF683+ resident memory,T/NK,781.0,2.704352,0.008991,0.016742,1.380246,0.084915
+discovery,fg_ra,T GZMK+ HLA-DR+ memory,T/NK,3396.0,5.216642,0.000999,0.002158,6.952497,0.000999
+discovery,fg_ra,T gd/NK-like TRDC+,T/NK,1010.0,2.790997,0.014985,0.026973,4.561348,0.000999
+discovery,fg_ra,pDC,Myeloid,171.0,1.763788,0.050949,0.08875,0.549706,0.274725
+discovery,fg_ra_noMHC,B ABC CD11c+,B/plasma,171.0,1.24196,0.133866,0.267732,1.401662,0.068931
+discovery,fg_ra_noMHC,B activated CD69+,B/plasma,391.0,1.152887,0.151848,0.275125,2.332562,0.00999
+discovery,fg_ra_noMHC,B switched memory,B/plasma,386.0,1.38088,0.100899,0.20956,2.936496,0.001998
+discovery,fg_ra_noMHC,B unswitched memory,B/plasma,353.0,1.12115,0.143856,0.275125,2.677475,0.004995
+discovery,fg_ra_noMHC,DC LAMP3+ mreg,Myeloid,96.0,1.978538,0.040959,0.100536,1.174899,0.122877
+discovery,fg_ra_noMHC,DC2,Myeloid,3445.0,3.280084,0.002997,0.01156,1.865005,0.051948
+discovery,fg_ra_noMHC,DC3,Myeloid,535.0,3.196018,0.002997,0.01156,1.562039,0.057942
+discovery,fg_ra_noMHC,DC4,Myeloid,136.0,1.872586,0.03996,0.100536,0.9175,0.176823
+discovery,fg_ra_noMHC,EC arterial,Endothelial,683.0,-2.484799,0.998002,1.0,-0.20427,0.554446
+discovery,fg_ra_noMHC,EC capillary COL4A1+,Endothelial,919.0,-2.833192,0.999001,1.0,0.255795,0.381618
+discovery,fg_ra_noMHC,EC capillary SPARC+,Endothelial,809.0,-2.530108,0.996004,1.0,0.142121,0.421578
+discovery,fg_ra_noMHC,EC lymphatic,Endothelial,114.0,0.044596,0.422577,0.671152,3.238878,0.001998
+discovery,fg_ra_noMHC,EC venous HLA-DR+,Endothelial,355.0,-3.182841,1.0,1.0,0.854289,0.191808
+discovery,fg_ra_noMHC,EC venous ICAM1+,Endothelial,1279.000122,-2.392751,0.996004,1.0,1.979111,0.02997
+discovery,fg_ra_noMHC,EC venous LIFR+,Endothelial,2849.999756,-3.536499,1.0,1.0,1.154476,0.117882
+discovery,fg_ra_noMHC,Fib CD34+ sublining,Stromal,1538.0,-2.304392,0.994006,1.0,2.159186,0.033966
+discovery,fg_ra_noMHC,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-2.58139,0.997003,1.0,1.429623,0.093906
+discovery,fg_ra_noMHC,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-1.685697,0.973027,1.0,1.72486,0.055944
+discovery,fg_ra_noMHC,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,0.410114,0.297702,0.502373,0.73787,0.204795
+discovery,fg_ra_noMHC,Fib CTSK+ sublining,Stromal,2873.0,-0.471082,0.673327,0.956833,3.628394,0.002997
+discovery,fg_ra_noMHC,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-1.427615,0.939061,1.0,4.581422,0.000999
+discovery,fg_ra_noMHC,Fib CXCL12-hi sublining,Stromal,369.0,-0.750358,0.765235,1.0,4.009611,0.000999
+discovery,fg_ra_noMHC,Fib LOXL2+ glycolytic,Stromal,1407.000122,-0.279444,0.592408,0.864595,1.75875,0.054945
+discovery,fg_ra_noMHC,Fib MMP2+ THBS2+ sublining,Stromal,711.0,0.19205,0.407592,0.666969,3.435152,0.003996
+discovery,fg_ra_noMHC,Fib NOTCH3+ sublining,Stromal,2552.0,-1.412202,0.94006,1.0,2.208814,0.026973
+discovery,fg_ra_noMHC,Fib POSTN+ sublining,Stromal,2407.0,-1.175214,0.893107,1.0,1.811106,0.046953
+discovery,fg_ra_noMHC,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-0.232874,0.573427,0.86014,3.847358,0.000999
+discovery,fg_ra_noMHC,Fib PRG4+ lining,Stromal,2821.0,0.056636,0.453546,0.699757,5.3326,0.000999
+discovery,fg_ra_noMHC,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-2.455422,0.996004,1.0,2.423016,0.017982
+discovery,fg_ra_noMHC,Mac APOE+ lipid,Myeloid,1176.999878,4.146768,0.001998,0.009808,1.031128,0.148851
+discovery,fg_ra_noMHC,Mac GPNMB+ HLA-high,Myeloid,1632.999878,2.386484,0.014985,0.042589,2.90433,0.011988
+discovery,fg_ra_noMHC,Mac MERTK+ LYVE1+,Myeloid,1370.0,3.630304,0.001998,0.009808,3.538089,0.001998
+discovery,fg_ra_noMHC,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,3.070134,0.001998,0.009808,3.13129,0.014985
+discovery,fg_ra_noMHC,Mac SPP1+,Myeloid,3583.0,2.648544,0.00999,0.033716,3.091808,0.007992
+discovery,fg_ra_noMHC,Mac STAT1+ CXCL10+,Myeloid,2583.0,3.104836,0.010989,0.034906,1.627914,0.061938
+discovery,fg_ra_noMHC,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,3.608359,0.002997,0.01156,6.022236,0.001998
+discovery,fg_ra_noMHC,Mac hypoxic glycolytic,Myeloid,2644.0,3.171664,0.003996,0.014386,3.624391,0.003996
+discovery,fg_ra_noMHC,Mono IL1B+ FCN1+,Myeloid,2404.0,0.763322,0.213786,0.372402,3.14627,0.008991
+discovery,fg_ra_noMHC,Mural,Stromal,583.0,-0.950358,0.827173,1.0,-0.052992,0.442557
+discovery,fg_ra_noMHC,NK CD56bright,T/NK,527.0,4.621599,0.000999,0.006743,2.420208,0.00999
+discovery,fg_ra_noMHC,NK CD56dim cytotoxic,T/NK,2430.000244,2.476394,0.011988,0.035964,0.893387,0.136863
+discovery,fg_ra_noMHC,NK IFN-response,T/NK,66.0,1.71517,0.053946,0.126656,1.085364,0.142857
+discovery,fg_ra_noMHC,Plasma cell,B/plasma,162.0,-0.605591,0.706294,0.977945,0.376657,0.324675
+discovery,fg_ra_noMHC,T CD161+ innate-like,T/NK,2118.0,6.5353,0.000999,0.006743,7.778419,0.000999
+discovery,fg_ra_noMHC,T CD4+ GPR183+ memory,T/NK,2899.0,5.62516,0.000999,0.006743,4.51245,0.000999
+discovery,fg_ra_noMHC,T CD4+ IL7R+ memory,T/NK,1042.0,4.981176,0.000999,0.006743,2.156954,0.013986
+discovery,fg_ra_noMHC,T CD4+ Tph,T/NK,1344.999878,7.789825,0.000999,0.006743,6.307603,0.000999
+discovery,fg_ra_noMHC,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,6.260093,0.000999,0.006743,4.85066,0.001998
+discovery,fg_ra_noMHC,T CD4+ Treg,T/NK,1343.000122,10.750645,0.000999,0.006743,10.138742,0.000999
+discovery,fg_ra_noMHC,T CD4+ naive,T/NK,1970.0,4.542135,0.000999,0.006743,5.91867,0.000999
+discovery,fg_ra_noMHC,T CD8+ ZNF683+ resident memory,T/NK,781.0,2.211169,0.021978,0.059341,1.369172,0.088911
+discovery,fg_ra_noMHC,T GZMK+ HLA-DR+ memory,T/NK,3396.0,1.710073,0.061938,0.139361,4.942738,0.002997
+discovery,fg_ra_noMHC,T gd/NK-like TRDC+,T/NK,1010.0,1.023824,0.152847,0.275125,2.36717,0.025974
+discovery,fg_ra_noMHC,pDC,Myeloid,171.0,1.453999,0.07992,0.172627,1.355908,0.077922
+discovery,fg_ra_seropos,B ABC CD11c+,B/plasma,171.0,4.627794,0.000999,0.002248,2.553879,0.002997
+discovery,fg_ra_seropos,B activated CD69+,B/plasma,391.0,4.213424,0.000999,0.002248,3.600906,0.000999
+discovery,fg_ra_seropos,B switched memory,B/plasma,386.0,5.367281,0.000999,0.002248,4.833692,0.000999
+discovery,fg_ra_seropos,B unswitched memory,B/plasma,353.0,3.32024,0.005994,0.01156,3.037117,0.002997
+discovery,fg_ra_seropos,DC LAMP3+ mreg,Myeloid,96.0,5.304986,0.000999,0.002248,-1.114425,0.871129
+discovery,fg_ra_seropos,DC2,Myeloid,3445.0,6.99829,0.000999,0.002248,4.41868,0.001998
+discovery,fg_ra_seropos,DC3,Myeloid,535.0,5.721184,0.000999,0.002248,4.260434,0.000999
+discovery,fg_ra_seropos,DC4,Myeloid,136.0,3.889179,0.000999,0.002248,1.223524,0.106893
+discovery,fg_ra_seropos,EC arterial,Endothelial,683.0,0.775905,0.216783,0.334466,1.42955,0.088911
+discovery,fg_ra_seropos,EC capillary COL4A1+,Endothelial,919.0,0.084542,0.462537,0.65729,1.513128,0.065934
+discovery,fg_ra_seropos,EC capillary SPARC+,Endothelial,809.0,-0.025627,0.496504,0.687466,1.979955,0.030969
+discovery,fg_ra_seropos,EC lymphatic,Endothelial,114.0,1.453913,0.081918,0.134048,3.367908,0.001998
+discovery,fg_ra_seropos,EC venous HLA-DR+,Endothelial,355.0,0.590852,0.272727,0.398034,2.946713,0.004995
+discovery,fg_ra_seropos,EC venous ICAM1+,Endothelial,1279.000122,1.159474,0.128871,0.204678,3.235956,0.002997
+discovery,fg_ra_seropos,EC venous LIFR+,Endothelial,2849.999756,0.77447,0.226773,0.34016,4.114348,0.000999
+discovery,fg_ra_seropos,Fib CD34+ sublining,Stromal,1538.0,-3.55781,1.0,1.0,1.107284,0.137862
+discovery,fg_ra_seropos,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-3.399893,1.0,1.0,0.944193,0.172827
+discovery,fg_ra_seropos,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-3.105975,0.999001,1.0,3.871569,0.003996
+discovery,fg_ra_seropos,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-2.52304,0.997003,1.0,-0.41064,0.644356
+discovery,fg_ra_seropos,Fib CTSK+ sublining,Stromal,2873.0,-2.133391,0.997003,1.0,1.98957,0.046953
+discovery,fg_ra_seropos,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-2.833784,0.999001,1.0,2.192153,0.032967
+discovery,fg_ra_seropos,Fib CXCL12-hi sublining,Stromal,369.0,-3.071195,0.999001,1.0,3.036253,0.004995
+discovery,fg_ra_seropos,Fib LOXL2+ glycolytic,Stromal,1407.000122,-0.149471,0.543457,0.733666,0.92046,0.17982
+discovery,fg_ra_seropos,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-2.925618,1.0,1.0,1.845839,0.04995
+discovery,fg_ra_seropos,Fib NOTCH3+ sublining,Stromal,2552.0,-2.197407,0.995005,1.0,2.944807,0.011988
+discovery,fg_ra_seropos,Fib POSTN+ sublining,Stromal,2407.0,-2.097166,0.989011,1.0,2.204016,0.030969
+discovery,fg_ra_seropos,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-2.739572,1.0,1.0,1.650935,0.075924
+discovery,fg_ra_seropos,Fib PRG4+ lining,Stromal,2821.0,-1.197928,0.891109,1.0,2.948624,0.011988
+discovery,fg_ra_seropos,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-3.775335,1.0,1.0,0.019246,0.456543
+discovery,fg_ra_seropos,Mac APOE+ lipid,Myeloid,1176.999878,5.035014,0.000999,0.002248,4.23497,0.000999
+discovery,fg_ra_seropos,Mac GPNMB+ HLA-high,Myeloid,1632.999878,5.257352,0.000999,0.002248,1.546604,0.088911
+discovery,fg_ra_seropos,Mac MERTK+ LYVE1+,Myeloid,1370.0,4.742212,0.000999,0.002248,3.630734,0.000999
+discovery,fg_ra_seropos,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,5.352449,0.000999,0.002248,4.075538,0.000999
+discovery,fg_ra_seropos,Mac SPP1+,Myeloid,3583.0,4.041313,0.000999,0.002248,5.807537,0.000999
+discovery,fg_ra_seropos,Mac STAT1+ CXCL10+,Myeloid,2583.0,4.313455,0.000999,0.002248,2.955628,0.011988
+discovery,fg_ra_seropos,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,3.899667,0.000999,0.002248,3.699416,0.003996
+discovery,fg_ra_seropos,Mac hypoxic glycolytic,Myeloid,2644.0,4.029856,0.000999,0.002248,6.026164,0.000999
+discovery,fg_ra_seropos,Mono IL1B+ FCN1+,Myeloid,2404.0,1.608545,0.065934,0.111264,7.813868,0.000999
+discovery,fg_ra_seropos,Mural,Stromal,583.0,-2.723547,1.0,1.0,0.318834,0.314685
+discovery,fg_ra_seropos,NK CD56bright,T/NK,527.0,6.571421,0.000999,0.002248,3.930799,0.000999
+discovery,fg_ra_seropos,NK CD56dim cytotoxic,T/NK,2430.000244,4.941162,0.001998,0.00415,5.395452,0.002997
+discovery,fg_ra_seropos,NK IFN-response,T/NK,66.0,5.989766,0.000999,0.002248,0.854807,0.194805
+discovery,fg_ra_seropos,Plasma cell,B/plasma,162.0,3.217799,0.007992,0.014882,3.894518,0.000999
+discovery,fg_ra_seropos,T CD161+ innate-like,T/NK,2118.0,6.687835,0.000999,0.002248,6.897165,0.000999
+discovery,fg_ra_seropos,T CD4+ GPR183+ memory,T/NK,2899.0,3.023796,0.001998,0.00415,6.331609,0.000999
+discovery,fg_ra_seropos,T CD4+ IL7R+ memory,T/NK,1042.0,4.079792,0.000999,0.002248,3.117477,0.000999
+discovery,fg_ra_seropos,T CD4+ Tph,T/NK,1344.999878,7.507195,0.000999,0.002248,4.848876,0.000999
+discovery,fg_ra_seropos,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,3.949915,0.000999,0.002248,5.540673,0.000999
+discovery,fg_ra_seropos,T CD4+ Treg,T/NK,1343.000122,10.448526,0.000999,0.002248,10.517275,0.000999
+discovery,fg_ra_seropos,T CD4+ naive,T/NK,1970.0,4.426322,0.000999,0.002248,3.01352,0.004995
+discovery,fg_ra_seropos,T CD8+ ZNF683+ resident memory,T/NK,781.0,1.897568,0.03996,0.069608,1.416954,0.067932
+discovery,fg_ra_seropos,T GZMK+ HLA-DR+ memory,T/NK,3396.0,5.625472,0.000999,0.002248,8.144005,0.000999
+discovery,fg_ra_seropos,T gd/NK-like TRDC+,T/NK,1010.0,3.310369,0.005994,0.01156,4.026408,0.000999
+discovery,fg_ra_seropos,pDC,Myeloid,171.0,2.161993,0.021978,0.03956,1.045958,0.148851
+discovery,fg_ra_seroneg,B ABC CD11c+,B/plasma,171.0,4.545534,0.000999,0.002997,1.535677,0.058941
+discovery,fg_ra_seroneg,B activated CD69+,B/plasma,391.0,3.968832,0.001998,0.005679,2.169324,0.015984
+discovery,fg_ra_seroneg,B switched memory,B/plasma,386.0,4.581268,0.000999,0.002997,3.538816,0.000999
+discovery,fg_ra_seroneg,B unswitched memory,B/plasma,353.0,3.306075,0.008991,0.021109,2.902688,0.001998
+discovery,fg_ra_seroneg,DC LAMP3+ mreg,Myeloid,96.0,4.75014,0.000999,0.002997,-0.60885,0.74026
+discovery,fg_ra_seroneg,DC2,Myeloid,3445.0,6.876638,0.000999,0.002997,4.418714,0.001998
+discovery,fg_ra_seroneg,DC3,Myeloid,535.0,5.324012,0.000999,0.002997,2.141107,0.022977
+discovery,fg_ra_seroneg,DC4,Myeloid,136.0,3.482062,0.000999,0.002997,0.046153,0.484516
+discovery,fg_ra_seroneg,EC arterial,Endothelial,683.0,0.813157,0.201798,0.323676,0.652524,0.22977
+discovery,fg_ra_seroneg,EC capillary COL4A1+,Endothelial,919.0,0.061983,0.460539,0.654451,2.801332,0.010989
+discovery,fg_ra_seroneg,EC capillary SPARC+,Endothelial,809.0,-0.155916,0.557443,0.771844,1.045629,0.148851
+discovery,fg_ra_seroneg,EC lymphatic,Endothelial,114.0,-0.000985,0.453546,0.654451,1.585565,0.075924
+discovery,fg_ra_seroneg,EC venous HLA-DR+,Endothelial,355.0,0.784437,0.20979,0.323676,2.471571,0.007992
+discovery,fg_ra_seroneg,EC venous ICAM1+,Endothelial,1279.000122,0.98988,0.15984,0.278431,2.015567,0.025974
+discovery,fg_ra_seroneg,EC venous LIFR+,Endothelial,2849.999756,0.840713,0.205794,0.323676,3.229535,0.004995
+discovery,fg_ra_seroneg,Fib CD34+ sublining,Stromal,1538.0,-3.180013,1.0,1.0,0.216346,0.378621
+discovery,fg_ra_seroneg,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-3.023923,1.0,1.0,0.912524,0.181818
+discovery,fg_ra_seroneg,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-2.862198,0.999001,1.0,2.951383,0.011988
+discovery,fg_ra_seroneg,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-3.0539,1.0,1.0,-1.439353,0.945055
+discovery,fg_ra_seroneg,Fib CTSK+ sublining,Stromal,2873.0,-2.387474,1.0,1.0,1.203514,0.113886
+discovery,fg_ra_seroneg,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-2.618751,0.998002,1.0,1.691827,0.066933
+discovery,fg_ra_seroneg,Fib CXCL12-hi sublining,Stromal,369.0,-3.510221,1.0,1.0,2.012469,0.025974
+discovery,fg_ra_seroneg,Fib LOXL2+ glycolytic,Stromal,1407.000122,-0.25264,0.588412,0.794356,0.810807,0.222777
+discovery,fg_ra_seroneg,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-2.750126,0.999001,1.0,1.915375,0.042957
+discovery,fg_ra_seroneg,Fib NOTCH3+ sublining,Stromal,2552.0,-2.694736,0.999001,1.0,1.895535,0.052947
+discovery,fg_ra_seroneg,Fib POSTN+ sublining,Stromal,2407.0,-2.416987,0.997003,1.0,1.021476,0.13986
+discovery,fg_ra_seroneg,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-1.701358,0.963037,1.0,2.395276,0.020979
+discovery,fg_ra_seroneg,Fib PRG4+ lining,Stromal,2821.0,-0.784189,0.754246,0.993397,2.225516,0.033966
+discovery,fg_ra_seroneg,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-2.95696,1.0,1.0,1.027071,0.160839
+discovery,fg_ra_seroneg,Mac APOE+ lipid,Myeloid,1176.999878,4.311436,0.000999,0.002997,4.096844,0.000999
+discovery,fg_ra_seroneg,Mac GPNMB+ HLA-high,Myeloid,1632.999878,5.078284,0.000999,0.002997,1.685162,0.077922
+discovery,fg_ra_seroneg,Mac MERTK+ LYVE1+,Myeloid,1370.0,3.991037,0.000999,0.002997,2.598456,0.016983
+discovery,fg_ra_seroneg,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,4.72206,0.000999,0.002997,4.025265,0.000999
+discovery,fg_ra_seroneg,Mac SPP1+,Myeloid,3583.0,3.789686,0.000999,0.002997,5.009814,0.000999
+discovery,fg_ra_seroneg,Mac STAT1+ CXCL10+,Myeloid,2583.0,4.172064,0.000999,0.002997,2.745844,0.011988
+discovery,fg_ra_seroneg,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,3.802888,0.000999,0.002997,3.916002,0.000999
+discovery,fg_ra_seroneg,Mac hypoxic glycolytic,Myeloid,2644.0,3.368568,0.000999,0.002997,5.93402,0.000999
+discovery,fg_ra_seroneg,Mono IL1B+ FCN1+,Myeloid,2404.0,2.353528,0.016983,0.036683,7.374214,0.000999
+discovery,fg_ra_seroneg,Mural,Stromal,583.0,-2.922332,1.0,1.0,0.37708,0.285714
+discovery,fg_ra_seroneg,NK CD56bright,T/NK,527.0,2.645682,0.003996,0.010275,3.912938,0.000999
+discovery,fg_ra_seroneg,NK CD56dim cytotoxic,T/NK,2430.000244,2.684224,0.00999,0.022478,5.177227,0.000999
+discovery,fg_ra_seroneg,NK IFN-response,T/NK,66.0,4.947046,0.000999,0.002997,2.09553,0.015984
+discovery,fg_ra_seroneg,Plasma cell,B/plasma,162.0,2.156795,0.041958,0.083916,4.013966,0.000999
+discovery,fg_ra_seroneg,T CD161+ innate-like,T/NK,2118.0,3.422693,0.002997,0.008092,5.464132,0.000999
+discovery,fg_ra_seroneg,T CD4+ GPR183+ memory,T/NK,2899.0,0.703768,0.240759,0.361139,4.898129,0.001998
+discovery,fg_ra_seroneg,T CD4+ IL7R+ memory,T/NK,1042.0,1.466577,0.071928,0.133935,3.900567,0.000999
+discovery,fg_ra_seroneg,T CD4+ Tph,T/NK,1344.999878,4.354101,0.000999,0.002997,3.31908,0.000999
+discovery,fg_ra_seroneg,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,0.781546,0.205794,0.323676,4.037098,0.001998
+discovery,fg_ra_seroneg,T CD4+ Treg,T/NK,1343.000122,7.548086,0.000999,0.002997,8.595372,0.000999
+discovery,fg_ra_seroneg,T CD4+ naive,T/NK,1970.0,1.758792,0.047952,0.092479,3.587586,0.001998
+discovery,fg_ra_seroneg,T CD8+ ZNF683+ resident memory,T/NK,781.0,0.956341,0.153846,0.276923,-0.204143,0.581419
+discovery,fg_ra_seroneg,T GZMK+ HLA-DR+ memory,T/NK,3396.0,4.279292,0.000999,0.002997,6.693198,0.000999
+discovery,fg_ra_seroneg,T gd/NK-like TRDC+,T/NK,1010.0,2.288244,0.026973,0.056021,3.5112,0.008991
+discovery,fg_ra_seroneg,pDC,Myeloid,171.0,3.075769,0.005994,0.014713,0.491877,0.311688
+discovery,fg_oa,B ABC CD11c+,B/plasma,171.0,0.438111,0.315684,0.587413,-1.295154,0.904096
+discovery,fg_oa,B activated CD69+,B/plasma,391.0,0.359308,0.360639,0.587413,-0.168902,0.57043
+discovery,fg_oa,B switched memory,B/plasma,386.0,0.877657,0.186813,0.504396,0.861128,0.17982
+discovery,fg_oa,B unswitched memory,B/plasma,353.0,0.125502,0.418581,0.601924,0.017709,0.4995
+discovery,fg_oa,DC LAMP3+ mreg,Myeloid,96.0,-1.1484,0.885115,0.996004,-0.178337,0.569431
+discovery,fg_oa,DC2,Myeloid,3445.0,-2.113606,0.986014,0.996004,0.287476,0.301698
+discovery,fg_oa,DC3,Myeloid,535.0,-1.835165,0.975025,0.996004,0.30945,0.361638
+discovery,fg_oa,DC4,Myeloid,136.0,-2.201735,0.989011,0.996004,1.447178,0.06993
+discovery,fg_oa,EC arterial,Endothelial,683.0,0.772138,0.207792,0.517392,-1.302116,0.912088
+discovery,fg_oa,EC capillary COL4A1+,Endothelial,919.0,0.410101,0.331668,0.587413,0.771562,0.211788
+discovery,fg_oa,EC capillary SPARC+,Endothelial,809.0,0.382006,0.356643,0.587413,0.272426,0.362637
+discovery,fg_oa,EC lymphatic,Endothelial,114.0,0.652344,0.241758,0.566434,-2.049067,0.986014
+discovery,fg_oa,EC venous HLA-DR+,Endothelial,355.0,0.300253,0.381618,0.587413,1.428682,0.070929
+discovery,fg_oa,EC venous ICAM1+,Endothelial,1279.000122,0.495305,0.304695,0.587413,-0.660502,0.744256
+discovery,fg_oa,EC venous LIFR+,Endothelial,2849.999756,0.354173,0.356643,0.587413,0.401357,0.2997
+discovery,fg_oa,Fib CD34+ sublining,Stromal,1538.0,3.775971,0.000999,0.053946,1.664555,0.064935
+discovery,fg_oa,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,1.100246,0.136863,0.434565,1.455405,0.084915
+discovery,fg_oa,Fib COMP+ POSTN+ sublining,Stromal,2468.0,2.817929,0.007992,0.107892,1.516114,0.078921
+discovery,fg_oa,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,1.072622,0.144855,0.434565,-0.935342,0.835165
+discovery,fg_oa,Fib CTSK+ sublining,Stromal,2873.0,1.717202,0.053946,0.192183,1.567156,0.068931
+discovery,fg_oa,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,1.93285,0.02997,0.192183,1.152144,0.11988
+discovery,fg_oa,Fib CXCL12-hi sublining,Stromal,369.0,1.657486,0.051948,0.192183,1.505394,0.071928
+discovery,fg_oa,Fib LOXL2+ glycolytic,Stromal,1407.000122,2.197496,0.018981,0.161838,0.145055,0.401598
+discovery,fg_oa,Fib MMP2+ THBS2+ sublining,Stromal,711.0,1.668864,0.056943,0.192183,1.130365,0.114885
+discovery,fg_oa,Fib NOTCH3+ sublining,Stromal,2552.0,2.361735,0.020979,0.161838,2.210878,0.033966
+discovery,fg_oa,Fib POSTN+ sublining,Stromal,2407.0,3.152395,0.003996,0.071928,1.305246,0.103896
+discovery,fg_oa,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,2.67614,0.010989,0.118681,2.809558,0.013986
+discovery,fg_oa,Fib PRG4+ lining,Stromal,2821.0,1.785166,0.047952,0.192183,2.623572,0.022977
+discovery,fg_oa,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,2.962688,0.002997,0.071928,0.961576,0.167832
+discovery,fg_oa,Mac APOE+ lipid,Myeloid,1176.999878,-1.657286,0.95005,0.996004,2.220716,0.016983
+discovery,fg_oa,Mac GPNMB+ HLA-high,Myeloid,1632.999878,-0.799121,0.782218,0.996004,0.884827,0.15984
+discovery,fg_oa,Mac MERTK+ LYVE1+,Myeloid,1370.0,-2.048279,0.979021,0.996004,1.55053,0.073926
+discovery,fg_oa,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,-1.322907,0.898102,0.996004,1.673754,0.06993
+discovery,fg_oa,Mac SPP1+,Myeloid,3583.0,-1.243872,0.896104,0.996004,0.545259,0.24975
+discovery,fg_oa,Mac STAT1+ CXCL10+,Myeloid,2583.0,-1.959233,0.981019,0.996004,1.57213,0.066933
+discovery,fg_oa,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,-1.866882,0.968032,0.996004,2.281726,0.024975
+discovery,fg_oa,Mac hypoxic glycolytic,Myeloid,2644.0,-1.977154,0.977023,0.996004,1.816534,0.051948
+discovery,fg_oa,Mono IL1B+ FCN1+,Myeloid,2404.0,-2.397964,0.996004,0.996004,1.076589,0.133866
+discovery,fg_oa,Mural,Stromal,583.0,1.648807,0.056943,0.192183,-0.387788,0.604396
+discovery,fg_oa,NK CD56bright,T/NK,527.0,0.942872,0.173826,0.494032,0.203366,0.445554
+discovery,fg_oa,NK CD56dim cytotoxic,T/NK,2430.000244,0.303633,0.345654,0.587413,0.986665,0.12987
+discovery,fg_oa,NK IFN-response,T/NK,66.0,0.569901,0.272727,0.587413,-0.978715,0.839161
+discovery,fg_oa,Plasma cell,B/plasma,162.0,0.136771,0.383616,0.587413,-0.971096,0.84016
+discovery,fg_oa,T CD161+ innate-like,T/NK,2118.0,0.169365,0.423576,0.601924,0.758342,0.1998
+discovery,fg_oa,T CD4+ GPR183+ memory,T/NK,2899.0,0.41835,0.343656,0.587413,1.456419,0.076923
+discovery,fg_oa,T CD4+ IL7R+ memory,T/NK,1042.0,1.678872,0.045954,0.192183,-0.137632,0.56044
+discovery,fg_oa,T CD4+ Tph,T/NK,1344.999878,2.012886,0.032967,0.192183,0.220331,0.41958
+discovery,fg_oa,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,0.750096,0.210789,0.517392,0.995079,0.146853
+discovery,fg_oa,T CD4+ Treg,T/NK,1343.000122,1.78131,0.043956,0.192183,-0.534788,0.711289
+discovery,fg_oa,T CD4+ naive,T/NK,1970.0,-1.217704,0.887113,0.996004,1.167858,0.127872
+discovery,fg_oa,T CD8+ ZNF683+ resident memory,T/NK,781.0,-0.524842,0.691309,0.933267,1.37315,0.095904
+discovery,fg_oa,T GZMK+ HLA-DR+ memory,T/NK,3396.0,0.564741,0.251748,0.566434,0.932799,0.147852
+discovery,fg_oa,T gd/NK-like TRDC+,T/NK,1010.0,0.173498,0.391608,0.587413,0.305248,0.342657
+discovery,fg_oa,pDC,Myeloid,171.0,-0.124242,0.54046,0.748329,1.08372,0.141858
+discovery,fg_height,B ABC CD11c+,B/plasma,171.0,0.591387,0.274725,0.477085,1.211851,0.103896
+discovery,fg_height,B activated CD69+,B/plasma,391.0,0.715842,0.232767,0.426174,0.129339,0.450549
+discovery,fg_height,B switched memory,B/plasma,386.0,1.07875,0.14985,0.30969,-0.867667,0.797203
+discovery,fg_height,B unswitched memory,B/plasma,353.0,0.145405,0.398601,0.581743,1.387508,0.075924
+discovery,fg_height,DC LAMP3+ mreg,Myeloid,96.0,-0.966046,0.825175,1.0,0.757564,0.218781
+discovery,fg_height,DC2,Myeloid,3445.0,-1.777668,0.969031,1.0,0.567172,0.216783
+discovery,fg_height,DC3,Myeloid,535.0,-1.573942,0.938062,1.0,0.061437,0.47952
+discovery,fg_height,DC4,Myeloid,136.0,-2.67602,0.998002,1.0,1.212755,0.114885
+discovery,fg_height,EC arterial,Endothelial,683.0,1.081558,0.141858,0.30969,0.900791,0.16983
+discovery,fg_height,EC capillary COL4A1+,Endothelial,919.0,0.476594,0.303696,0.483928,1.328621,0.086913
+discovery,fg_height,EC capillary SPARC+,Endothelial,809.0,1.587151,0.065934,0.197802,1.756151,0.040959
+discovery,fg_height,EC lymphatic,Endothelial,114.0,-1.15667,0.908092,1.0,1.309557,0.098901
+discovery,fg_height,EC venous HLA-DR+,Endothelial,355.0,0.754677,0.222777,0.426174,1.812946,0.041958
+discovery,fg_height,EC venous ICAM1+,Endothelial,1279.000122,0.714782,0.236763,0.426174,1.887253,0.032967
+discovery,fg_height,EC venous LIFR+,Endothelial,2849.999756,0.069562,0.453546,0.644513,1.888755,0.041958
+discovery,fg_height,Fib CD34+ sublining,Stromal,1538.0,5.36938,0.000999,0.008991,2.397515,0.015984
+discovery,fg_height,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,3.272494,0.002997,0.013487,2.355407,0.02997
+discovery,fg_height,Fib COMP+ POSTN+ sublining,Stromal,2468.0,3.705856,0.001998,0.010789,3.032206,0.005994
+discovery,fg_height,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,2.052521,0.028971,0.104296,1.904616,0.028971
+discovery,fg_height,Fib CTSK+ sublining,Stromal,2873.0,3.567803,0.001998,0.010789,3.864126,0.004995
+discovery,fg_height,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,3.916102,0.000999,0.008991,3.563528,0.006993
+discovery,fg_height,Fib CXCL12-hi sublining,Stromal,369.0,3.994121,0.000999,0.008991,1.631668,0.046953
+discovery,fg_height,Fib LOXL2+ glycolytic,Stromal,1407.000122,3.601596,0.000999,0.008991,3.18501,0.002997
+discovery,fg_height,Fib MMP2+ THBS2+ sublining,Stromal,711.0,4.22499,0.000999,0.008991,2.877264,0.001998
+discovery,fg_height,Fib NOTCH3+ sublining,Stromal,2552.0,3.265396,0.003996,0.016599,2.268415,0.028971
+discovery,fg_height,Fib POSTN+ sublining,Stromal,2407.0,3.236564,0.001998,0.010789,2.623727,0.005994
+discovery,fg_height,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,3.123609,0.002997,0.013487,3.417155,0.005994
+discovery,fg_height,Fib PRG4+ lining,Stromal,2821.0,3.237162,0.005994,0.02312,2.660686,0.026973
+discovery,fg_height,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,4.347468,0.000999,0.008991,0.935471,0.153846
+discovery,fg_height,Mac APOE+ lipid,Myeloid,1176.999878,-2.111889,0.992008,1.0,1.789936,0.041958
+discovery,fg_height,Mac GPNMB+ HLA-high,Myeloid,1632.999878,-2.833286,0.999001,1.0,1.471236,0.074925
+discovery,fg_height,Mac MERTK+ LYVE1+,Myeloid,1370.0,-2.767151,0.998002,1.0,2.46735,0.013986
+discovery,fg_height,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,-2.143061,0.988012,1.0,3.859563,0.003996
+discovery,fg_height,Mac SPP1+,Myeloid,3583.0,-2.727804,0.998002,1.0,2.314678,0.026973
+discovery,fg_height,Mac STAT1+ CXCL10+,Myeloid,2583.0,-2.861448,0.999001,1.0,2.139839,0.033966
+discovery,fg_height,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,-2.820438,1.0,1.0,5.300229,0.000999
+discovery,fg_height,Mac hypoxic glycolytic,Myeloid,2644.0,-2.562688,0.996004,1.0,1.236697,0.107892
+discovery,fg_height,Mono IL1B+ FCN1+,Myeloid,2404.0,-2.073607,0.99001,1.0,2.061389,0.033966
+discovery,fg_height,Mural,Stromal,583.0,0.436425,0.320679,0.494762,0.37737,0.284715
+discovery,fg_height,NK CD56bright,T/NK,527.0,1.298115,0.0999,0.245209,-0.682856,0.762238
+discovery,fg_height,NK CD56dim cytotoxic,T/NK,2430.000244,1.016725,0.154845,0.30969,1.259369,0.102897
+discovery,fg_height,NK IFN-response,T/NK,66.0,-0.249295,0.594406,0.823023,-0.1368,0.556444
+discovery,fg_height,Plasma cell,B/plasma,162.0,-0.720574,0.729271,0.984516,1.535144,0.081918
+discovery,fg_height,T CD161+ innate-like,T/NK,2118.0,1.598689,0.063936,0.197802,1.522584,0.066933
+discovery,fg_height,T CD4+ GPR183+ memory,T/NK,2899.0,1.312854,0.098901,0.245209,1.977592,0.027972
+discovery,fg_height,T CD4+ IL7R+ memory,T/NK,1042.0,2.85761,0.001998,0.010789,3.139054,0.000999
+discovery,fg_height,T CD4+ Tph,T/NK,1344.999878,0.483458,0.282717,0.477085,1.53488,0.062937
+discovery,fg_height,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,0.361985,0.304695,0.483928,0.721765,0.198801
+discovery,fg_height,T CD4+ Treg,T/NK,1343.000122,1.70444,0.054945,0.18544,0.279954,0.370629
+discovery,fg_height,T CD4+ naive,T/NK,1970.0,1.08039,0.14985,0.30969,1.050157,0.143856
+discovery,fg_height,T CD8+ ZNF683+ resident memory,T/NK,781.0,1.437762,0.078921,0.224302,-0.110775,0.552448
+discovery,fg_height,T GZMK+ HLA-DR+ memory,T/NK,3396.0,1.456394,0.085914,0.231968,3.132134,0.008991
+discovery,fg_height,T gd/NK-like TRDC+,T/NK,1010.0,1.321983,0.104895,0.246275,0.185547,0.381618
+discovery,fg_height,pDC,Myeloid,171.0,0.184434,0.396603,0.581743,1.043497,0.150849
+discovery,ra_eas_noMHC,B ABC CD11c+,B/plasma,171.0,3.548848,0.002997,0.012449,2.105646,0.008991
+discovery,ra_eas_noMHC,B activated CD69+,B/plasma,391.0,2.966472,0.00999,0.025689,1.945679,0.031968
+discovery,ra_eas_noMHC,B switched memory,B/plasma,386.0,3.780413,0.001998,0.011988,3.253902,0.000999
+discovery,ra_eas_noMHC,B unswitched memory,B/plasma,353.0,3.044116,0.011988,0.028146,2.035799,0.014985
+discovery,ra_eas_noMHC,DC LAMP3+ mreg,Myeloid,96.0,3.059666,0.004995,0.015866,2.206181,0.01998
+discovery,ra_eas_noMHC,DC2,Myeloid,3445.0,3.820457,0.001998,0.011988,1.457978,0.070929
+discovery,ra_eas_noMHC,DC3,Myeloid,535.0,2.63803,0.00999,0.025689,1.411516,0.078921
+discovery,ra_eas_noMHC,DC4,Myeloid,136.0,3.205733,0.003996,0.014386,1.021032,0.155844
+discovery,ra_eas_noMHC,EC arterial,Endothelial,683.0,-1.532487,0.952048,1.0,0.763265,0.198801
+discovery,ra_eas_noMHC,EC capillary COL4A1+,Endothelial,919.0,-0.95932,0.815185,1.0,0.471196,0.30969
+discovery,ra_eas_noMHC,EC capillary SPARC+,Endothelial,809.0,-1.410178,0.923077,1.0,0.82094,0.194805
+discovery,ra_eas_noMHC,EC lymphatic,Endothelial,114.0,-1.293073,0.945055,1.0,-0.094641,0.528472
+discovery,ra_eas_noMHC,EC venous HLA-DR+,Endothelial,355.0,-1.202386,0.874126,1.0,1.189235,0.117882
+discovery,ra_eas_noMHC,EC venous ICAM1+,Endothelial,1279.000122,-0.926472,0.817183,1.0,1.588213,0.04995
+discovery,ra_eas_noMHC,EC venous LIFR+,Endothelial,2849.999756,-1.907116,0.985015,1.0,0.88189,0.187812
+discovery,ra_eas_noMHC,Fib CD34+ sublining,Stromal,1538.0,-2.134218,0.991009,1.0,2.174643,0.025974
+discovery,ra_eas_noMHC,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-2.569982,0.999001,1.0,0.460629,0.264735
+discovery,ra_eas_noMHC,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-1.257894,0.923077,1.0,0.919229,0.161838
+discovery,ra_eas_noMHC,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-0.553925,0.715285,1.0,1.068661,0.10989
+discovery,ra_eas_noMHC,Fib CTSK+ sublining,Stromal,2873.0,-1.252854,0.901099,1.0,3.760463,0.001998
+discovery,ra_eas_noMHC,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-2.506066,0.997003,1.0,2.703793,0.015984
+discovery,ra_eas_noMHC,Fib CXCL12-hi sublining,Stromal,369.0,-2.038832,0.981019,1.0,3.821158,0.001998
+discovery,ra_eas_noMHC,Fib LOXL2+ glycolytic,Stromal,1407.000122,-0.408743,0.649351,1.0,1.557572,0.074925
+discovery,ra_eas_noMHC,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-1.322487,0.918082,1.0,1.886167,0.044955
+discovery,ra_eas_noMHC,Fib NOTCH3+ sublining,Stromal,2552.0,-0.790148,0.777223,1.0,1.602105,0.071928
+discovery,ra_eas_noMHC,Fib POSTN+ sublining,Stromal,2407.0,-1.49977,0.95005,1.0,0.886019,0.166833
+discovery,ra_eas_noMHC,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-2.339446,0.996004,1.0,1.58822,0.073926
+discovery,ra_eas_noMHC,Fib PRG4+ lining,Stromal,2821.0,-0.877116,0.804196,1.0,4.424546,0.002997
+discovery,ra_eas_noMHC,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-2.630575,1.0,1.0,1.863991,0.058941
+discovery,ra_eas_noMHC,Mac APOE+ lipid,Myeloid,1176.999878,3.23246,0.000999,0.008991,1.041004,0.134865
+discovery,ra_eas_noMHC,Mac GPNMB+ HLA-high,Myeloid,1632.999878,2.294344,0.01998,0.041497,2.189815,0.034965
+discovery,ra_eas_noMHC,Mac MERTK+ LYVE1+,Myeloid,1370.0,2.82757,0.002997,0.012449,3.591162,0.002997
+discovery,ra_eas_noMHC,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,3.190269,0.002997,0.012449,1.972997,0.043956
+discovery,ra_eas_noMHC,Mac SPP1+,Myeloid,3583.0,2.222271,0.016983,0.038212,3.985487,0.002997
+discovery,ra_eas_noMHC,Mac STAT1+ CXCL10+,Myeloid,2583.0,2.392818,0.018981,0.040999,2.333696,0.035964
+discovery,ra_eas_noMHC,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,2.396484,0.010989,0.026973,5.076066,0.001998
+discovery,ra_eas_noMHC,Mac hypoxic glycolytic,Myeloid,2644.0,3.031612,0.005994,0.017982,2.649763,0.008991
+discovery,ra_eas_noMHC,Mono IL1B+ FCN1+,Myeloid,2404.0,0.746041,0.211788,0.368921,2.297705,0.021978
+discovery,ra_eas_noMHC,Mural,Stromal,583.0,-1.501238,0.96004,1.0,0.294384,0.321678
+discovery,ra_eas_noMHC,NK CD56bright,T/NK,527.0,3.027089,0.003996,0.014386,2.715243,0.001998
+discovery,ra_eas_noMHC,NK CD56dim cytotoxic,T/NK,2430.000244,2.302812,0.020979,0.041958,1.105027,0.095904
+discovery,ra_eas_noMHC,NK IFN-response,T/NK,66.0,1.898702,0.033966,0.065506,1.20271,0.107892
+discovery,ra_eas_noMHC,Plasma cell,B/plasma,162.0,-0.201222,0.5005,0.844593,2.01409,0.038961
+discovery,ra_eas_noMHC,T CD161+ innate-like,T/NK,2118.0,5.045966,0.000999,0.008991,6.737846,0.000999
+discovery,ra_eas_noMHC,T CD4+ GPR183+ memory,T/NK,2899.0,4.078543,0.000999,0.008991,4.847202,0.000999
+discovery,ra_eas_noMHC,T CD4+ IL7R+ memory,T/NK,1042.0,3.190822,0.001998,0.011988,2.447448,0.012987
+discovery,ra_eas_noMHC,T CD4+ Tph,T/NK,1344.999878,5.176063,0.000999,0.008991,4.012038,0.002997
+discovery,ra_eas_noMHC,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,3.663992,0.004995,0.015866,3.27879,0.008991
+discovery,ra_eas_noMHC,T CD4+ Treg,T/NK,1343.000122,8.560639,0.000999,0.008991,7.799158,0.000999
+discovery,ra_eas_noMHC,T CD4+ naive,T/NK,1970.0,4.596998,0.000999,0.008991,3.665201,0.000999
+discovery,ra_eas_noMHC,T CD8+ ZNF683+ resident memory,T/NK,781.0,3.002339,0.007992,0.022714,0.856168,0.186813
+discovery,ra_eas_noMHC,T GZMK+ HLA-DR+ memory,T/NK,3396.0,1.518524,0.074925,0.134865,5.127184,0.000999
+discovery,ra_eas_noMHC,T gd/NK-like TRDC+,T/NK,1010.0,1.858949,0.050949,0.094871,1.864694,0.051948
+discovery,ra_eas_noMHC,pDC,Myeloid,171.0,3.215092,0.002997,0.012449,0.753251,0.216783
+discovery,ra_eas,B ABC CD11c+,B/plasma,171.0,6.361016,0.000999,0.002345,2.869317,0.003996
+discovery,ra_eas,B activated CD69+,B/plasma,391.0,5.566676,0.000999,0.002345,2.84932,0.001998
+discovery,ra_eas,B switched memory,B/plasma,386.0,6.715733,0.000999,0.002345,3.993589,0.000999
+discovery,ra_eas,B unswitched memory,B/plasma,353.0,5.188532,0.000999,0.002345,3.139692,0.001998
+discovery,ra_eas,DC LAMP3+ mreg,Myeloid,96.0,6.175596,0.000999,0.002345,0.016788,0.483516
+discovery,ra_eas,DC2,Myeloid,3445.0,7.81966,0.000999,0.002345,4.255324,0.003996
+discovery,ra_eas,DC3,Myeloid,535.0,5.866824,0.000999,0.002345,2.905311,0.006993
+discovery,ra_eas,DC4,Myeloid,136.0,4.24466,0.000999,0.002345,1.327781,0.08991
+discovery,ra_eas,EC arterial,Endothelial,683.0,0.65727,0.231768,0.379257,1.150578,0.127872
+discovery,ra_eas,EC capillary COL4A1+,Endothelial,919.0,0.074151,0.457542,0.65871,1.913072,0.03996
+discovery,ra_eas,EC capillary SPARC+,Endothelial,809.0,-0.073708,0.506494,0.701299,1.107222,0.132867
+discovery,ra_eas,EC lymphatic,Endothelial,114.0,-0.078411,0.463536,0.65871,2.258342,0.01998
+discovery,ra_eas,EC venous HLA-DR+,Endothelial,355.0,0.506133,0.295704,0.456229,2.464918,0.007992
+discovery,ra_eas,EC venous ICAM1+,Endothelial,1279.000122,0.578116,0.280719,0.445848,2.188659,0.026973
+discovery,ra_eas,EC venous LIFR+,Endothelial,2849.999756,0.285814,0.383616,0.575425,2.778017,0.012987
+discovery,ra_eas,Fib CD34+ sublining,Stromal,1538.0,-3.572852,1.0,1.0,1.488841,0.086913
+discovery,ra_eas,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,-4.051942,1.0,1.0,0.611541,0.23976
+discovery,ra_eas,Fib COMP+ POSTN+ sublining,Stromal,2468.0,-2.760246,1.0,1.0,3.304672,0.003996
+discovery,ra_eas,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,-2.859976,1.0,1.0,0.090338,0.426573
+discovery,ra_eas,Fib CTSK+ sublining,Stromal,2873.0,-2.117053,0.993007,1.0,2.041616,0.03996
+discovery,ra_eas,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,-3.036066,0.999001,1.0,2.316771,0.028971
+discovery,ra_eas,Fib CXCL12-hi sublining,Stromal,369.0,-3.009876,0.999001,1.0,2.927816,0.004995
+discovery,ra_eas,Fib LOXL2+ glycolytic,Stromal,1407.000122,-1.028197,0.843157,1.0,1.470348,0.087912
+discovery,ra_eas,Fib MMP2+ THBS2+ sublining,Stromal,711.0,-3.36939,1.0,1.0,1.913542,0.046953
+discovery,ra_eas,Fib NOTCH3+ sublining,Stromal,2552.0,-1.953934,0.987013,1.0,2.816543,0.012987
+discovery,ra_eas,Fib POSTN+ sublining,Stromal,2407.0,-2.135994,0.992008,1.0,2.160071,0.034965
+discovery,ra_eas,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-2.966022,1.0,1.0,1.100745,0.147852
+discovery,ra_eas,Fib PRG4+ lining,Stromal,2821.0,-1.275014,0.895105,1.0,3.182919,0.004995
+discovery,ra_eas,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,-3.683269,1.0,1.0,1.11964,0.134865
+discovery,ra_eas,Mac APOE+ lipid,Myeloid,1176.999878,5.321216,0.000999,0.002345,4.004202,0.000999
+discovery,ra_eas,Mac GPNMB+ HLA-high,Myeloid,1632.999878,5.684254,0.000999,0.002345,2.13179,0.031968
+discovery,ra_eas,Mac MERTK+ LYVE1+,Myeloid,1370.0,4.330961,0.000999,0.002345,3.630928,0.002997
+discovery,ra_eas,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,5.533778,0.000999,0.002345,3.84261,0.001998
+discovery,ra_eas,Mac SPP1+,Myeloid,3583.0,4.870196,0.000999,0.002345,5.456078,0.000999
+discovery,ra_eas,Mac STAT1+ CXCL10+,Myeloid,2583.0,4.812625,0.000999,0.002345,2.820114,0.006993
+discovery,ra_eas,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,4.077201,0.000999,0.002345,4.285078,0.000999
+discovery,ra_eas,Mac hypoxic glycolytic,Myeloid,2644.0,4.742501,0.000999,0.002345,5.581466,0.000999
+discovery,ra_eas,Mono IL1B+ FCN1+,Myeloid,2404.0,2.119024,0.02997,0.053946,6.358983,0.000999
+discovery,ra_eas,Mural,Stromal,583.0,-2.672283,0.999001,1.0,0.102769,0.376623
+discovery,ra_eas,NK CD56bright,T/NK,527.0,2.919916,0.003996,0.008991,3.299337,0.000999
+discovery,ra_eas,NK CD56dim cytotoxic,T/NK,2430.000244,2.711973,0.007992,0.014882,5.666647,0.000999
+discovery,ra_eas,NK IFN-response,T/NK,66.0,2.925313,0.005994,0.012449,0.999397,0.158841
+discovery,ra_eas,Plasma cell,B/plasma,162.0,1.41789,0.08991,0.151723,4.054735,0.000999
+discovery,ra_eas,T CD161+ innate-like,T/NK,2118.0,5.592046,0.000999,0.002345,6.895304,0.000999
+discovery,ra_eas,T CD4+ GPR183+ memory,T/NK,2899.0,2.60876,0.006993,0.013986,6.396508,0.000999
+discovery,ra_eas,T CD4+ IL7R+ memory,T/NK,1042.0,3.250025,0.000999,0.002345,2.015619,0.025974
+discovery,ra_eas,T CD4+ Tph,T/NK,1344.999878,6.172919,0.000999,0.002345,4.325502,0.000999
+discovery,ra_eas,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,3.10611,0.007992,0.014882,5.317744,0.000999
+discovery,ra_eas,T CD4+ Treg,T/NK,1343.000122,9.899757,0.000999,0.002345,10.417723,0.000999
+discovery,ra_eas,T CD4+ naive,T/NK,1970.0,3.829404,0.000999,0.002345,2.648986,0.010989
+discovery,ra_eas,T CD8+ ZNF683+ resident memory,T/NK,781.0,1.495271,0.077922,0.135735,0.533115,0.281718
+discovery,ra_eas,T GZMK+ HLA-DR+ memory,T/NK,3396.0,3.965694,0.000999,0.002345,7.875039,0.000999
+discovery,ra_eas,T gd/NK-like TRDC+,T/NK,1010.0,2.900622,0.004995,0.010789,2.612196,0.023976
+discovery,ra_eas,pDC,Myeloid,171.0,5.21111,0.000999,0.002345,1.039223,0.140859
+discovery,fg_dupuytren,B ABC CD11c+,B/plasma,171.0,-0.02706,0.465534,0.833554,0.290385,0.391608
+discovery,fg_dupuytren,B activated CD69+,B/plasma,391.0,-0.606659,0.719281,0.981207,1.171804,0.125874
+discovery,fg_dupuytren,B switched memory,B/plasma,386.0,-0.254973,0.568432,0.902803,-0.734129,0.773227
+discovery,fg_dupuytren,B unswitched memory,B/plasma,353.0,-0.833479,0.797203,0.981207,1.979529,0.028971
+discovery,fg_dupuytren,DC LAMP3+ mreg,Myeloid,96.0,1.098423,0.12987,0.474725,-0.36861,0.64036
+discovery,fg_dupuytren,DC2,Myeloid,3445.0,-0.184192,0.555445,0.902803,0.773509,0.165834
+discovery,fg_dupuytren,DC3,Myeloid,535.0,-0.519152,0.69031,0.981207,-0.198732,0.572428
+discovery,fg_dupuytren,DC4,Myeloid,136.0,-1.403318,0.929071,0.981207,-0.048859,0.518482
+discovery,fg_dupuytren,EC arterial,Endothelial,683.0,1.546762,0.071928,0.353101,0.426151,0.292707
+discovery,fg_dupuytren,EC capillary COL4A1+,Endothelial,919.0,0.816973,0.205794,0.617383,1.118472,0.135864
+discovery,fg_dupuytren,EC capillary SPARC+,Endothelial,809.0,1.32175,0.094905,0.394221,1.013108,0.154845
+discovery,fg_dupuytren,EC lymphatic,Endothelial,114.0,0.472994,0.288711,0.713559,0.992669,0.164835
+discovery,fg_dupuytren,EC venous HLA-DR+,Endothelial,355.0,0.532539,0.290709,0.713559,1.212222,0.110889
+discovery,fg_dupuytren,EC venous ICAM1+,Endothelial,1279.000122,0.270103,0.366633,0.824925,1.266759,0.101898
+discovery,fg_dupuytren,EC venous LIFR+,Endothelial,2849.999756,0.070634,0.442557,0.833554,-0.039283,0.463536
+discovery,fg_dupuytren,Fib CD34+ sublining,Stromal,1538.0,3.187454,0.001998,0.015413,1.519941,0.076923
+discovery,fg_dupuytren,Fib CHI3L2+ SOD2+ lining,Stromal,1032.0,2.004692,0.030969,0.194206,4.503588,0.000999
+discovery,fg_dupuytren,Fib COMP+ POSTN+ sublining,Stromal,2468.0,4.497802,0.000999,0.013487,1.219754,0.125874
+discovery,fg_dupuytren,Fib CTHRC1+ LTBP2+ sublining,Stromal,424.0,2.141421,0.033966,0.194206,2.257909,0.02997
+discovery,fg_dupuytren,Fib CTSK+ sublining,Stromal,2873.0,3.697624,0.001998,0.015413,2.469328,0.017982
+discovery,fg_dupuytren,Fib CXCL12+ HLA-DR+ sublining,Stromal,3336.0,1.947344,0.035964,0.194206,4.580424,0.000999
+discovery,fg_dupuytren,Fib CXCL12-hi sublining,Stromal,369.0,3.471636,0.000999,0.013487,3.218249,0.006993
+discovery,fg_dupuytren,Fib LOXL2+ glycolytic,Stromal,1407.000122,1.139166,0.131868,0.474725,2.904092,0.002997
+discovery,fg_dupuytren,Fib MMP2+ THBS2+ sublining,Stromal,711.0,3.599199,0.001998,0.015413,4.002642,0.000999
+discovery,fg_dupuytren,Fib NOTCH3+ sublining,Stromal,2552.0,3.284492,0.000999,0.013487,4.304295,0.000999
+discovery,fg_dupuytren,Fib POSTN+ sublining,Stromal,2407.0,3.917836,0.000999,0.013487,2.748622,0.012987
+discovery,fg_dupuytren,Fib PRG4+ CLIC5+ lining,Stromal,2042.0,-1.526295,0.957043,0.981207,3.225025,0.006993
+discovery,fg_dupuytren,Fib PRG4+ lining,Stromal,2821.0,-1.520904,0.962038,0.981207,1.466181,0.078921
+discovery,fg_dupuytren,Fib SCARA5+ TNXB+ sublining,Stromal,1224.999878,0.644126,0.255744,0.690509,3.041996,0.006993
+discovery,fg_dupuytren,Mac APOE+ lipid,Myeloid,1176.999878,-1.164285,0.886114,0.981207,0.981051,0.161838
+discovery,fg_dupuytren,Mac GPNMB+ HLA-high,Myeloid,1632.999878,-0.938704,0.834166,0.981207,0.823575,0.183816
+discovery,fg_dupuytren,Mac MERTK+ LYVE1+,Myeloid,1370.0,-0.828317,0.793207,0.981207,1.784778,0.053946
+discovery,fg_dupuytren,Mac MERTK+ SELENOP+ FOLR2+,Myeloid,6198.0,-0.565955,0.701299,0.981207,1.81646,0.057942
+discovery,fg_dupuytren,Mac SPP1+,Myeloid,3583.0,-1.21772,0.894106,0.981207,0.410928,0.28971
+discovery,fg_dupuytren,Mac STAT1+ CXCL10+,Myeloid,2583.0,-1.707384,0.963037,0.981207,0.905573,0.175824
+discovery,fg_dupuytren,Mac TIMD4+ LYVE1+ resident,Myeloid,3157.0,-1.33428,0.901099,0.981207,0.990469,0.147852
+discovery,fg_dupuytren,Mac hypoxic glycolytic,Myeloid,2644.0,-1.262076,0.906094,0.981207,0.451964,0.28971
+discovery,fg_dupuytren,Mono IL1B+ FCN1+,Myeloid,2404.0,-1.040951,0.846154,0.981207,0.193281,0.382617
+discovery,fg_dupuytren,Mural,Stromal,583.0,0.959327,0.160839,0.542634,0.113452,0.362637
+discovery,fg_dupuytren,NK CD56bright,T/NK,527.0,0.657602,0.238761,0.678585,0.654097,0.265734
+discovery,fg_dupuytren,NK CD56dim cytotoxic,T/NK,2430.000244,-0.561623,0.686314,0.981207,0.216442,0.275724
+discovery,fg_dupuytren,NK IFN-response,T/NK,66.0,0.390477,0.342657,0.8045,-1.162261,0.872128
+discovery,fg_dupuytren,Plasma cell,B/plasma,162.0,-1.730191,0.998002,0.998002,2.097074,0.023976
+discovery,fg_dupuytren,T CD161+ innate-like,T/NK,2118.0,-0.310796,0.607393,0.93712,0.139794,0.407592
+discovery,fg_dupuytren,T CD4+ GPR183+ memory,T/NK,2899.0,-0.164785,0.556444,0.902803,1.651172,0.061938
+discovery,fg_dupuytren,T CD4+ IL7R+ memory,T/NK,1042.0,0.089086,0.461538,0.833554,0.311098,0.374625
+discovery,fg_dupuytren,T CD4+ Tph,T/NK,1344.999878,1.399477,0.07992,0.35964,1.590332,0.05994
+discovery,fg_dupuytren,T CD4+ Tph CXCL13+OX40+,T/NK,1184.0,0.901565,0.170829,0.542634,1.394841,0.088911
+discovery,fg_dupuytren,T CD4+ Treg,T/NK,1343.000122,-0.015958,0.46953,0.833554,0.237461,0.361638
+discovery,fg_dupuytren,T CD4+ naive,T/NK,1970.0,-1.303732,0.909091,0.981207,0.926377,0.178821
+discovery,fg_dupuytren,T CD8+ ZNF683+ resident memory,T/NK,781.0,-0.684854,0.763237,0.981207,-0.422921,0.676324
+discovery,fg_dupuytren,T GZMK+ HLA-DR+ memory,T/NK,3396.0,0.130793,0.411588,0.833554,0.43439,0.292707
+discovery,fg_dupuytren,T gd/NK-like TRDC+,T/NK,1010.0,-0.032219,0.444555,0.833554,0.480171,0.248751
+discovery,fg_dupuytren,pDC,Myeloid,171.0,-0.041617,0.478521,0.833554,1.573758,0.051948
+replication,ra_eur_noMHC,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,2.432632,0.010989,0.019422,1.21073,0.112887
+replication,ra_eur_noMHC,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,3.399485,0.000999,0.00292,1.686648,0.046953
+replication,ra_eur_noMHC,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,2.393872,0.012987,0.022432,1.446137,0.058941
+replication,ra_eur_noMHC,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,3.195932,0.001998,0.004601,1.924972,0.016983
+replication,ra_eur_noMHC,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,2.413334,0.010989,0.019422,,
+replication,ra_eur_noMHC,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,3.705172,0.000999,0.00292,0.993818,0.160839
+replication,ra_eur_noMHC,B-6: IgM+ plasma,B/plasma,253.0,0.779702,0.200799,0.272513,0.805691,0.227772
+replication,ra_eur_noMHC,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,0.922339,0.165834,0.229153,0.976983,0.167832
+replication,ra_eur_noMHC,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,0.526042,0.240759,0.315478,0.667284,0.254745
+replication,ra_eur_noMHC,E-0: SPARC+ capillary,Endothelial,685.0,-0.983906,0.828172,0.983454,3.065816,0.004995
+replication,ra_eur_noMHC,E-1: LIFR+ venular,Endothelial,604.0,-2.352414,0.998002,1.0,3.13468,0.001998
+replication,ra_eur_noMHC,E-2: ICAM1+ venular,Endothelial,196.0,-1.573896,0.945055,1.0,1.833348,0.024975
+replication,ra_eur_noMHC,E-3: NOTCH4+ arteriolar,Endothelial,338.0,-2.466844,0.996004,1.0,0.849305,0.196803
+replication,ra_eur_noMHC,E-4: Lymphatic,Endothelial,30.0,1.473875,0.07992,0.121479,1.81964,0.032967
+replication,ra_eur_noMHC,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,-0.796566,0.802198,0.967731,8.546125,0.000999
+replication,ra_eur_noMHC,F-1: PRG4+ lining,Stromal,174.0,-0.510928,0.683317,0.837614,3.047391,0.000999
+replication,ra_eur_noMHC,F-2: CD34+ sublining,Stromal,567.0,-2.770936,0.998002,1.0,3.027702,0.005994
+replication,ra_eur_noMHC,F-3: POSTN+ sublining,Stromal,661.0,-1.988122,0.98002,1.0,3.58492,0.000999
+replication,ra_eur_noMHC,F-4: DKK3+ sublining,Stromal,176.0,-1.782164,0.963037,1.0,1.287522,0.103896
+replication,ra_eur_noMHC,F-5: CD74-hi sublining,Stromal,257.0,-2.981326,1.0,1.0,2.262405,0.004995
+replication,ra_eur_noMHC,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,-3.431804,1.0,1.0,5.778249,0.000999
+replication,ra_eur_noMHC,F-7: NOTCH3+ sublining,Stromal,406.0,-3.315904,1.0,1.0,3.00563,0.004995
+replication,ra_eur_noMHC,F-8: RSPO3+ intermediate,Stromal,95.0,-2.075398,0.986014,1.0,0.90724,0.177822
+replication,ra_eur_noMHC,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,1.212913,0.121878,0.17813,1.402454,0.085914
+replication,ra_eur_noMHC,M-10: DC2,Myeloid,1023.0,2.433145,0.010989,0.019422,4.791622,0.000999
+replication,ra_eur_noMHC,M-11: DC4,Myeloid,32.0,0.225305,0.408591,0.517549,-1.258035,0.893107
+replication,ra_eur_noMHC,M-12: DC1,Myeloid,69.0,3.948526,0.001998,0.004601,0.61235,0.280719
+replication,ra_eur_noMHC,M-13: pDC,Myeloid,4.0,3.082964,0.000999,0.00292,1.322984,0.162837
+replication,ra_eur_noMHC,M-14: LAMP3+,Myeloid,54.0,2.662001,0.00999,0.019422,0.542313,0.306693
+replication,ra_eur_noMHC,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,1.389757,0.0999,0.148871,3.995284,0.001998
+replication,ra_eur_noMHC,M-2: MERTK+ S100A8+,Myeloid,237.0,2.781252,0.005994,0.012654,1.546838,0.05994
+replication,ra_eur_noMHC,M-3: MERTK+ HBEGF+,Myeloid,207.0,2.771418,0.005994,0.012654,1.632918,0.044955
+replication,ra_eur_noMHC,M-4: SPP1+,Myeloid,720.0,3.137796,0.001998,0.004601,3.310402,0.000999
+replication,ra_eur_noMHC,M-5: C1QA+,Myeloid,426.0,-0.985557,0.844156,0.987013,2.362849,0.006993
+replication,ra_eur_noMHC,M-6: STAT1+ CXCL10+,Myeloid,57.0,2.02818,0.026973,0.044564,1.342105,0.074925
+replication,ra_eur_noMHC,M-7: IL1B+ FCN1+,Myeloid,1057.0,0.720363,0.227772,0.303696,2.498788,0.014985
+replication,ra_eur_noMHC,M-8: PLCG2+,Myeloid,408.0,1.082778,0.145854,0.205276,3.560305,0.000999
+replication,ra_eur_noMHC,M-9: DC3,Myeloid,81.0,0.123413,0.453546,0.565074,1.643467,0.041958
+replication,ra_eur_noMHC,Mu-0: Mural,Stromal,312.0,-1.533127,0.961039,1.0,2.064542,0.024975
+replication,ra_eur_noMHC,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,1.580551,0.066933,0.103815,0.365956,0.385614
+replication,ra_eur_noMHC,NK-10: PCNA+ Proliferating,T/NK,6.0,2.556713,0.00999,0.019422,0.95143,0.000999
+replication,ra_eur_noMHC,NK-11: MKI67+ Proliferating,T/NK,53.0,5.728671,0.000999,0.00292,0.719742,0.246753
+replication,ra_eur_noMHC,NK-12: IL7R+ ILC,T/NK,120.0,3.710691,0.000999,0.00292,1.979279,0.01998
+replication,ra_eur_noMHC,NK-13: IL7R+CD161+ ILC,T/NK,39.0,4.843996,0.000999,0.00292,0.582104,0.326673
+replication,ra_eur_noMHC,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,2.776594,0.010989,0.019422,0.448914,0.333666
+replication,ra_eur_noMHC,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,1.133975,0.134865,0.193392,-0.848616,0.805195
+replication,ra_eur_noMHC,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,1.632655,0.056943,0.09016,0.725373,0.228771
+replication,ra_eur_noMHC,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,4.021673,0.002997,0.006699,-3.705986,0.999001
+replication,ra_eur_noMHC,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,0.430132,0.308691,0.397636,0.466152,0.382617
+replication,ra_eur_noMHC,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,3.784968,0.001998,0.004601,0.966056,0.177822
+replication,ra_eur_noMHC,NK-8: CD56bright CD16- IFN response,T/NK,2.0,1.686914,0.055944,0.09016,,
+replication,ra_eur_noMHC,NK-9: MT-high,T/NK,167.0,2.964104,0.006993,0.014364,0.141737,0.474525
+replication,ra_eur_noMHC,T-0: CD4+ IL7R+ memory,T/NK,932.0,6.49657,0.000999,0.00292,4.615392,0.000999
+replication,ra_eur_noMHC,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,8.39334,0.000999,0.00292,0.578723,0.288711
+replication,ra_eur_noMHC,T-11: CD4+ CD146+ memory,T/NK,246.0,10.801607,0.000999,0.00292,1.615092,0.033966
+replication,ra_eur_noMHC,T-12: CD4+ GNLY+,T/NK,56.0,4.30717,0.001998,0.004601,0.412308,0.408591
+replication,ra_eur_noMHC,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,6.286797,0.000999,0.00292,4.009209,0.000999
+replication,ra_eur_noMHC,T-14: CD8+ GZMK+ memory,T/NK,447.0,3.193819,0.001998,0.004601,1.100416,0.124875
+replication,ra_eur_noMHC,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,3.849432,0.000999,0.00292,-0.64083,0.777223
+replication,ra_eur_noMHC,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,3.758251,0.000999,0.00292,0.734692,0.244755
+replication,ra_eur_noMHC,T-17: CD8+ activated/NK-like,T/NK,32.0,4.256244,0.000999,0.00292,-0.627665,0.797203
+replication,ra_eur_noMHC,T-18: Proliferating,T/NK,127.0,8.704057,0.000999,0.00292,1.136412,0.116883
+replication,ra_eur_noMHC,T-19: MT-high (low quality),T/NK,151.0,2.30693,0.01998,0.033744,0.964673,0.164835
+replication,ra_eur_noMHC,T-1: CD4+ CD161+ memory,T/NK,613.0,6.212329,0.000999,0.00292,2.685107,0.001998
+replication,ra_eur_noMHC,T-20: CD38+,T/NK,153.0,9.777233,0.000999,0.00292,2.379228,0.002997
+replication,ra_eur_noMHC,T-21: Innate-like,T/NK,178.0,4.760025,0.000999,0.00292,2.02479,0.011988
+replication,ra_eur_noMHC,T-22: Vdelta1,T/NK,169.0,5.058054,0.000999,0.00292,0.916786,0.171828
+replication,ra_eur_noMHC,T-23: Vdelta2,T/NK,107.0,4.70133,0.000999,0.00292,0.556932,0.303696
+replication,ra_eur_noMHC,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,6.602772,0.000999,0.00292,1.519031,0.064935
+replication,ra_eur_noMHC,T-3: CD4+ Tfh/Tph,T/NK,889.0,9.539008,0.000999,0.00292,6.820348,0.000999
+replication,ra_eur_noMHC,T-4: CD4+ naive,T/NK,218.0,3.603977,0.001998,0.004601,1.034889,0.144855
+replication,ra_eur_noMHC,T-5: CD4+ GZMK+ memory,T/NK,429.0,6.821246,0.000999,0.00292,2.81392,0.001998
+replication,ra_eur_noMHC,T-6: CD4+ memory,T/NK,215.0,4.63667,0.000999,0.00292,1.45034,0.073926
+replication,ra_eur_noMHC,T-7: CD4+ Tph,T/NK,273.0,11.379225,0.000999,0.00292,2.242543,0.005994
+replication,ra_eur_noMHC,T-8: CD4+ CD25-high Treg,T/NK,368.0,11.295159,0.000999,0.00292,2.992537,0.000999
+replication,ra_eur_noMHC,T-9: CD4+ CD25-low Treg,T/NK,316.0,6.091327,0.000999,0.00292,-0.01771,0.525475
+replication,ra_eur,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,5.052546,0.000999,0.002052,3.099113,0.003996
+replication,ra_eur,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,5.177036,0.000999,0.002052,3.710036,0.000999
+replication,ra_eur,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,3.730247,0.001998,0.003996,2.94304,0.000999
+replication,ra_eur,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,5.917656,0.000999,0.002052,2.804994,0.002997
+replication,ra_eur,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,2.801996,0.011988,0.020707,,
+replication,ra_eur,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,5.484844,0.000999,0.002052,0.767783,0.247752
+replication,ra_eur,B-6: IgM+ plasma,B/plasma,253.0,0.967037,0.160839,0.22225,0.249275,0.360639
+replication,ra_eur,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,2.106943,0.037962,0.057702,-0.755123,0.779221
+replication,ra_eur,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,0.780984,0.20979,0.284715,0.183592,0.375624
+replication,ra_eur,E-0: SPARC+ capillary,Endothelial,685.0,-0.254313,0.568432,0.675012,3.708439,0.000999
+replication,ra_eur,E-1: LIFR+ venular,Endothelial,604.0,-1.183288,0.892108,1.0,6.516328,0.000999
+replication,ra_eur,E-2: ICAM1+ venular,Endothelial,196.0,-0.089472,0.523477,0.631496,1.230003,0.102897
+replication,ra_eur,E-3: NOTCH4+ arteriolar,Endothelial,338.0,-1.2651,0.904096,1.0,1.291164,0.098901
+replication,ra_eur,E-4: Lymphatic,Endothelial,30.0,0.728033,0.222777,0.291915,1.012138,0.162837
+replication,ra_eur,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,-2.284628,0.995005,1.0,6.720768,0.000999
+replication,ra_eur,F-1: PRG4+ lining,Stromal,174.0,-1.22041,0.887113,1.0,2.474988,0.006993
+replication,ra_eur,F-2: CD34+ sublining,Stromal,567.0,-3.608937,1.0,1.0,4.71041,0.000999
+replication,ra_eur,F-3: POSTN+ sublining,Stromal,661.0,-2.923912,0.999001,1.0,2.257591,0.014985
+replication,ra_eur,F-4: DKK3+ sublining,Stromal,176.0,-1.416032,0.935065,1.0,2.93159,0.001998
+replication,ra_eur,F-5: CD74-hi sublining,Stromal,257.0,-1.652933,0.953047,1.0,-0.084525,0.534466
+replication,ra_eur,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,-4.555132,1.0,1.0,3.10019,0.006993
+replication,ra_eur,F-7: NOTCH3+ sublining,Stromal,406.0,-3.790284,1.0,1.0,1.479348,0.076923
+replication,ra_eur,F-8: RSPO3+ intermediate,Stromal,95.0,-1.806855,0.971029,1.0,-0.358673,0.656344
+replication,ra_eur,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,4.85029,0.000999,0.002052,7.818612,0.000999
+replication,ra_eur,M-10: DC2,Myeloid,1023.0,6.137635,0.000999,0.002052,7.159098,0.000999
+replication,ra_eur,M-11: DC4,Myeloid,32.0,1.935212,0.031968,0.049583,2.407637,0.004995
+replication,ra_eur,M-12: DC1,Myeloid,69.0,8.924776,0.000999,0.002052,1.092486,0.124875
+replication,ra_eur,M-13: pDC,Myeloid,4.0,5.236914,0.000999,0.002052,0.89904,0.278721
+replication,ra_eur,M-14: LAMP3+,Myeloid,54.0,5.677162,0.000999,0.002052,0.581441,0.2997
+replication,ra_eur,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,4.830876,0.000999,0.002052,6.335822,0.000999
+replication,ra_eur,M-2: MERTK+ S100A8+,Myeloid,237.0,5.333866,0.000999,0.002052,4.097751,0.000999
+replication,ra_eur,M-3: MERTK+ HBEGF+,Myeloid,207.0,4.919812,0.000999,0.002052,3.065589,0.000999
+replication,ra_eur,M-4: SPP1+,Myeloid,720.0,5.33807,0.000999,0.002052,7.507724,0.000999
+replication,ra_eur,M-5: C1QA+,Myeloid,426.0,-0.004753,0.496504,0.608617,3.948759,0.000999
+replication,ra_eur,M-6: STAT1+ CXCL10+,Myeloid,57.0,4.737184,0.000999,0.002052,2.076248,0.002997
+replication,ra_eur,M-7: IL1B+ FCN1+,Myeloid,1057.0,0.756599,0.228771,0.294688,7.003939,0.000999
+replication,ra_eur,M-8: PLCG2+,Myeloid,408.0,2.170562,0.025974,0.041126,4.044088,0.000999
+replication,ra_eur,M-9: DC3,Myeloid,81.0,4.430274,0.000999,0.002052,1.670889,0.041958
+replication,ra_eur,Mu-0: Mural,Stromal,312.0,-2.443389,0.997003,1.0,2.687626,0.010989
+replication,ra_eur,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,2.308326,0.018981,0.030693,0.672147,0.26973
+replication,ra_eur,NK-10: PCNA+ Proliferating,T/NK,6.0,4.66084,0.000999,0.002052,0.97131,0.000999
+replication,ra_eur,NK-11: MKI67+ Proliferating,T/NK,53.0,8.886236,0.000999,0.002052,0.059649,0.505495
+replication,ra_eur,NK-12: IL7R+ ILC,T/NK,120.0,2.43738,0.014985,0.025308,1.443122,0.073926
+replication,ra_eur,NK-13: IL7R+CD161+ ILC,T/NK,39.0,3.159076,0.003996,0.007787,1.476733,0.010989
+replication,ra_eur,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,3.99283,0.000999,0.002052,0.007331,0.513486
+replication,ra_eur,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,3.116224,0.004995,0.009491,-0.919456,0.825175
+replication,ra_eur,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,1.89824,0.044955,0.066992,0.443751,0.382617
+replication,ra_eur,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,4.281272,0.000999,0.002052,-2.587069,0.992008
+replication,ra_eur,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,-0.055678,0.488512,0.608617,-0.138656,0.613387
+replication,ra_eur,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,2.59308,0.015984,0.026408,1.89819,0.014985
+replication,ra_eur,NK-8: CD56bright CD16- IFN response,T/NK,2.0,0.049647,0.472527,0.598535,,
+replication,ra_eur,NK-9: MT-high,T/NK,167.0,1.511259,0.067932,0.099285,0.922025,0.174825
+replication,ra_eur,T-0: CD4+ IL7R+ memory,T/NK,932.0,4.830414,0.000999,0.002052,4.310338,0.000999
+replication,ra_eur,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,7.928838,0.000999,0.002052,0.361073,0.391608
+replication,ra_eur,T-11: CD4+ CD146+ memory,T/NK,246.0,7.135103,0.000999,0.002052,0.137139,0.501499
+replication,ra_eur,T-12: CD4+ GNLY+,T/NK,56.0,2.57031,0.005994,0.011111,0.388213,0.408591
+replication,ra_eur,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,6.543666,0.000999,0.002052,1.589397,0.047952
+replication,ra_eur,T-14: CD8+ GZMK+ memory,T/NK,447.0,3.32666,0.000999,0.002052,1.98332,0.018981
+replication,ra_eur,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,2.552082,0.011988,0.020707,-0.19539,0.633367
+replication,ra_eur,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,2.394672,0.010989,0.019885,1.405604,0.060939
+replication,ra_eur,T-17: CD8+ activated/NK-like,T/NK,32.0,0.762826,0.222777,0.291915,-0.25566,0.694306
+replication,ra_eur,T-18: Proliferating,T/NK,127.0,15.964404,0.000999,0.002052,0.969038,0.178821
+replication,ra_eur,T-19: MT-high (low quality),T/NK,151.0,1.010258,0.155844,0.219336,0.958259,0.166833
+replication,ra_eur,T-1: CD4+ CD161+ memory,T/NK,613.0,5.442549,0.000999,0.002052,2.647319,0.002997
+replication,ra_eur,T-20: CD38+,T/NK,153.0,9.972493,0.000999,0.002052,1.483805,0.048951
+replication,ra_eur,T-21: Innate-like,T/NK,178.0,4.838271,0.000999,0.002052,2.091051,0.010989
+replication,ra_eur,T-22: Vdelta1,T/NK,169.0,5.929878,0.000999,0.002052,1.870119,0.00999
+replication,ra_eur,T-23: Vdelta2,T/NK,107.0,4.678285,0.000999,0.002052,0.904496,0.172827
+replication,ra_eur,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,4.200106,0.000999,0.002052,1.100543,0.13986
+replication,ra_eur,T-3: CD4+ Tfh/Tph,T/NK,889.0,5.619982,0.000999,0.002052,4.770182,0.000999
+replication,ra_eur,T-4: CD4+ naive,T/NK,218.0,1.311358,0.093906,0.134658,0.182026,0.453546
+replication,ra_eur,T-5: CD4+ GZMK+ memory,T/NK,429.0,7.007152,0.000999,0.002052,1.914174,0.028971
+replication,ra_eur,T-6: CD4+ memory,T/NK,215.0,4.495154,0.000999,0.002052,1.391169,0.075924
+replication,ra_eur,T-7: CD4+ Tph,T/NK,273.0,10.794802,0.000999,0.002052,0.291318,0.398601
+replication,ra_eur,T-8: CD4+ CD25-high Treg,T/NK,368.0,13.616423,0.000999,0.002052,0.061105,0.507492
+replication,ra_eur,T-9: CD4+ CD25-low Treg,T/NK,316.0,4.135828,0.000999,0.002052,0.49236,0.316683
+replication,fg_ra_noMHC,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,1.490282,0.07992,0.138044,2.298021,0.012987
+replication,fg_ra_noMHC,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,1.029595,0.144855,0.229354,0.840211,0.197802
+replication,fg_ra_noMHC,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,0.82566,0.197802,0.283641,2.339162,0.005994
+replication,fg_ra_noMHC,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,1.029573,0.14985,0.232421,-0.652725,0.762238
+replication,fg_ra_noMHC,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,1.554221,0.05994,0.105941,,
+replication,fg_ra_noMHC,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,1.841211,0.038961,0.07222,0.565188,0.2997
+replication,fg_ra_noMHC,B-6: IgM+ plasma,B/plasma,253.0,0.15892,0.387612,0.507906,-0.37193,0.581419
+replication,fg_ra_noMHC,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,0.66398,0.222777,0.313538,-0.413806,0.666334
+replication,fg_ra_noMHC,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,-0.064388,0.480519,0.608658,-0.720772,0.677323
+replication,fg_ra_noMHC,E-0: SPARC+ capillary,Endothelial,685.0,-2.046032,0.987013,1.0,3.33656,0.003996
+replication,fg_ra_noMHC,E-1: LIFR+ venular,Endothelial,604.0,-2.717313,0.999001,1.0,5.438631,0.000999
+replication,fg_ra_noMHC,E-2: ICAM1+ venular,Endothelial,196.0,-1.860389,0.976024,1.0,2.48111,0.007992
+replication,fg_ra_noMHC,E-3: NOTCH4+ arteriolar,Endothelial,338.0,-2.266937,0.995005,1.0,0.622791,0.265734
+replication,fg_ra_noMHC,E-4: Lymphatic,Endothelial,30.0,-0.944985,0.833167,1.0,1.605546,0.046953
+replication,fg_ra_noMHC,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,-1.757531,0.964036,1.0,6.465737,0.000999
+replication,fg_ra_noMHC,F-1: PRG4+ lining,Stromal,174.0,-1.272471,0.907093,1.0,1.615109,0.048951
+replication,fg_ra_noMHC,F-2: CD34+ sublining,Stromal,567.0,-2.514215,0.999001,1.0,4.166666,0.000999
+replication,fg_ra_noMHC,F-3: POSTN+ sublining,Stromal,661.0,-1.429761,0.924076,1.0,3.248864,0.000999
+replication,fg_ra_noMHC,F-4: DKK3+ sublining,Stromal,176.0,-0.876844,0.804196,0.985788,0.528758,0.306693
+replication,fg_ra_noMHC,F-5: CD74-hi sublining,Stromal,257.0,-2.339667,0.994006,1.0,0.563835,0.307692
+replication,fg_ra_noMHC,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,-2.984621,1.0,1.0,5.090242,0.000999
+replication,fg_ra_noMHC,F-7: NOTCH3+ sublining,Stromal,406.0,-3.046734,0.999001,1.0,4.071159,0.000999
+replication,fg_ra_noMHC,F-8: RSPO3+ intermediate,Stromal,95.0,-2.462629,0.995005,1.0,0.106502,0.47952
+replication,fg_ra_noMHC,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,1.820118,0.037962,0.072128,-0.845866,0.805195
+replication,fg_ra_noMHC,M-10: DC2,Myeloid,1023.0,3.711288,0.002997,0.009111,2.611178,0.007992
+replication,fg_ra_noMHC,M-11: DC4,Myeloid,32.0,2.260674,0.017982,0.036936,1.134005,0.128871
+replication,fg_ra_noMHC,M-12: DC1,Myeloid,69.0,3.890394,0.000999,0.003996,1.226083,0.097902
+replication,fg_ra_noMHC,M-13: pDC,Myeloid,4.0,3.298875,0.002997,0.009111,0.113082,0.563437
+replication,fg_ra_noMHC,M-14: LAMP3+,Myeloid,54.0,2.486754,0.008991,0.021354,-0.940462,0.826174
+replication,fg_ra_noMHC,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,2.246601,0.011988,0.026797,1.099382,0.132867
+replication,fg_ra_noMHC,M-2: MERTK+ S100A8+,Myeloid,237.0,2.109022,0.022977,0.045954,-1.361974,0.909091
+replication,fg_ra_noMHC,M-3: MERTK+ HBEGF+,Myeloid,207.0,3.632057,0.000999,0.003996,0.304657,0.382617
+replication,fg_ra_noMHC,M-4: SPP1+,Myeloid,720.0,3.629958,0.000999,0.003996,1.222765,0.10989
+replication,fg_ra_noMHC,M-5: C1QA+,Myeloid,426.0,0.720834,0.236763,0.321322,1.712146,0.036963
+replication,fg_ra_noMHC,M-6: STAT1+ CXCL10+,Myeloid,57.0,2.979146,0.003996,0.011681,0.029361,0.545455
+replication,fg_ra_noMHC,M-7: IL1B+ FCN1+,Myeloid,1057.0,2.295954,0.017982,0.036936,0.851614,0.182817
+replication,fg_ra_noMHC,M-8: PLCG2+,Myeloid,408.0,2.476555,0.007992,0.020246,3.426722,0.000999
+replication,fg_ra_noMHC,M-9: DC3,Myeloid,81.0,1.81589,0.035964,0.070084,0.919048,0.183816
+replication,fg_ra_noMHC,Mu-0: Mural,Stromal,312.0,-1.50019,0.94006,1.0,2.349602,0.018981
+replication,fg_ra_noMHC,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,-0.007458,0.498502,0.621084,-0.383433,0.674326
+replication,fg_ra_noMHC,NK-10: PCNA+ Proliferating,T/NK,6.0,1.366778,0.100899,0.166703,0.751024,0.281718
+replication,fg_ra_noMHC,NK-11: MKI67+ Proliferating,T/NK,53.0,2.404696,0.00999,0.023007,0.876913,0.184815
+replication,fg_ra_noMHC,NK-12: IL7R+ ILC,T/NK,120.0,0.893041,0.173826,0.256974,0.369183,0.365634
+replication,fg_ra_noMHC,NK-13: IL7R+CD161+ ILC,T/NK,39.0,3.117484,0.004995,0.01406,0.222703,0.496504
+replication,fg_ra_noMHC,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,1.728368,0.051948,0.094001,1.454369,0.073926
+replication,fg_ra_noMHC,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,1.498109,0.081918,0.138351,1.865174,0.01998
+replication,fg_ra_noMHC,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,0.704743,0.232767,0.321322,0.443768,0.374625
+replication,fg_ra_noMHC,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,0.936964,0.16983,0.256974,1.110107,0.126873
+replication,fg_ra_noMHC,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,0.524462,0.280719,0.374292,0.520527,0.365634
+replication,fg_ra_noMHC,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,1.197246,0.121878,0.19708,0.279244,0.413586
+replication,fg_ra_noMHC,NK-8: CD56bright CD16- IFN response,T/NK,2.0,0.018273,0.476524,0.608658,,
+replication,fg_ra_noMHC,NK-9: MT-high,T/NK,167.0,0.951824,0.175824,0.256974,1.699365,0.030969
+replication,fg_ra_noMHC,T-0: CD4+ IL7R+ memory,T/NK,932.0,3.559674,0.002997,0.009111,3.017608,0.001998
+replication,fg_ra_noMHC,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,6.691354,0.000999,0.003996,2.517602,0.003996
+replication,fg_ra_noMHC,T-11: CD4+ CD146+ memory,T/NK,246.0,6.576122,0.000999,0.003996,2.339393,0.002997
+replication,fg_ra_noMHC,T-12: CD4+ GNLY+,T/NK,56.0,2.848599,0.005994,0.015708,-0.335328,0.697303
+replication,fg_ra_noMHC,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,4.169884,0.000999,0.003996,3.155933,0.000999
+replication,fg_ra_noMHC,T-14: CD8+ GZMK+ memory,T/NK,447.0,3.95685,0.000999,0.003996,0.916232,0.17982
+replication,fg_ra_noMHC,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,3.755316,0.000999,0.003996,-0.684828,0.788212
+replication,fg_ra_noMHC,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,3.096993,0.002997,0.009111,0.92202,0.177822
+replication,fg_ra_noMHC,T-17: CD8+ activated/NK-like,T/NK,32.0,2.545519,0.008991,0.021354,0.861791,0.200799
+replication,fg_ra_noMHC,T-18: Proliferating,T/NK,127.0,5.959481,0.000999,0.003996,0.645644,0.276723
+replication,fg_ra_noMHC,T-19: MT-high (low quality),T/NK,151.0,2.754444,0.005994,0.015708,1.274067,0.080919
+replication,fg_ra_noMHC,T-1: CD4+ CD161+ memory,T/NK,613.0,5.049147,0.000999,0.003996,1.418467,0.078921
+replication,fg_ra_noMHC,T-20: CD38+,T/NK,153.0,6.855617,0.000999,0.003996,0.048744,0.504496
+replication,fg_ra_noMHC,T-21: Innate-like,T/NK,178.0,5.640671,0.000999,0.003996,0.794198,0.228771
+replication,fg_ra_noMHC,T-22: Vdelta1,T/NK,169.0,3.546537,0.001998,0.007592,1.323301,0.072927
+replication,fg_ra_noMHC,T-23: Vdelta2,T/NK,107.0,2.232901,0.016983,0.036877,-0.235876,0.684316
+replication,fg_ra_noMHC,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,4.604695,0.000999,0.003996,1.377576,0.074925
+replication,fg_ra_noMHC,T-3: CD4+ Tfh/Tph,T/NK,889.0,6.62594,0.000999,0.003996,4.721602,0.000999
+replication,fg_ra_noMHC,T-4: CD4+ naive,T/NK,218.0,3.482693,0.000999,0.003996,1.923699,0.016983
+replication,fg_ra_noMHC,T-5: CD4+ GZMK+ memory,T/NK,429.0,4.895783,0.000999,0.003996,2.953035,0.001998
+replication,fg_ra_noMHC,T-6: CD4+ memory,T/NK,215.0,3.198805,0.002997,0.009111,1.030795,0.14985
+replication,fg_ra_noMHC,T-7: CD4+ Tph,T/NK,273.0,8.457562,0.000999,0.003996,0.766168,0.245754
+replication,fg_ra_noMHC,T-8: CD4+ CD25-high Treg,T/NK,368.0,8.373306,0.000999,0.003996,3.757735,0.000999
+replication,fg_ra_noMHC,T-9: CD4+ CD25-low Treg,T/NK,316.0,5.059232,0.000999,0.003996,1.820292,0.023976
+replication,fg_oa,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,1.744787,0.045954,0.249465,2.002904,0.022977
+replication,fg_oa,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,0.514987,0.297702,0.942724,0.784731,0.21978
+replication,fg_oa,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,0.941177,0.175824,0.742369,2.55818,0.005994
+replication,fg_oa,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,1.629309,0.066933,0.339128,1.10926,0.133866
+replication,fg_oa,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,-0.213002,0.575425,1.0,,
+replication,fg_oa,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,2.095216,0.024975,0.158175,1.332839,0.070929
+replication,fg_oa,B-6: IgM+ plasma,B/plasma,253.0,0.077454,0.441558,1.0,-0.5877,0.675325
+replication,fg_oa,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,0.088402,0.422577,1.0,-0.911454,0.821179
+replication,fg_oa,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,0.455066,0.293706,0.942724,-0.337614,0.571429
+replication,fg_oa,E-0: SPARC+ capillary,Endothelial,685.0,0.925888,0.173826,0.742369,3.194258,0.002997
+replication,fg_oa,E-1: LIFR+ venular,Endothelial,604.0,-0.093617,0.522478,1.0,0.581236,0.290709
+replication,fg_oa,E-2: ICAM1+ venular,Endothelial,196.0,-0.268391,0.604396,1.0,0.865423,0.188811
+replication,fg_oa,E-3: NOTCH4+ arteriolar,Endothelial,338.0,1.438402,0.085914,0.408092,-0.121157,0.542458
+replication,fg_oa,E-4: Lymphatic,Endothelial,30.0,1.926507,0.037962,0.221932,0.264878,0.400599
+replication,fg_oa,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,4.7913,0.000999,0.018981,1.9923,0.044955
+replication,fg_oa,F-1: PRG4+ lining,Stromal,174.0,3.393643,0.004995,0.037962,1.103029,0.13986
+replication,fg_oa,F-2: CD34+ sublining,Stromal,567.0,3.250221,0.001998,0.021693,2.861933,0.006993
+replication,fg_oa,F-3: POSTN+ sublining,Stromal,661.0,3.777851,0.001998,0.021693,3.136627,0.000999
+replication,fg_oa,F-4: DKK3+ sublining,Stromal,176.0,3.717389,0.000999,0.018981,0.454016,0.323676
+replication,fg_oa,F-5: CD74-hi sublining,Stromal,257.0,2.783224,0.004995,0.037962,0.90799,0.173826
+replication,fg_oa,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,3.998705,0.000999,0.018981,5.72289,0.000999
+replication,fg_oa,F-7: NOTCH3+ sublining,Stromal,406.0,4.440354,0.000999,0.018981,3.731335,0.000999
+replication,fg_oa,F-8: RSPO3+ intermediate,Stromal,95.0,3.331596,0.002997,0.028472,1.445198,0.060939
+replication,fg_oa,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,-2.02299,0.985015,1.0,0.576579,0.27972
+replication,fg_oa,M-10: DC2,Myeloid,1023.0,-3.511627,1.0,1.0,0.381617,0.321678
+replication,fg_oa,M-11: DC4,Myeloid,32.0,-2.000953,0.978022,1.0,-0.300915,0.647353
+replication,fg_oa,M-12: DC1,Myeloid,69.0,-3.04576,1.0,1.0,0.894843,0.185814
+replication,fg_oa,M-13: pDC,Myeloid,4.0,-1.319518,0.916084,1.0,0.60615,0.395604
+replication,fg_oa,M-14: LAMP3+,Myeloid,54.0,-3.255084,1.0,1.0,0.979907,0.16983
+replication,fg_oa,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,-3.114594,1.0,1.0,2.053329,0.024975
+replication,fg_oa,M-2: MERTK+ S100A8+,Myeloid,237.0,-2.929981,1.0,1.0,1.118247,0.123876
+replication,fg_oa,M-3: MERTK+ HBEGF+,Myeloid,207.0,-2.840842,0.999001,1.0,1.962964,0.023976
+replication,fg_oa,M-4: SPP1+,Myeloid,720.0,-1.866867,0.972028,1.0,2.180944,0.017982
+replication,fg_oa,M-5: C1QA+,Myeloid,426.0,0.598275,0.277722,0.942724,1.31484,0.07992
+replication,fg_oa,M-6: STAT1+ CXCL10+,Myeloid,57.0,-3.208372,1.0,1.0,0.771481,0.238761
+replication,fg_oa,M-7: IL1B+ FCN1+,Myeloid,1057.0,-2.374467,0.994006,1.0,-0.130343,0.543457
+replication,fg_oa,M-8: PLCG2+,Myeloid,408.0,-1.774575,0.968032,1.0,0.518866,0.31968
+replication,fg_oa,M-9: DC3,Myeloid,81.0,-2.508288,0.998002,1.0,0.207002,0.434565
+replication,fg_oa,Mu-0: Mural,Stromal,312.0,4.155102,0.001998,0.021693,2.247414,0.024975
+replication,fg_oa,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,-0.320896,0.611389,1.0,1.083655,0.131868
+replication,fg_oa,NK-10: PCNA+ Proliferating,T/NK,6.0,-0.545259,0.699301,1.0,0.665158,0.364635
+replication,fg_oa,NK-11: MKI67+ Proliferating,T/NK,53.0,0.327104,0.36963,1.0,-1.448081,0.916084
+replication,fg_oa,NK-12: IL7R+ ILC,T/NK,120.0,2.953568,0.007992,0.055218,0.813874,0.205794
+replication,fg_oa,NK-13: IL7R+CD161+ ILC,T/NK,39.0,-0.902671,0.804196,1.0,0.305763,0.453546
+replication,fg_oa,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,-0.984838,0.846154,1.0,-0.528663,0.71029
+replication,fg_oa,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,-0.378716,0.629371,1.0,-0.398066,0.682318
+replication,fg_oa,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,0.576316,0.274725,0.942724,0.210846,0.467532
+replication,fg_oa,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,-0.063594,0.524476,1.0,-0.270528,0.629371
+replication,fg_oa,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,-1.194688,0.887113,1.0,0.824446,0.211788
+replication,fg_oa,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,-1.306173,0.914086,1.0,-0.405871,0.68032
+replication,fg_oa,NK-8: CD56bright CD16- IFN response,T/NK,2.0,-1.52881,0.95005,1.0,,
+replication,fg_oa,NK-9: MT-high,T/NK,167.0,0.637025,0.24975,0.942724,-1.687159,0.939061
+replication,fg_oa,T-0: CD4+ IL7R+ memory,T/NK,932.0,-1.175044,0.894106,1.0,1.292505,0.087912
+replication,fg_oa,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,-2.104256,0.984016,1.0,1.376589,0.061938
+replication,fg_oa,T-11: CD4+ CD146+ memory,T/NK,246.0,-0.972757,0.833167,1.0,0.649229,0.267732
+replication,fg_oa,T-12: CD4+ GNLY+,T/NK,56.0,0.620165,0.257742,0.942724,-0.041498,0.594406
+replication,fg_oa,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,-1.363029,0.927073,1.0,2.395115,0.006993
+replication,fg_oa,T-14: CD8+ GZMK+ memory,T/NK,447.0,-0.053854,0.513486,1.0,1.742106,0.031968
+replication,fg_oa,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,-0.746166,0.778222,1.0,0.511998,0.351648
+replication,fg_oa,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,-1.592654,0.957043,1.0,0.820009,0.221778
+replication,fg_oa,T-17: CD8+ activated/NK-like,T/NK,32.0,-1.382223,0.919081,1.0,-1.211971,0.884116
+replication,fg_oa,T-18: Proliferating,T/NK,127.0,0.241771,0.375624,1.0,0.632199,0.272727
+replication,fg_oa,T-19: MT-high (low quality),T/NK,151.0,0.299138,0.386613,1.0,1.857251,0.012987
+replication,fg_oa,T-1: CD4+ CD161+ memory,T/NK,613.0,-0.397467,0.66034,1.0,0.933226,0.181818
+replication,fg_oa,T-20: CD38+,T/NK,153.0,-1.618322,0.962038,1.0,0.084935,0.506494
+replication,fg_oa,T-21: Innate-like,T/NK,178.0,-0.553375,0.69031,1.0,0.831301,0.20979
+replication,fg_oa,T-22: Vdelta1,T/NK,169.0,-1.018423,0.834166,1.0,-0.665975,0.755245
+replication,fg_oa,T-23: Vdelta2,T/NK,107.0,-1.227457,0.891109,1.0,1.837279,0.003996
+replication,fg_oa,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,-1.36762,0.912088,1.0,0.449371,0.325674
+replication,fg_oa,T-3: CD4+ Tfh/Tph,T/NK,889.0,-1.26308,0.909091,1.0,1.507275,0.067932
+replication,fg_oa,T-4: CD4+ naive,T/NK,218.0,-1.094636,0.873127,1.0,-0.757055,0.803197
+replication,fg_oa,T-5: CD4+ GZMK+ memory,T/NK,429.0,0.402056,0.332667,1.0,0.874948,0.195804
+replication,fg_oa,T-6: CD4+ memory,T/NK,215.0,-0.370127,0.642358,1.0,0.381431,0.382617
+replication,fg_oa,T-7: CD4+ Tph,T/NK,273.0,-1.134401,0.872128,1.0,0.285447,0.408591
+replication,fg_oa,T-8: CD4+ CD25-high Treg,T/NK,368.0,-0.988009,0.839161,1.0,0.964797,0.165834
+replication,fg_oa,T-9: CD4+ CD25-low Treg,T/NK,316.0,-0.756119,0.765235,1.0,-0.440489,0.688312
+replication,fg_height,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,1.136914,0.121878,0.463137,1.521907,0.06993
+replication,fg_height,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,1.058533,0.140859,0.509776,1.534432,0.061938
+replication,fg_height,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,0.561097,0.274725,0.869963,1.477511,0.062937
+replication,fg_height,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,0.377771,0.337662,0.897999,1.211034,0.110889
+replication,fg_height,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,-0.307827,0.618382,1.0,,
+replication,fg_height,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,1.957791,0.028971,0.169369,-0.728108,0.771229
+replication,fg_height,B-6: IgM+ plasma,B/plasma,253.0,-0.485208,0.637363,1.0,0.349389,0.413586
+replication,fg_height,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,0.599795,0.271728,0.869963,-0.059735,0.516484
+replication,fg_height,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,0.112131,0.431568,1.0,0.248289,0.443556
+replication,fg_height,E-0: SPARC+ capillary,Endothelial,685.0,2.407849,0.016983,0.107559,6.265581,0.000999
+replication,fg_height,E-1: LIFR+ venular,Endothelial,604.0,1.381087,0.087912,0.417582,1.972302,0.033966
+replication,fg_height,E-2: ICAM1+ venular,Endothelial,196.0,0.487956,0.301698,0.897999,1.094358,0.12987
+replication,fg_height,E-3: NOTCH4+ arteriolar,Endothelial,338.0,3.688809,0.001998,0.013804,2.133806,0.01998
+replication,fg_height,E-4: Lymphatic,Endothelial,30.0,0.939712,0.181818,0.628099,0.496731,0.303696
+replication,fg_height,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,5.536298,0.000999,0.008436,6.250916,0.000999
+replication,fg_height,F-1: PRG4+ lining,Stromal,174.0,3.923479,0.001998,0.013804,0.383157,0.374625
+replication,fg_height,F-2: CD34+ sublining,Stromal,567.0,5.821334,0.000999,0.008436,6.542356,0.000999
+replication,fg_height,F-3: POSTN+ sublining,Stromal,661.0,5.271934,0.000999,0.008436,3.698078,0.000999
+replication,fg_height,F-4: DKK3+ sublining,Stromal,176.0,4.01448,0.000999,0.008436,0.67856,0.250749
+replication,fg_height,F-5: CD74-hi sublining,Stromal,257.0,4.814148,0.000999,0.008436,2.666018,0.000999
+replication,fg_height,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,5.782106,0.000999,0.008436,4.718446,0.000999
+replication,fg_height,F-7: NOTCH3+ sublining,Stromal,406.0,4.486397,0.000999,0.008436,4.350042,0.000999
+replication,fg_height,F-8: RSPO3+ intermediate,Stromal,95.0,3.795299,0.000999,0.008436,1.293778,0.083916
+replication,fg_height,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,-1.990559,0.985015,1.0,2.359094,0.013986
+replication,fg_height,M-10: DC2,Myeloid,1023.0,-1.948886,0.978022,1.0,1.391129,0.088911
+replication,fg_height,M-11: DC4,Myeloid,32.0,-1.682869,0.951049,1.0,1.43197,0.05994
+replication,fg_height,M-12: DC1,Myeloid,69.0,-1.670365,0.957043,1.0,0.428508,0.353646
+replication,fg_height,M-13: pDC,Myeloid,4.0,-0.693162,0.755245,1.0,0.883135,0.323676
+replication,fg_height,M-14: LAMP3+,Myeloid,54.0,-0.821845,0.791209,1.0,0.615711,0.293706
+replication,fg_height,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,-2.735417,0.997003,1.0,2.740351,0.006993
+replication,fg_height,M-2: MERTK+ S100A8+,Myeloid,237.0,-2.111304,0.985015,1.0,2.463577,0.003996
+replication,fg_height,M-3: MERTK+ HBEGF+,Myeloid,207.0,-3.67695,1.0,1.0,2.337283,0.005994
+replication,fg_height,M-4: SPP1+,Myeloid,720.0,-2.26166,0.989011,1.0,4.094284,0.000999
+replication,fg_height,M-5: C1QA+,Myeloid,426.0,1.706663,0.05994,0.325389,1.813498,0.024975
+replication,fg_height,M-6: STAT1+ CXCL10+,Myeloid,57.0,-3.118577,1.0,1.0,0.183577,0.490509
+replication,fg_height,M-7: IL1B+ FCN1+,Myeloid,1057.0,-1.44091,0.928072,1.0,2.19381,0.022977
+replication,fg_height,M-8: PLCG2+,Myeloid,408.0,0.307436,0.36963,0.936397,2.818424,0.000999
+replication,fg_height,M-9: DC3,Myeloid,81.0,-2.752423,0.998002,1.0,2.071838,0.008991
+replication,fg_height,Mu-0: Mural,Stromal,312.0,5.305406,0.000999,0.008436,3.860057,0.002997
+replication,fg_height,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,-0.506851,0.682318,1.0,0.012621,0.536464
+replication,fg_height,NK-10: PCNA+ Proliferating,T/NK,6.0,-0.344424,0.6004,1.0,-1.751842,0.903097
+replication,fg_height,NK-11: MKI67+ Proliferating,T/NK,53.0,0.199701,0.413586,1.0,-2.826276,0.994006
+replication,fg_height,NK-12: IL7R+ ILC,T/NK,120.0,1.540003,0.066933,0.339128,-1.99141,0.971029
+replication,fg_height,NK-13: IL7R+CD161+ ILC,T/NK,39.0,0.342559,0.341658,0.897999,-0.169966,0.646354
+replication,fg_height,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,-0.602138,0.727273,1.0,-1.853509,0.971029
+replication,fg_height,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,-0.574502,0.703297,1.0,0.203539,0.463536
+replication,fg_height,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,0.35995,0.33966,0.897999,1.437811,0.042957
+replication,fg_height,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,1.35698,0.100899,0.447552,-0.740339,0.797203
+replication,fg_height,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,-1.870175,0.98002,1.0,0.947245,0.111888
+replication,fg_height,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,-1.833866,0.977023,1.0,-0.657315,0.758242
+replication,fg_height,NK-8: CD56bright CD16- IFN response,T/NK,2.0,-1.477465,0.939061,1.0,,
+replication,fg_height,NK-9: MT-high,T/NK,167.0,1.254751,0.111888,0.447552,0.615173,0.283716
+replication,fg_height,T-0: CD4+ IL7R+ memory,T/NK,932.0,-1.666905,0.966034,1.0,4.449534,0.000999
+replication,fg_height,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,-1.147721,0.881119,1.0,0.450011,0.343656
+replication,fg_height,T-11: CD4+ CD146+ memory,T/NK,246.0,-2.21834,0.991009,1.0,0.411802,0.358641
+replication,fg_height,T-12: CD4+ GNLY+,T/NK,56.0,0.386559,0.342657,0.897999,-1.604427,0.927073
+replication,fg_height,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,-0.947608,0.831169,1.0,2.729912,0.001998
+replication,fg_height,T-14: CD8+ GZMK+ memory,T/NK,447.0,-0.336479,0.621379,1.0,2.32175,0.004995
+replication,fg_height,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,-1.638054,0.951049,1.0,0.352089,0.427572
+replication,fg_height,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,-1.576665,0.951049,1.0,2.001719,0.006993
+replication,fg_height,T-17: CD8+ activated/NK-like,T/NK,32.0,-0.705158,0.763237,1.0,1.158582,0.078921
+replication,fg_height,T-18: Proliferating,T/NK,127.0,-1.747646,0.97003,1.0,1.286097,0.093906
+replication,fg_height,T-19: MT-high (low quality),T/NK,151.0,1.163293,0.111888,0.447552,-1.217386,0.871129
+replication,fg_height,T-1: CD4+ CD161+ memory,T/NK,613.0,-1.410981,0.928072,1.0,2.515409,0.003996
+replication,fg_height,T-20: CD38+,T/NK,153.0,-2.870408,0.998002,1.0,-0.768989,0.792208
+replication,fg_height,T-21: Innate-like,T/NK,178.0,-1.930679,0.98002,1.0,0.132259,0.474525
+replication,fg_height,T-22: Vdelta1,T/NK,169.0,-1.549334,0.941059,1.0,1.176844,0.110889
+replication,fg_height,T-23: Vdelta2,T/NK,107.0,-0.785491,0.788212,1.0,-2.369135,0.974026
+replication,fg_height,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,-1.66901,0.958042,1.0,1.663457,0.04995
+replication,fg_height,T-3: CD4+ Tfh/Tph,T/NK,889.0,-1.653817,0.958042,1.0,3.52347,0.000999
+replication,fg_height,T-4: CD4+ naive,T/NK,218.0,-0.910791,0.807193,1.0,0.978295,0.154845
+replication,fg_height,T-5: CD4+ GZMK+ memory,T/NK,429.0,-1.648418,0.959041,1.0,0.320658,0.37962
+replication,fg_height,T-6: CD4+ memory,T/NK,215.0,-1.136226,0.873127,1.0,0.412288,0.354645
+replication,fg_height,T-7: CD4+ Tph,T/NK,273.0,-2.702188,0.998002,1.0,0.61491,0.285714
+replication,fg_height,T-8: CD4+ CD25-high Treg,T/NK,368.0,-2.616759,0.998002,1.0,2.759526,0.005994
+replication,fg_height,T-9: CD4+ CD25-low Treg,T/NK,316.0,-0.182801,0.551448,1.0,0.946285,0.181818
+replication,ra_eas_noMHC,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,3.98864,0.000999,0.002449,0.25,0.396603
+replication,ra_eas_noMHC,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,2.493225,0.013986,0.021693,2.35985,0.005994
+replication,ra_eas_noMHC,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,3.698709,0.000999,0.002449,2.061971,0.018981
+replication,ra_eas_noMHC,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,3.946158,0.000999,0.002449,0.947396,0.173826
+replication,ra_eas_noMHC,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,1.476291,0.074925,0.109506,,
+replication,ra_eas_noMHC,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,4.3456,0.000999,0.002449,0.101367,0.498502
+replication,ra_eas_noMHC,B-6: IgM+ plasma,B/plasma,253.0,0.472313,0.27972,0.37962,0.58131,0.26973
+replication,ra_eas_noMHC,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,1.02764,0.146853,0.210582,0.880404,0.192807
+replication,ra_eas_noMHC,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,0.213766,0.361638,0.473871,0.393874,0.330669
+replication,ra_eas_noMHC,E-0: SPARC+ capillary,Endothelial,685.0,-0.72494,0.762238,0.905157,4.24346,0.001998
+replication,ra_eas_noMHC,E-1: LIFR+ venular,Endothelial,604.0,-2.079809,0.99001,1.0,2.668443,0.008991
+replication,ra_eas_noMHC,E-2: ICAM1+ venular,Endothelial,196.0,-1.185298,0.884116,1.0,3.128346,0.001998
+replication,ra_eas_noMHC,E-3: NOTCH4+ arteriolar,Endothelial,338.0,-1.270269,0.904096,1.0,0.971539,0.157842
+replication,ra_eas_noMHC,E-4: Lymphatic,Endothelial,30.0,-0.44477,0.647353,0.780933,-0.614918,0.718282
+replication,ra_eas_noMHC,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,-3.053822,1.0,1.0,7.072782,0.000999
+replication,ra_eas_noMHC,F-1: PRG4+ lining,Stromal,174.0,-0.892459,0.81019,0.947299,2.267096,0.005994
+replication,ra_eas_noMHC,F-2: CD34+ sublining,Stromal,567.0,-2.675011,0.995005,1.0,2.712567,0.008991
+replication,ra_eas_noMHC,F-3: POSTN+ sublining,Stromal,661.0,-1.608981,0.948052,1.0,6.135764,0.000999
+replication,ra_eas_noMHC,F-4: DKK3+ sublining,Stromal,176.0,0.13262,0.431568,0.537692,2.051949,0.013986
+replication,ra_eas_noMHC,F-5: CD74-hi sublining,Stromal,257.0,-2.451232,0.996004,1.0,1.705164,0.02997
+replication,ra_eas_noMHC,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,-3.8092,1.0,1.0,6.222923,0.000999
+replication,ra_eas_noMHC,F-7: NOTCH3+ sublining,Stromal,406.0,-2.420786,0.994006,1.0,3.825812,0.000999
+replication,ra_eas_noMHC,F-8: RSPO3+ intermediate,Stromal,95.0,-4.389958,1.0,1.0,-0.408238,0.678322
+replication,ra_eas_noMHC,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,2.914689,0.005994,0.010123,1.54936,0.066933
+replication,ra_eas_noMHC,M-10: DC2,Myeloid,1023.0,3.470208,0.001998,0.004339,2.401986,0.014985
+replication,ra_eas_noMHC,M-11: DC4,Myeloid,32.0,2.230345,0.011988,0.019385,0.925106,0.180819
+replication,ra_eas_noMHC,M-12: DC1,Myeloid,69.0,5.039024,0.000999,0.002449,0.52556,0.333666
+replication,ra_eas_noMHC,M-13: pDC,Myeloid,4.0,4.204236,0.001998,0.004339,0.900796,0.341658
+replication,ra_eas_noMHC,M-14: LAMP3+,Myeloid,54.0,4.787354,0.000999,0.002449,-1.19232,0.874126
+replication,ra_eas_noMHC,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,2.990433,0.005994,0.010123,1.220322,0.112887
+replication,ra_eas_noMHC,M-2: MERTK+ S100A8+,Myeloid,237.0,3.261983,0.002997,0.005994,-0.266232,0.6004
+replication,ra_eas_noMHC,M-3: MERTK+ HBEGF+,Myeloid,207.0,3.554579,0.001998,0.004339,0.548183,0.301698
+replication,ra_eas_noMHC,M-4: SPP1+,Myeloid,720.0,3.949306,0.000999,0.002449,2.145037,0.022977
+replication,ra_eas_noMHC,M-5: C1QA+,Myeloid,426.0,0.214541,0.411588,0.530182,2.876279,0.003996
+replication,ra_eas_noMHC,M-6: STAT1+ CXCL10+,Myeloid,57.0,4.081793,0.000999,0.002449,1.546219,0.02997
+replication,ra_eas_noMHC,M-7: IL1B+ FCN1+,Myeloid,1057.0,2.328659,0.012987,0.020563,-0.049229,0.518482
+replication,ra_eas_noMHC,M-8: PLCG2+,Myeloid,408.0,3.064213,0.001998,0.004339,3.924624,0.000999
+replication,ra_eas_noMHC,M-9: DC3,Myeloid,81.0,1.950445,0.027972,0.041684,0.817778,0.214785
+replication,ra_eas_noMHC,Mu-0: Mural,Stromal,312.0,-1.393259,0.942058,1.0,2.179376,0.017982
+replication,ra_eas_noMHC,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,-0.174419,0.538462,0.66005,1.052346,0.154845
+replication,ra_eas_noMHC,NK-10: PCNA+ Proliferating,T/NK,6.0,3.903036,0.000999,0.002449,-0.090028,0.726274
+replication,ra_eas_noMHC,NK-11: MKI67+ Proliferating,T/NK,53.0,3.649816,0.002997,0.005994,1.217866,0.095904
+replication,ra_eas_noMHC,NK-12: IL7R+ ILC,T/NK,120.0,3.241994,0.003996,0.007592,-0.178135,0.603397
+replication,ra_eas_noMHC,NK-13: IL7R+CD161+ ILC,T/NK,39.0,3.714288,0.000999,0.002449,0.784487,0.190809
+replication,ra_eas_noMHC,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,2.891227,0.005994,0.010123,0.75676,0.243756
+replication,ra_eas_noMHC,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,0.345373,0.336663,0.448884,1.308714,0.091908
+replication,ra_eas_noMHC,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,2.297903,0.022977,0.034925,0.848267,0.204795
+replication,ra_eas_noMHC,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,3.603652,0.000999,0.002449,-2.188167,0.978022
+replication,ra_eas_noMHC,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,0.60234,0.255744,0.353392,0.621785,0.290709
+replication,ra_eas_noMHC,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,5.938016,0.000999,0.002449,0.305924,0.400599
+replication,ra_eas_noMHC,NK-8: CD56bright CD16- IFN response,T/NK,2.0,0.121772,0.430569,0.537692,,
+replication,ra_eas_noMHC,NK-9: MT-high,T/NK,167.0,2.846574,0.005994,0.010123,-0.736113,0.775225
+replication,ra_eas_noMHC,T-0: CD4+ IL7R+ memory,T/NK,932.0,5.7498,0.000999,0.002449,3.265848,0.000999
+replication,ra_eas_noMHC,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,8.521186,0.000999,0.002449,0.519086,0.315684
+replication,ra_eas_noMHC,T-11: CD4+ CD146+ memory,T/NK,246.0,7.165981,0.000999,0.002449,1.60428,0.041958
+replication,ra_eas_noMHC,T-12: CD4+ GNLY+,T/NK,56.0,0.865181,0.187812,0.264328,0.278243,0.465534
+replication,ra_eas_noMHC,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,4.39876,0.000999,0.002449,3.882282,0.000999
+replication,ra_eas_noMHC,T-14: CD8+ GZMK+ memory,T/NK,447.0,2.744164,0.007992,0.013204,1.66623,0.04995
+replication,ra_eas_noMHC,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,2.891348,0.005994,0.010123,-0.125723,0.59041
+replication,ra_eas_noMHC,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,3.326722,0.002997,0.005994,0.717419,0.258741
+replication,ra_eas_noMHC,T-17: CD8+ activated/NK-like,T/NK,32.0,5.181064,0.000999,0.002449,0.849953,0.190809
+replication,ra_eas_noMHC,T-18: Proliferating,T/NK,127.0,6.912442,0.000999,0.002449,0.866567,0.196803
+replication,ra_eas_noMHC,T-19: MT-high (low quality),T/NK,151.0,2.521827,0.003996,0.007592,0.437511,0.368631
+replication,ra_eas_noMHC,T-1: CD4+ CD161+ memory,T/NK,613.0,6.310898,0.000999,0.002449,2.49158,0.002997
+replication,ra_eas_noMHC,T-20: CD38+,T/NK,153.0,6.437167,0.000999,0.002449,2.045717,0.004995
+replication,ra_eas_noMHC,T-21: Innate-like,T/NK,178.0,5.916794,0.000999,0.002449,3.060108,0.000999
+replication,ra_eas_noMHC,T-22: Vdelta1,T/NK,169.0,4.334748,0.000999,0.002449,1.070224,0.126873
+replication,ra_eas_noMHC,T-23: Vdelta2,T/NK,107.0,5.979932,0.000999,0.002449,-0.623497,0.783217
+replication,ra_eas_noMHC,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,5.181913,0.000999,0.002449,2.721668,0.001998
+replication,ra_eas_noMHC,T-3: CD4+ Tfh/Tph,T/NK,889.0,5.520961,0.000999,0.002449,4.918101,0.000999
+replication,ra_eas_noMHC,T-4: CD4+ naive,T/NK,218.0,4.419958,0.000999,0.002449,1.896802,0.012987
+replication,ra_eas_noMHC,T-5: CD4+ GZMK+ memory,T/NK,429.0,4.532409,0.000999,0.002449,3.113607,0.000999
+replication,ra_eas_noMHC,T-6: CD4+ memory,T/NK,215.0,5.377082,0.000999,0.002449,2.216071,0.003996
+replication,ra_eas_noMHC,T-7: CD4+ Tph,T/NK,273.0,8.779305,0.000999,0.002449,0.855921,0.1998
+replication,ra_eas_noMHC,T-8: CD4+ CD25-high Treg,T/NK,368.0,10.736056,0.000999,0.002449,2.640175,0.001998
+replication,ra_eas_noMHC,T-9: CD4+ CD25-low Treg,T/NK,316.0,8.46301,0.000999,0.002449,2.406654,0.005994
+replication,ra_eas,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,7.67979,0.000999,0.002301,2.947306,0.002997
+replication,ra_eas,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,6.572616,0.000999,0.002301,3.435999,0.000999
+replication,ra_eas,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,4.82169,0.000999,0.002301,4.018268,0.000999
+replication,ra_eas,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,5.707608,0.000999,0.002301,2.145681,0.005994
+replication,ra_eas,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,1.908737,0.035964,0.059419,,
+replication,ra_eas,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,7.436792,0.000999,0.002301,0.898222,0.191808
+replication,ra_eas,B-6: IgM+ plasma,B/plasma,253.0,0.854762,0.175824,0.238619,-0.066991,0.478521
+replication,ra_eas,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,2.046586,0.043956,0.068177,-0.653902,0.765235
+replication,ra_eas,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,0.681418,0.211788,0.282384,0.231192,0.357642
+replication,ra_eas,E-0: SPARC+ capillary,Endothelial,685.0,-0.680427,0.756244,0.912294,5.857104,0.000999
+replication,ra_eas,E-1: LIFR+ venular,Endothelial,604.0,-1.22454,0.902098,1.0,7.510952,0.000999
+replication,ra_eas,E-2: ICAM1+ venular,Endothelial,196.0,-0.190696,0.564436,0.703231,2.536662,0.000999
+replication,ra_eas,E-3: NOTCH4+ arteriolar,Endothelial,338.0,-0.995503,0.846154,0.989349,1.472329,0.078921
+replication,ra_eas,E-4: Lymphatic,Endothelial,30.0,-1.229714,0.9001,1.0,0.086634,0.475524
+replication,ra_eas,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,-3.640009,1.0,1.0,6.022252,0.001998
+replication,ra_eas,F-1: PRG4+ lining,Stromal,174.0,-1.130196,0.874126,1.0,2.182783,0.010989
+replication,ra_eas,F-2: CD34+ sublining,Stromal,567.0,-3.502256,1.0,1.0,4.471546,0.000999
+replication,ra_eas,F-3: POSTN+ sublining,Stromal,661.0,-3.064232,0.999001,1.0,4.773118,0.000999
+replication,ra_eas,F-4: DKK3+ sublining,Stromal,176.0,-0.90753,0.809191,0.960914,2.485816,0.003996
+replication,ra_eas,F-5: CD74-hi sublining,Stromal,257.0,-2.222261,0.993007,1.0,1.305292,0.090909
+replication,ra_eas,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,-4.126579,1.0,1.0,4.041884,0.000999
+replication,ra_eas,F-7: NOTCH3+ sublining,Stromal,406.0,-3.745734,1.0,1.0,3.089345,0.002997
+replication,ra_eas,F-8: RSPO3+ intermediate,Stromal,95.0,-3.404724,1.0,1.0,1.221225,0.097902
+replication,ra_eas,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,5.562523,0.000999,0.002301,9.235514,0.000999
+replication,ra_eas,M-10: DC2,Myeloid,1023.0,7.426041,0.000999,0.002301,6.483756,0.000999
+replication,ra_eas,M-11: DC4,Myeloid,32.0,2.636426,0.006993,0.012963,2.878297,0.000999
+replication,ra_eas,M-12: DC1,Myeloid,69.0,11.331421,0.000999,0.002301,1.20845,0.100899
+replication,ra_eas,M-13: pDC,Myeloid,4.0,6.433224,0.000999,0.002301,1.03913,0.127872
+replication,ra_eas,M-14: LAMP3+,Myeloid,54.0,7.054618,0.000999,0.002301,-0.333635,0.657343
+replication,ra_eas,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,6.799801,0.000999,0.002301,5.16077,0.000999
+replication,ra_eas,M-2: MERTK+ S100A8+,Myeloid,237.0,5.326218,0.000999,0.002301,3.395579,0.000999
+replication,ra_eas,M-3: MERTK+ HBEGF+,Myeloid,207.0,5.926941,0.000999,0.002301,2.181289,0.008991
+replication,ra_eas,M-4: SPP1+,Myeloid,720.0,6.184409,0.000999,0.002301,7.088696,0.000999
+replication,ra_eas,M-5: C1QA+,Myeloid,426.0,1.685793,0.051948,0.077413,5.399345,0.000999
+replication,ra_eas,M-6: STAT1+ CXCL10+,Myeloid,57.0,6.6923,0.000999,0.002301,1.395472,0.050949
+replication,ra_eas,M-7: IL1B+ FCN1+,Myeloid,1057.0,2.829286,0.005994,0.011681,7.703566,0.000999
+replication,ra_eas,M-8: PLCG2+,Myeloid,408.0,4.337393,0.000999,0.002301,4.777955,0.000999
+replication,ra_eas,M-9: DC3,Myeloid,81.0,6.150214,0.000999,0.002301,0.991975,0.156843
+replication,ra_eas,Mu-0: Mural,Stromal,312.0,-2.463765,0.998002,1.0,3.105481,0.005994
+replication,ra_eas,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,0.977586,0.160839,0.226366,1.192796,0.112887
+replication,ra_eas,NK-10: PCNA+ Proliferating,T/NK,6.0,3.772357,0.000999,0.002301,0.757906,0.394605
+replication,ra_eas,NK-11: MKI67+ Proliferating,T/NK,53.0,6.506218,0.000999,0.002301,-0.459358,0.706294
+replication,ra_eas,NK-12: IL7R+ ILC,T/NK,120.0,1.587732,0.067932,0.097412,1.089984,0.136863
+replication,ra_eas,NK-13: IL7R+CD161+ ILC,T/NK,39.0,3.747238,0.000999,0.002301,1.456263,0.015984
+replication,ra_eas,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,3.059165,0.005994,0.011681,-0.410347,0.673327
+replication,ra_eas,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,0.876424,0.174825,0.238619,1.271684,0.075924
+replication,ra_eas,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,0.155242,0.408591,0.526321,0.120641,0.483516
+replication,ra_eas,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,3.596034,0.001998,0.004339,-2.564842,0.991009
+replication,ra_eas,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,-0.184562,0.546454,0.692174,0.200838,0.494506
+replication,ra_eas,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,2.823232,0.012987,0.0235,1.917599,0.017982
+replication,ra_eas,NK-8: CD56bright CD16- IFN response,T/NK,2.0,-0.504498,0.693307,0.84986,,
+replication,ra_eas,NK-9: MT-high,T/NK,167.0,1.928416,0.042957,0.068015,0.448395,0.366633
+replication,ra_eas,T-0: CD4+ IL7R+ memory,T/NK,932.0,3.338008,0.001998,0.004339,4.491064,0.000999
+replication,ra_eas,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,6.726362,0.000999,0.002301,0.235515,0.433566
+replication,ra_eas,T-11: CD4+ CD146+ memory,T/NK,246.0,4.39071,0.000999,0.002301,1.175646,0.091908
+replication,ra_eas,T-12: CD4+ GNLY+,T/NK,56.0,2.653831,0.003996,0.008208,1.142894,0.047952
+replication,ra_eas,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,5.19244,0.000999,0.002301,1.982381,0.021978
+replication,ra_eas,T-14: CD8+ GZMK+ memory,T/NK,447.0,2.611254,0.006993,0.012963,1.755488,0.032967
+replication,ra_eas,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,1.748866,0.04995,0.075924,0.4134,0.373626
+replication,ra_eas,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,1.537569,0.063936,0.093445,0.840761,0.215784
+replication,ra_eas,T-17: CD8+ activated/NK-like,T/NK,32.0,1.797012,0.042957,0.068015,0.757485,0.218781
+replication,ra_eas,T-18: Proliferating,T/NK,127.0,14.215195,0.000999,0.002301,0.10456,0.48951
+replication,ra_eas,T-19: MT-high (low quality),T/NK,151.0,0.794777,0.230769,0.302387,1.077274,0.126873
+replication,ra_eas,T-1: CD4+ CD161+ memory,T/NK,613.0,4.760532,0.000999,0.002301,3.481687,0.000999
+replication,ra_eas,T-20: CD38+,T/NK,153.0,6.974487,0.000999,0.002301,0.787507,0.216783
+replication,ra_eas,T-21: Innate-like,T/NK,178.0,4.287166,0.000999,0.002301,2.984222,0.001998
+replication,ra_eas,T-22: Vdelta1,T/NK,169.0,5.606174,0.000999,0.002301,1.24015,0.096903
+replication,ra_eas,T-23: Vdelta2,T/NK,107.0,3.238592,0.002997,0.006327,-0.537717,0.77023
+replication,ra_eas,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,2.162381,0.022977,0.040611,1.235292,0.0999
+replication,ra_eas,T-3: CD4+ Tfh/Tph,T/NK,889.0,2.131534,0.026973,0.04659,4.409738,0.000999
+replication,ra_eas,T-4: CD4+ naive,T/NK,218.0,1.853598,0.031968,0.05399,1.107957,0.122877
+replication,ra_eas,T-5: CD4+ GZMK+ memory,T/NK,429.0,4.46648,0.000999,0.002301,2.575503,0.003996
+replication,ra_eas,T-6: CD4+ memory,T/NK,215.0,4.86626,0.000999,0.002301,1.039845,0.147852
+replication,ra_eas,T-7: CD4+ Tph,T/NK,273.0,6.983152,0.000999,0.002301,-0.700916,0.781219
+replication,ra_eas,T-8: CD4+ CD25-high Treg,T/NK,368.0,12.342797,0.000999,0.002301,0.19188,0.430569
+replication,ra_eas,T-9: CD4+ CD25-low Treg,T/NK,316.0,4.708403,0.000999,0.002301,2.727514,0.002997
+replication,fg_dupuytren,B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490.0,-1.745968,0.968032,1.0,1.939743,0.033966
+replication,fg_dupuytren,B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265.0,-2.384263,0.994006,1.0,0.503722,0.294705
+replication,fg_dupuytren,B-2: IgM+IgD+TCL1A+ naive,B/plasma,435.0,-1.912006,0.979021,1.0,1.666667,0.03996
+replication,fg_dupuytren,B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184.0,-2.085495,0.984016,1.0,-0.505777,0.714286
+replication,fg_dupuytren,B-4: AICDA+BCL6+ GC-like,B/plasma,7.0,-1.927491,0.984016,1.0,,
+replication,fg_dupuytren,B-5: CD11c+LAMP1+ ABC,B/plasma,111.0,-0.906164,0.819181,1.0,1.713291,0.022977
+replication,fg_dupuytren,B-6: IgM+ plasma,B/plasma,253.0,-2.296643,1.0,1.0,0.259755,0.384615
+replication,fg_dupuytren,B-7: HLA-DR+IgG+ plasmablast,B/plasma,224.0,-1.897165,0.997003,1.0,0.073144,0.444555
+replication,fg_dupuytren,B-8: IgG1+IgG3+ plasma,B/plasma,729.0,-2.168392,1.0,1.0,-0.041421,0.443556
+replication,fg_dupuytren,E-0: SPARC+ capillary,Endothelial,685.0,0.747212,0.234765,0.795552,0.976793,0.146853
+replication,fg_dupuytren,E-1: LIFR+ venular,Endothelial,604.0,0.450927,0.316683,0.92569,1.642765,0.052947
+replication,fg_dupuytren,E-2: ICAM1+ venular,Endothelial,196.0,1.03321,0.150849,0.674384,1.384554,0.083916
+replication,fg_dupuytren,E-3: NOTCH4+ arteriolar,Endothelial,338.0,1.480344,0.078921,0.428429,2.335327,0.012987
+replication,fg_dupuytren,E-4: Lymphatic,Endothelial,30.0,2.55882,0.011988,0.101232,-0.775961,0.765235
+replication,fg_dupuytren,F-0: PRG4+ CLIC5+ lining,Stromal,4061.0,1.822722,0.046953,0.303696,6.555102,0.000999
+replication,fg_dupuytren,F-1: PRG4+ lining,Stromal,174.0,2.897064,0.005994,0.056943,1.639457,0.041958
+replication,fg_dupuytren,F-2: CD34+ sublining,Stromal,567.0,5.631471,0.000999,0.015185,2.134066,0.025974
+replication,fg_dupuytren,F-3: POSTN+ sublining,Stromal,661.0,6.114542,0.000999,0.015185,1.256178,0.092907
+replication,fg_dupuytren,F-4: DKK3+ sublining,Stromal,176.0,4.615793,0.000999,0.015185,0.224041,0.425574
+replication,fg_dupuytren,F-5: CD74-hi sublining,Stromal,257.0,5.234682,0.000999,0.015185,0.577276,0.297702
+replication,fg_dupuytren,F-6: CXCL12+ SFRP1+ sublining,Stromal,2155.0,4.004088,0.000999,0.015185,4.08648,0.002997
+replication,fg_dupuytren,F-7: NOTCH3+ sublining,Stromal,406.0,4.400915,0.001998,0.025308,-0.150869,0.565435
+replication,fg_dupuytren,F-8: RSPO3+ intermediate,Stromal,95.0,1.248282,0.121878,0.607393,0.254546,0.407592
+replication,fg_dupuytren,M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659.0,-0.941588,0.833167,1.0,-0.133771,0.551448
+replication,fg_dupuytren,M-10: DC2,Myeloid,1023.0,-0.638214,0.741259,1.0,1.882147,0.034965
+replication,fg_dupuytren,M-11: DC4,Myeloid,32.0,-0.990175,0.841159,1.0,-0.612608,0.743257
+replication,fg_dupuytren,M-12: DC1,Myeloid,69.0,1.465178,0.071928,0.420503,2.620344,0.003996
+replication,fg_dupuytren,M-13: pDC,Myeloid,4.0,0.729784,0.240759,0.795552,-2.037364,0.924076
+replication,fg_dupuytren,M-14: LAMP3+,Myeloid,54.0,0.632832,0.264735,0.838328,-0.078602,0.554446
+replication,fg_dupuytren,M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098.0,-0.950853,0.82018,1.0,1.038918,0.142857
+replication,fg_dupuytren,M-2: MERTK+ S100A8+,Myeloid,237.0,-1.189446,0.893107,1.0,0.657573,0.25974
+replication,fg_dupuytren,M-3: MERTK+ HBEGF+,Myeloid,207.0,-0.816129,0.796204,1.0,-0.212925,0.573427
+replication,fg_dupuytren,M-4: SPP1+,Myeloid,720.0,-1.468365,0.948052,1.0,0.798061,0.183816
+replication,fg_dupuytren,M-5: C1QA+,Myeloid,426.0,0.823193,0.195804,0.755445,1.950969,0.017982
+replication,fg_dupuytren,M-6: STAT1+ CXCL10+,Myeloid,57.0,-1.14999,0.882118,1.0,0.82136,0.210789
+replication,fg_dupuytren,M-7: IL1B+ FCN1+,Myeloid,1057.0,-1.34312,0.913087,1.0,1.750614,0.047952
+replication,fg_dupuytren,M-8: PLCG2+,Myeloid,408.0,-0.51006,0.693307,1.0,1.639052,0.038961
+replication,fg_dupuytren,M-9: DC3,Myeloid,81.0,-0.017728,0.474525,1.0,0.69677,0.258741
+replication,fg_dupuytren,Mu-0: Mural,Stromal,312.0,3.712522,0.003996,0.043385,1.875709,0.041958
+replication,fg_dupuytren,NK-0: CD56dim CD16+ IFNG-,T/NK,75.0,1.838777,0.047952,0.303696,-1.505817,0.924076
+replication,fg_dupuytren,NK-10: PCNA+ Proliferating,T/NK,6.0,1.180857,0.127872,0.607393,-0.031335,0.623377
+replication,fg_dupuytren,NK-11: MKI67+ Proliferating,T/NK,53.0,0.114926,0.432567,1.0,-1.013791,0.834166
+replication,fg_dupuytren,NK-12: IL7R+ ILC,T/NK,120.0,-0.428816,0.662338,1.0,-0.052217,0.524476
+replication,fg_dupuytren,NK-13: IL7R+CD161+ ILC,T/NK,39.0,0.464986,0.301698,0.917163,0.197623,0.525475
+replication,fg_dupuytren,NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102.0,-0.012644,0.481518,1.0,1.010185,0.158841
+replication,fg_dupuytren,NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44.0,0.204626,0.408591,1.0,-0.45744,0.688312
+replication,fg_dupuytren,NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20.0,0.216234,0.378621,1.0,0.674554,0.278721
+replication,fg_dupuytren,NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89.0,-1.438708,0.927073,1.0,0.675407,0.264735
+replication,fg_dupuytren,NK-6: CD56bright CD16- GNLY+,T/NK,20.0,1.965856,0.037962,0.288511,-1.509561,0.892108
+replication,fg_dupuytren,NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90.0,-1.006614,0.85015,1.0,-0.833764,0.798202
+replication,fg_dupuytren,NK-8: CD56bright CD16- IFN response,T/NK,2.0,-0.115119,0.54046,1.0,,
+replication,fg_dupuytren,NK-9: MT-high,T/NK,167.0,0.846029,0.186813,0.755445,-0.751812,0.786214
+replication,fg_dupuytren,T-0: CD4+ IL7R+ memory,T/NK,932.0,-1.242622,0.891109,1.0,2.76998,0.001998
+replication,fg_dupuytren,T-10: CD4+ OX40+NR3C1+,T/NK,201.0,-0.05268,0.511488,1.0,1.440748,0.068931
+replication,fg_dupuytren,T-11: CD4+ CD146+ memory,T/NK,246.0,-1.025292,0.839161,1.0,-0.557955,0.724276
+replication,fg_dupuytren,T-12: CD4+ GNLY+,T/NK,56.0,0.841655,0.198801,0.755445,0.515041,0.352647
+replication,fg_dupuytren,T-13: CD8+ GZMK/B+ memory,T/NK,579.0,-1.644787,0.968032,1.0,-0.925472,0.828172
+replication,fg_dupuytren,T-14: CD8+ GZMK+ memory,T/NK,447.0,-0.721314,0.762238,1.0,0.683872,0.24975
+replication,fg_dupuytren,T-15: CD8+ GZMB+/TEMRA,T/NK,101.0,-1.184063,0.875125,1.0,-0.376731,0.696304
+replication,fg_dupuytren,T-16: CD8+ CD45ROlow/naive,T/NK,183.0,-1.887058,0.985015,1.0,0.212682,0.452547
+replication,fg_dupuytren,T-17: CD8+ activated/NK-like,T/NK,32.0,-1.620762,0.958042,1.0,-0.409097,0.709291
+replication,fg_dupuytren,T-18: Proliferating,T/NK,127.0,0.75208,0.217782,0.788164,0.363789,0.374625
+replication,fg_dupuytren,T-19: MT-high (low quality),T/NK,151.0,-0.895789,0.808192,1.0,-0.357238,0.662338
+replication,fg_dupuytren,T-1: CD4+ CD161+ memory,T/NK,613.0,-1.364419,0.928072,1.0,0.343111,0.373626
+replication,fg_dupuytren,T-20: CD38+,T/NK,153.0,-0.762673,0.776224,1.0,0.523474,0.312687
+replication,fg_dupuytren,T-21: Innate-like,T/NK,178.0,-1.464221,0.945055,1.0,-0.410124,0.693307
+replication,fg_dupuytren,T-22: Vdelta1,T/NK,169.0,-0.977636,0.83017,1.0,-0.014644,0.533466
+replication,fg_dupuytren,T-23: Vdelta2,T/NK,107.0,-1.37607,0.926074,1.0,-0.00288,0.582418
+replication,fg_dupuytren,T-2: CD4+ IL7R+CCR5+ memory,T/NK,499.0,-1.603013,0.948052,1.0,0.587411,0.284715
+replication,fg_dupuytren,T-3: CD4+ Tfh/Tph,T/NK,889.0,-0.282291,0.579421,1.0,-0.003889,0.501499
+replication,fg_dupuytren,T-4: CD4+ naive,T/NK,218.0,-0.834005,0.786214,1.0,0.244221,0.436563
+replication,fg_dupuytren,T-5: CD4+ GZMK+ memory,T/NK,429.0,-0.665958,0.744256,1.0,-1.041254,0.85015
+replication,fg_dupuytren,T-6: CD4+ memory,T/NK,215.0,-0.186962,0.57043,1.0,0.13627,0.482517
+replication,fg_dupuytren,T-7: CD4+ Tph,T/NK,273.0,0.270003,0.36963,1.0,1.709772,0.040959
+replication,fg_dupuytren,T-8: CD4+ CD25-high Treg,T/NK,368.0,-0.957353,0.839161,1.0,-0.683911,0.756244
+replication,fg_dupuytren,T-9: CD4+ CD25-low Treg,T/NK,316.0,-1.365921,0.937063,1.0,0.173838,0.444555

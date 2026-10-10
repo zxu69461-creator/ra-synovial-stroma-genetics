@@ -1,0 +1,13 @@
+# S-LDSC environment for the Python 3 implementation of LDSC in PolyFun (commit 8b17b4e)
+name: ra-rx-ldsc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.1.4
+  - scipy
+  - scikit-learn
+  - pyarrow
+  - bitarray=2.9.3
+  - tqdm

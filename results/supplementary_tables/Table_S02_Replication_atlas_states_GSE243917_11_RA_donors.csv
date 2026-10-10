@@ -1,0 +1,77 @@
+state,state_group,n_cells,n_donors
+B-0: CD24+CD27+CD11b+ switched memory,B/plasma,490,9
+B-1: CD24++CD27+IgM+ unswitched memory,B/plasma,265,9
+B-2: IgM+IgD+TCL1A+ naive,B/plasma,435,10
+B-3: IgM+IgD+CD1c+ MZ-like,B/plasma,184,9
+B-4: AICDA+BCL6+ GC-like,B/plasma,7,4
+B-5: CD11c+LAMP1+ ABC,B/plasma,111,8
+B-6: IgM+ plasma,B/plasma,253,9
+B-7: HLA-DR+IgG+ plasmablast,B/plasma,224,10
+B-8: IgG1+IgG3+ plasma,B/plasma,729,9
+E-0: SPARC+ capillary,Endothelial,685,11
+E-1: LIFR+ venular,Endothelial,604,11
+E-2: ICAM1+ venular,Endothelial,196,11
+E-3: NOTCH4+ arteriolar,Endothelial,338,11
+E-4: Lymphatic,Endothelial,30,5
+F-0: PRG4+ CLIC5+ lining,Stromal,4061,11
+F-1: PRG4+ lining,Stromal,174,10
+F-2: CD34+ sublining,Stromal,567,9
+F-3: POSTN+ sublining,Stromal,661,11
+F-4: DKK3+ sublining,Stromal,176,8
+F-5: CD74-hi sublining,Stromal,257,10
+F-6: CXCL12+ SFRP1+ sublining,Stromal,2155,11
+F-7: NOTCH3+ sublining,Stromal,406,11
+F-8: RSPO3+ intermediate,Stromal,95,9
+M-0: MERTK+ SELENOP+ LYVE1+,Myeloid,659,11
+M-1: MERTK+ SELENOP+ LYVE1-,Myeloid,1098,10
+M-2: MERTK+ S100A8+,Myeloid,237,9
+M-3: MERTK+ HBEGF+,Myeloid,207,10
+M-4: SPP1+,Myeloid,720,10
+M-5: C1QA+,Myeloid,426,10
+M-6: STAT1+ CXCL10+,Myeloid,57,8
+M-7: IL1B+ FCN1+,Myeloid,1057,11
+M-8: PLCG2+,Myeloid,408,10
+M-9: DC3,Myeloid,81,9
+M-10: DC2,Myeloid,1023,11
+M-11: DC4,Myeloid,32,9
+M-12: DC1,Myeloid,69,10
+M-13: pDC,Myeloid,4,2
+M-14: LAMP3+,Myeloid,54,7
+Mu-0: Mural,Stromal,312,11
+NK-0: CD56dim CD16+ IFNG-,T/NK,75,11
+NK-1: CD56dim CD16+ IFNG+CD160+,T/NK,102,11
+NK-2: CD56dim CD16+ IFNG+CD160-,T/NK,44,7
+NK-4: CD56bright CD16- GZMA+CD160+,T/NK,20,6
+NK-5: CD56bright CD16- GZMA+CD69+,T/NK,89,11
+NK-6: CD56bright CD16- GNLY+,T/NK,20,6
+NK-7: CD56bright CD16- GNLY+CD69+,T/NK,90,10
+NK-8: CD56bright CD16- IFN response,T/NK,2,2
+NK-9: MT-high,T/NK,167,11
+NK-10: PCNA+ Proliferating,T/NK,6,6
+NK-11: MKI67+ Proliferating,T/NK,53,9
+NK-12: IL7R+ ILC,T/NK,120,10
+NK-13: IL7R+CD161+ ILC,T/NK,39,8
+T-0: CD4+ IL7R+ memory,T/NK,932,11
+T-1: CD4+ CD161+ memory,T/NK,613,10
+T-2: CD4+ IL7R+CCR5+ memory,T/NK,499,10
+T-3: CD4+ Tfh/Tph,T/NK,889,10
+T-4: CD4+ naive,T/NK,218,10
+T-5: CD4+ GZMK+ memory,T/NK,429,10
+T-6: CD4+ memory,T/NK,215,10
+T-7: CD4+ Tph,T/NK,273,9
+T-8: CD4+ CD25-high Treg,T/NK,368,10
+T-9: CD4+ CD25-low Treg,T/NK,316,9
+T-10: CD4+ OX40+NR3C1+,T/NK,201,10
+T-11: CD4+ CD146+ memory,T/NK,246,10
+T-12: CD4+ GNLY+,T/NK,56,10
+T-13: CD8+ GZMK/B+ memory,T/NK,579,10
+T-14: CD8+ GZMK+ memory,T/NK,447,10
+T-15: CD8+ GZMB+/TEMRA,T/NK,101,10
+T-16: CD8+ CD45ROlow/naive,T/NK,183,10
+T-17: CD8+ activated/NK-like,T/NK,32,7
+T-18: Proliferating,T/NK,127,9
+T-19: MT-high (low quality),T/NK,151,9
+T-20: CD38+,T/NK,153,10
+T-21: Innate-like,T/NK,178,11
+T-22: Vdelta1,T/NK,169,11
+T-23: Vdelta2,T/NK,107,11

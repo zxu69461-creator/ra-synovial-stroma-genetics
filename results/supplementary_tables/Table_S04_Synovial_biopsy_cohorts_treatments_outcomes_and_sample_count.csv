@@ -1,0 +1,7 @@
+cohort,accession,treatment,outcome,quantification,n_baseline,n_with_binary_response,n_non_responders,n_post_treatment,pathotype_available
+GSE198520,GSE198520,anti-TNF,EULAR (week 12),deposited counts (~1 M reads),46,33,14,46,True
+GSE24742,GSE24742,rituximab,EULAR,"GPL570 array, RMA",12,6,3,12,False
+GSE45867,GSE45867,tocilizumab / methotrexate,EULAR from DAS28-CRP,"GPL570 array, RMA",20,14,5,20,False
+PEAC,E-MTAB-6141,treatment-naive early RA,"none (pathotype, DAS28, CRP)","Salmon, first 20 M read pairs",86,0,0,0,True
+R4RA,E-MTAB-11611,rituximab or tocilizumab (randomised; arm not public),CDAI response (week 16),"Salmon, first 20 M read pairs",130,130,65,51,True
+STRAP,E-MTAB-13733,etanercept / tocilizumab / rituximab (randomised),"ACR20 (week 16), linked for 135/210","Salmon, first 20 M read pairs",210,135,45,0,True

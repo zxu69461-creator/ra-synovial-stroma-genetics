@@ -1,0 +1,29 @@
+Code,Meaning
+atlas: discovery,"E-MTAB-11791, 25 inflammatory-arthritis biopsies, 54 states"
+atlas: replication,"GSE243917, 11 RA donors, 76 states"
+ra_eur / ra_eur_noMHC,"RA, Ishigaki 2022 European meta-analysis (GCST90132223); noMHC = MHC removed"
+ra_eur_seropos,Seropositive RA (GCST90132226)
+ra_eas / ra_eas_noMHC,"RA, Ishigaki 2022 East Asian meta-analysis (GCST90132224)"
+"fg_ra, fg_ra_noMHC, fg_ra_seropos, fg_ra_seroneg",FinnGen release 13 RA (M13_RHEUMA) and serotypes
+fg_oa,FinnGen release 13 osteoarthritis (M13_ARTHROSIS)
+fg_height,FinnGen release 13 height (HEIGHT_IRN)
+fg_dupuytren,FinnGen release 13 Dupuytren's contracture (M13_DUPUTRYEN)
+ra_causal,154 likely causal RA genes (gene sets: all; no Blueprint-only; coding or fine-mapped)
+iv_<compartment>,Compartment-specific snATAC peaks of the replication nuclei (top 10% by Welch t)
+iv_<compartment>_acc,Accessible half: the 50% of peaks with the highest accessibility in the compartment
+iv_<compartment>_ext,Compartment-specific peaks extended by 500 bp on each side
+"iv_fib_lining, iv_fib_sublining, iv_mural","Chromatin specific to lining fibroblasts, sublining fibroblasts, mural cells"
+"fls_basal, fls_stim, fls_tnfgained","Cultured FLS ATAC peaks (Ge et al. 2021): unstimulated, TNF-stimulated, TNF-gained"
+fls_active,"Cultured FLS active regions (H3K27ac, H3K4me1 and H3K4me3 union), pooled over seven lines"
+fls_active_<donor>_<diagnosis>_<joint>,"Active regions of one FLS line (diagnosis and joint as labelled in GSE163548; KN knee, SH shoulder, MCP metacarpophalangeal)"
+"rm_T_active, rm_B_active",Active regions of Roadmap primary T cells (E034) and B cells (E032)
+"AllPeaks, AllPeaks_ext",All-open-chromatin control annotation (union of all ATAC peaks)
+model: AllPeaks control,baselineLD v2.2 plus the open-chromatin control (primary)
+model: baseline only,baselineLD v2.2 alone
+"assoc_mcz, assoc_mcp",scDRS group-level Monte Carlo z and P
+"hetero_mcz, hetero_mcp",scDRS within-state heterogeneity z and P
+fdr,Benjamini-Hochberg false discovery rate
+"prop_snps, prop_h2, enrichment","S-LDSC proportion of SNPs, proportion of heritability, and their ratio"
+"coef, coef_z, coef_p, tau_star","S-LDSC coefficient, its z, one-sided P and standardised coefficient"
+spec_z,Expression specificity z of a gene across state pseudobulks
+pip,Posterior inclusion probability (fine-mapping)

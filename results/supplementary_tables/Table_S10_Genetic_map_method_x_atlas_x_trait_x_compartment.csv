@@ -1,0 +1,151 @@
+method,atlas,trait,compartment,n_states,n_sig,summary,summary_type,p_compartment,frac_sig,atlas_label,trait_label
+scDRS,discovery,fg_height,T/NK,13,1,1.312855,median z,,0.076923,Discovery (E-MTAB-11791),Height
+scDRS,discovery,fg_height,B/plasma,5,0,0.591387,median z,,0.0,Discovery (E-MTAB-11791),Height
+scDRS,discovery,fg_height,Myeloid,14,0,-2.352875,median z,,0.0,Discovery (E-MTAB-11791),Height
+scDRS,discovery,fg_height,Endothelial,7,0,0.714782,median z,,0.0,Discovery (E-MTAB-11791),Height
+scDRS,discovery,fg_height,Stromal,15,13,3.567803,median z,,0.866667,Discovery (E-MTAB-11791),Height
+scDRS,discovery,fg_oa,T/NK,13,0,0.564741,median z,,0.0,Discovery (E-MTAB-11791),OA
+scDRS,discovery,fg_oa,B/plasma,5,0,0.359308,median z,,0.0,Discovery (E-MTAB-11791),OA
+scDRS,discovery,fg_oa,Myeloid,14,0,-1.851024,median z,,0.0,Discovery (E-MTAB-11791),OA
+scDRS,discovery,fg_oa,Endothelial,7,0,0.410101,median z,,0.0,Discovery (E-MTAB-11791),OA
+scDRS,discovery,fg_oa,Stromal,15,0,1.93285,median z,,0.0,Discovery (E-MTAB-11791),OA
+scDRS,discovery,fg_ra_noMHC,T/NK,13,9,4.621599,median z,,0.692308,Discovery (E-MTAB-11791),RA FinnGen
+scDRS,discovery,fg_ra_noMHC,B/plasma,5,0,1.152887,median z,,0.0,Discovery (E-MTAB-11791),RA FinnGen
+scDRS,discovery,fg_ra_noMHC,Myeloid,14,10,3.087485,median z,,0.714286,Discovery (E-MTAB-11791),RA FinnGen
+scDRS,discovery,fg_ra_noMHC,Endothelial,7,0,-2.530108,median z,,0.0,Discovery (E-MTAB-11791),RA FinnGen
+scDRS,discovery,fg_ra_noMHC,Stromal,15,0,-0.950357,median z,,0.0,Discovery (E-MTAB-11791),RA FinnGen
+scDRS,discovery,ra_eur_noMHC,T/NK,13,11,6.374994,median z,,0.846154,Discovery (E-MTAB-11791),RA EUR
+scDRS,discovery,ra_eur_noMHC,B/plasma,5,4,2.365182,median z,,0.8,Discovery (E-MTAB-11791),RA EUR
+scDRS,discovery,ra_eur_noMHC,Myeloid,14,12,3.353054,median z,,0.857143,Discovery (E-MTAB-11791),RA EUR
+scDRS,discovery,ra_eur_noMHC,Endothelial,7,0,-1.33138,median z,,0.0,Discovery (E-MTAB-11791),RA EUR
+scDRS,discovery,ra_eur_noMHC,Stromal,15,0,-1.721034,median z,,0.0,Discovery (E-MTAB-11791),RA EUR
+scDRS,discovery,ra_eas_noMHC,T/NK,13,10,3.190823,median z,,0.769231,Discovery (E-MTAB-11791),RA EAS
+scDRS,discovery,ra_eas_noMHC,B/plasma,5,4,3.044116,median z,,0.8,Discovery (E-MTAB-11791),RA EAS
+scDRS,discovery,ra_eas_noMHC,Myeloid,14,13,2.929591,median z,,0.928571,Discovery (E-MTAB-11791),RA EAS
+scDRS,discovery,ra_eas_noMHC,Endothelial,7,0,-1.293073,median z,,0.0,Discovery (E-MTAB-11791),RA EAS
+scDRS,discovery,ra_eas_noMHC,Stromal,15,0,-1.49977,median z,,0.0,Discovery (E-MTAB-11791),RA EAS
+scDRS,discovery,fg_dupuytren,T/NK,13,0,-0.015958,median z,,0.0,Discovery (E-MTAB-11791),Dupuytren
+scDRS,discovery,fg_dupuytren,B/plasma,5,0,-0.606659,median z,,0.0,Discovery (E-MTAB-11791),Dupuytren
+scDRS,discovery,fg_dupuytren,Myeloid,14,0,-0.989828,median z,,0.0,Discovery (E-MTAB-11791),Dupuytren
+scDRS,discovery,fg_dupuytren,Endothelial,7,0,0.532539,median z,,0.0,Discovery (E-MTAB-11791),Dupuytren
+scDRS,discovery,fg_dupuytren,Stromal,15,7,2.141421,median z,,0.466667,Discovery (E-MTAB-11791),Dupuytren
+scDRS,replication,fg_height,T/NK,37,0,-1.136226,median z,,0.0,"Replication (GSE243917, RA only)",Height
+scDRS,replication,fg_height,B/plasma,9,0,0.561097,median z,,0.0,"Replication (GSE243917, RA only)",Height
+scDRS,replication,fg_height,Myeloid,15,0,-1.948886,median z,,0.0,"Replication (GSE243917, RA only)",Height
+scDRS,replication,fg_height,Endothelial,5,1,1.381087,median z,,0.2,"Replication (GSE243917, RA only)",Height
+scDRS,replication,fg_height,Stromal,10,10,5.043041,median z,,1.0,"Replication (GSE243917, RA only)",Height
+scDRS,replication,fg_oa,T/NK,37,0,-0.902671,median z,,0.0,"Replication (GSE243917, RA only)",OA
+scDRS,replication,fg_oa,B/plasma,9,0,0.514987,median z,,0.0,"Replication (GSE243917, RA only)",OA
+scDRS,replication,fg_oa,Myeloid,15,0,-2.508288,median z,,0.0,"Replication (GSE243917, RA only)",OA
+scDRS,replication,fg_oa,Endothelial,5,0,0.925888,median z,,0.0,"Replication (GSE243917, RA only)",OA
+scDRS,replication,fg_oa,Stromal,10,10,3.74762,median z,,1.0,"Replication (GSE243917, RA only)",OA
+scDRS,replication,fg_ra_noMHC,T/NK,37,26,3.198805,median z,,0.702703,"Replication (GSE243917, RA only)",RA FinnGen
+scDRS,replication,fg_ra_noMHC,B/plasma,9,0,1.029573,median z,,0.0,"Replication (GSE243917, RA only)",RA FinnGen
+scDRS,replication,fg_ra_noMHC,Myeloid,15,12,2.476555,median z,,0.8,"Replication (GSE243917, RA only)",RA FinnGen
+scDRS,replication,fg_ra_noMHC,Endothelial,5,0,-2.046032,median z,,0.0,"Replication (GSE243917, RA only)",RA FinnGen
+scDRS,replication,fg_ra_noMHC,Stromal,10,0,-2.048599,median z,,0.0,"Replication (GSE243917, RA only)",RA FinnGen
+scDRS,replication,ra_eur_noMHC,T/NK,37,32,4.63667,median z,,0.864865,"Replication (GSE243917, RA only)",RA EUR
+scDRS,replication,ra_eur_noMHC,B/plasma,9,6,2.413334,median z,,0.666667,"Replication (GSE243917, RA only)",RA EUR
+scDRS,replication,ra_eur_noMHC,Myeloid,15,8,2.02818,median z,,0.533333,"Replication (GSE243917, RA only)",RA EUR
+scDRS,replication,ra_eur_noMHC,Endothelial,5,0,-1.573896,median z,,0.0,"Replication (GSE243917, RA only)",RA EUR
+scDRS,replication,ra_eur_noMHC,Stromal,10,0,-2.03176,median z,,0.0,"Replication (GSE243917, RA only)",RA EUR
+scDRS,replication,ra_eas_noMHC,T/NK,37,32,4.39876,median z,,0.864865,"Replication (GSE243917, RA only)",RA EAS
+scDRS,replication,ra_eas_noMHC,B/plasma,9,5,2.493225,median z,,0.555556,"Replication (GSE243917, RA only)",RA EAS
+scDRS,replication,ra_eas_noMHC,Myeloid,15,14,3.261983,median z,,0.933333,"Replication (GSE243917, RA only)",RA EAS
+scDRS,replication,ra_eas_noMHC,Endothelial,5,0,-1.185299,median z,,0.0,"Replication (GSE243917, RA only)",RA EAS
+scDRS,replication,ra_eas_noMHC,Stromal,10,0,-2.436009,median z,,0.0,"Replication (GSE243917, RA only)",RA EAS
+scDRS,replication,fg_dupuytren,T/NK,37,0,-0.721314,median z,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+scDRS,replication,fg_dupuytren,B/plasma,9,0,-1.927491,median z,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+scDRS,replication,fg_dupuytren,Myeloid,15,0,-0.816129,median z,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+scDRS,replication,fg_dupuytren,Endothelial,5,0,1.03321,median z,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+scDRS,replication,fg_dupuytren,Stromal,10,7,4.202501,median z,,0.7,"Replication (GSE243917, RA only)",Dupuytren
+MAGMA cell-type,replication,fg_dupuytren,T/NK,37,0,0.010394,median -log10 P,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+MAGMA cell-type,replication,fg_dupuytren,B/plasma,9,0,0.044601,median -log10 P,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+MAGMA cell-type,replication,fg_dupuytren,Myeloid,15,0,0.561537,median -log10 P,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+MAGMA cell-type,replication,fg_dupuytren,Endothelial,5,0,1.49073,median -log10 P,,0.0,"Replication (GSE243917, RA only)",Dupuytren
+MAGMA cell-type,replication,fg_dupuytren,Stromal,10,10,3.593597,median -log10 P,,1.0,"Replication (GSE243917, RA only)",Dupuytren
+MAGMA cell-type,replication,fg_height,T/NK,37,0,0.000643,median -log10 P,,0.0,"Replication (GSE243917, RA only)",Height
+MAGMA cell-type,replication,fg_height,B/plasma,9,0,0.556956,median -log10 P,,0.0,"Replication (GSE243917, RA only)",Height
+MAGMA cell-type,replication,fg_height,Myeloid,15,1,0.11635,median -log10 P,,0.066667,"Replication (GSE243917, RA only)",Height
+MAGMA cell-type,replication,fg_height,Endothelial,5,5,2.372255,median -log10 P,,1.0,"Replication (GSE243917, RA only)",Height
+MAGMA cell-type,replication,fg_height,Stromal,10,10,7.976188,median -log10 P,,1.0,"Replication (GSE243917, RA only)",Height
+MAGMA cell-type,replication,fg_oa,T/NK,37,0,0.021089,median -log10 P,,0.0,"Replication (GSE243917, RA only)",OA
+MAGMA cell-type,replication,fg_oa,B/plasma,9,0,0.631397,median -log10 P,,0.0,"Replication (GSE243917, RA only)",OA
+MAGMA cell-type,replication,fg_oa,Myeloid,15,0,0.054231,median -log10 P,,0.0,"Replication (GSE243917, RA only)",OA
+MAGMA cell-type,replication,fg_oa,Endothelial,5,1,0.76,median -log10 P,,0.2,"Replication (GSE243917, RA only)",OA
+MAGMA cell-type,replication,fg_oa,Stromal,10,6,2.602971,median -log10 P,,0.6,"Replication (GSE243917, RA only)",OA
+MAGMA cell-type,replication,fg_ra_noMHC,T/NK,37,13,1.474269,median -log10 P,,0.351351,"Replication (GSE243917, RA only)",RA FinnGen
+MAGMA cell-type,replication,fg_ra_noMHC,B/plasma,9,0,1.074915,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA FinnGen
+MAGMA cell-type,replication,fg_ra_noMHC,Myeloid,15,0,0.456441,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA FinnGen
+MAGMA cell-type,replication,fg_ra_noMHC,Endothelial,5,0,0.000291,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA FinnGen
+MAGMA cell-type,replication,fg_ra_noMHC,Stromal,10,0,2.2e-05,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA FinnGen
+MAGMA cell-type,replication,ra_eas_noMHC,T/NK,37,31,3.453001,median -log10 P,,0.837838,"Replication (GSE243917, RA only)",RA EAS
+MAGMA cell-type,replication,ra_eas_noMHC,B/plasma,9,5,1.726212,median -log10 P,,0.555556,"Replication (GSE243917, RA only)",RA EAS
+MAGMA cell-type,replication,ra_eas_noMHC,Myeloid,15,1,0.100103,median -log10 P,,0.066667,"Replication (GSE243917, RA only)",RA EAS
+MAGMA cell-type,replication,ra_eas_noMHC,Endothelial,5,0,4e-06,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA EAS
+MAGMA cell-type,replication,ra_eas_noMHC,Stromal,10,0,0.0,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA EAS
+MAGMA cell-type,replication,ra_eur_noMHC,T/NK,37,13,1.474476,median -log10 P,,0.351351,"Replication (GSE243917, RA only)",RA EUR
+MAGMA cell-type,replication,ra_eur_noMHC,B/plasma,9,3,1.572238,median -log10 P,,0.333333,"Replication (GSE243917, RA only)",RA EUR
+MAGMA cell-type,replication,ra_eur_noMHC,Myeloid,15,0,0.20344,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA EUR
+MAGMA cell-type,replication,ra_eur_noMHC,Endothelial,5,0,0.000448,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA EUR
+MAGMA cell-type,replication,ra_eur_noMHC,Stromal,10,0,9e-06,median -log10 P,,0.0,"Replication (GSE243917, RA only)",RA EUR
+MAGMA cell-type,discovery,fg_dupuytren,T/NK,13,0,0.018657,median -log10 P,,0.0,Discovery (E-MTAB-11791),Dupuytren
+MAGMA cell-type,discovery,fg_dupuytren,B/plasma,5,0,0.023416,median -log10 P,,0.0,Discovery (E-MTAB-11791),Dupuytren
+MAGMA cell-type,discovery,fg_dupuytren,Myeloid,14,0,0.01834,median -log10 P,,0.0,Discovery (E-MTAB-11791),Dupuytren
+MAGMA cell-type,discovery,fg_dupuytren,Endothelial,7,0,0.824111,median -log10 P,,0.0,Discovery (E-MTAB-11791),Dupuytren
+MAGMA cell-type,discovery,fg_dupuytren,Stromal,15,12,2.732148,median -log10 P,,0.8,Discovery (E-MTAB-11791),Dupuytren
+MAGMA cell-type,discovery,fg_height,T/NK,13,0,0.002373,median -log10 P,,0.0,Discovery (E-MTAB-11791),Height
+MAGMA cell-type,discovery,fg_height,B/plasma,5,0,0.202027,median -log10 P,,0.0,Discovery (E-MTAB-11791),Height
+MAGMA cell-type,discovery,fg_height,Myeloid,14,0,0.000822,median -log10 P,,0.0,Discovery (E-MTAB-11791),Height
+MAGMA cell-type,discovery,fg_height,Endothelial,7,0,0.931777,median -log10 P,,0.0,Discovery (E-MTAB-11791),Height
+MAGMA cell-type,discovery,fg_height,Stromal,15,15,4.428443,median -log10 P,,1.0,Discovery (E-MTAB-11791),Height
+MAGMA cell-type,discovery,fg_oa,T/NK,13,0,0.153038,median -log10 P,,0.0,Discovery (E-MTAB-11791),OA
+MAGMA cell-type,discovery,fg_oa,B/plasma,5,0,0.410017,median -log10 P,,0.0,Discovery (E-MTAB-11791),OA
+MAGMA cell-type,discovery,fg_oa,Myeloid,14,0,0.008428,median -log10 P,,0.0,Discovery (E-MTAB-11791),OA
+MAGMA cell-type,discovery,fg_oa,Endothelial,7,0,0.354136,median -log10 P,,0.0,Discovery (E-MTAB-11791),OA
+MAGMA cell-type,discovery,fg_oa,Stromal,15,0,1.423083,median -log10 P,,0.0,Discovery (E-MTAB-11791),OA
+MAGMA cell-type,discovery,fg_ra_noMHC,T/NK,13,12,2.343854,median -log10 P,,0.923077,Discovery (E-MTAB-11791),RA FinnGen
+MAGMA cell-type,discovery,fg_ra_noMHC,B/plasma,5,4,3.847009,median -log10 P,,0.8,Discovery (E-MTAB-11791),RA FinnGen
+MAGMA cell-type,discovery,fg_ra_noMHC,Myeloid,14,1,1.007219,median -log10 P,,0.071429,Discovery (E-MTAB-11791),RA FinnGen
+MAGMA cell-type,discovery,fg_ra_noMHC,Endothelial,7,0,0.002426,median -log10 P,,0.0,Discovery (E-MTAB-11791),RA FinnGen
+MAGMA cell-type,discovery,fg_ra_noMHC,Stromal,15,0,0.000126,median -log10 P,,0.0,Discovery (E-MTAB-11791),RA FinnGen
+MAGMA cell-type,discovery,ra_eas_noMHC,T/NK,13,13,5.532599,median -log10 P,,1.0,Discovery (E-MTAB-11791),RA EAS
+MAGMA cell-type,discovery,ra_eas_noMHC,B/plasma,5,4,4.830414,median -log10 P,,0.8,Discovery (E-MTAB-11791),RA EAS
+MAGMA cell-type,discovery,ra_eas_noMHC,Myeloid,14,1,0.894985,median -log10 P,,0.071429,Discovery (E-MTAB-11791),RA EAS
+MAGMA cell-type,discovery,ra_eas_noMHC,Endothelial,7,0,0.00185,median -log10 P,,0.0,Discovery (E-MTAB-11791),RA EAS
+MAGMA cell-type,discovery,ra_eas_noMHC,Stromal,15,0,0.0,median -log10 P,,0.0,Discovery (E-MTAB-11791),RA EAS
+MAGMA cell-type,discovery,ra_eur_noMHC,T/NK,13,13,3.105097,median -log10 P,,1.0,Discovery (E-MTAB-11791),RA EUR
+MAGMA cell-type,discovery,ra_eur_noMHC,B/plasma,5,4,4.417414,median -log10 P,,0.8,Discovery (E-MTAB-11791),RA EUR
+MAGMA cell-type,discovery,ra_eur_noMHC,Myeloid,14,1,1.008349,median -log10 P,,0.071429,Discovery (E-MTAB-11791),RA EUR
+MAGMA cell-type,discovery,ra_eur_noMHC,Endothelial,7,0,0.002212,median -log10 P,,0.0,Discovery (E-MTAB-11791),RA EUR
+MAGMA cell-type,discovery,ra_eur_noMHC,Stromal,15,0,6.9e-05,median -log10 P,,0.0,Discovery (E-MTAB-11791),RA EUR
+Causal genes (all),replication,ra_causal,T/NK,37,11,3.44379,compartment enrichment z,0.0007,0.297297,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (all),replication,ra_causal,B/plasma,9,2,3.148691,compartment enrichment z,0.0018,0.222222,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (all),replication,ra_causal,Myeloid,15,1,-0.705187,compartment enrichment z,0.762924,0.066667,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (all),replication,ra_causal,Endothelial,5,0,-4.27945,compartment enrichment z,1.0,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (all),replication,ra_causal,Stromal,10,0,-3.886209,compartment enrichment z,1.0,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (coding_or_finemap),replication,ra_causal,T/NK,37,9,2.940039,compartment enrichment z,0.0015,0.243243,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (coding_or_finemap),replication,ra_causal,B/plasma,9,0,2.004153,compartment enrichment z,0.028197,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (coding_or_finemap),replication,ra_causal,Myeloid,15,0,0.555618,compartment enrichment z,0.286871,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (coding_or_finemap),replication,ra_causal,Endothelial,5,0,-3.186514,compartment enrichment z,0.9999,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (coding_or_finemap),replication,ra_causal,Stromal,10,0,-4.396132,compartment enrichment z,1.0,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (no_blueprint_only),replication,ra_causal,T/NK,37,13,3.450531,compartment enrichment z,0.0003,0.351351,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (no_blueprint_only),replication,ra_causal,B/plasma,9,1,2.655311,compartment enrichment z,0.006499,0.111111,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (no_blueprint_only),replication,ra_causal,Myeloid,15,1,-0.437205,compartment enrichment z,0.665233,0.066667,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (no_blueprint_only),replication,ra_causal,Endothelial,5,0,-4.273815,compartment enrichment z,1.0,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (no_blueprint_only),replication,ra_causal,Stromal,10,0,-3.767666,compartment enrichment z,1.0,0.0,"Replication (GSE243917, RA only)",RA causal genes
+Causal genes (all),discovery,ra_causal,T/NK,13,12,4.572401,compartment enrichment z,0.0001,0.923077,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (all),discovery,ra_causal,B/plasma,5,4,3.957212,compartment enrichment z,0.0002,0.8,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (all),discovery,ra_causal,Myeloid,14,4,2.391089,compartment enrichment z,0.008599,0.285714,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (all),discovery,ra_causal,Endothelial,7,0,-4.916463,compartment enrichment z,1.0,0.0,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (all),discovery,ra_causal,Stromal,15,0,-4.265777,compartment enrichment z,1.0,0.0,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (coding_or_finemap),discovery,ra_causal,T/NK,13,13,4.840884,compartment enrichment z,0.0001,1.0,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (coding_or_finemap),discovery,ra_causal,B/plasma,5,4,3.165192,compartment enrichment z,0.002,0.8,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (coding_or_finemap),discovery,ra_causal,Myeloid,14,3,2.159608,compartment enrichment z,0.015498,0.214286,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (coding_or_finemap),discovery,ra_causal,Endothelial,7,0,-3.281434,compartment enrichment z,0.9998,0.0,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (coding_or_finemap),discovery,ra_causal,Stromal,15,0,-4.992001,compartment enrichment z,1.0,0.0,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (no_blueprint_only),discovery,ra_causal,T/NK,13,11,4.090891,compartment enrichment z,0.0001,0.846154,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (no_blueprint_only),discovery,ra_causal,B/plasma,5,3,3.3714,compartment enrichment z,0.0011,0.6,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (no_blueprint_only),discovery,ra_causal,Myeloid,14,4,2.480151,compartment enrichment z,0.007799,0.285714,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (no_blueprint_only),discovery,ra_causal,Endothelial,7,0,-4.588101,compartment enrichment z,1.0,0.0,Discovery (E-MTAB-11791),RA causal genes
+Causal genes (no_blueprint_only),discovery,ra_causal,Stromal,15,0,-3.95933,compartment enrichment z,1.0,0.0,Discovery (E-MTAB-11791),RA causal genes

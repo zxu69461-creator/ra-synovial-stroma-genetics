@@ -1,0 +1,25 @@
+Table,Title,Rows
+Supplementary Table S1,"Discovery-atlas states (E-MTAB-11791): compartment, cells, signature and curation",54
+Supplementary Table S2,"Replication-atlas states (GSE243917, 11 RA donors)",76
+Supplementary Table S3,Likely causal RA genes and their evidence,154
+Supplementary Table S4,"Synovial biopsy cohorts, treatments, outcomes and sample counts",6
+Supplementary Table S5,State signature genes used to score bulk biopsies,2285
+Supplementary Table S6,Harmonised disease activity per biopsy,613
+Supplementary Table S7,"scDRS genetic load per state, trait and atlas",1256
+Supplementary Table S8,"MAGMA gene-property analysis per state, trait and atlas",910
+Supplementary Table S9,Enrichment of likely causal RA genes per state and compartment,420
+Supplementary Table S10,Genetic map: method x atlas x trait x compartment,150
+Supplementary Table S11,Power of the gene-level map: scDRS spike-in of Dupuytren genes,5
+Supplementary Table S12,S-LDSC chromatin annotations,16
+Supplementary Table S13,S-LDSC results for the primary chromatin annotations,70
+Supplementary Table S14,S-LDSC sensitivity and comparator annotations,88
+Supplementary Table S15,Fine-mapped RA variants in each chromatin annotation,33
+Supplementary Table S16,State scores by histological pathotype,208
+Supplementary Table S17,Compartment and state scores vs baseline disease activity,272
+Supplementary Table S18,Partial correlations of compartment scores with disease activity,48
+Supplementary Table S19,Treatment-response analyses,380
+Supplementary Table S20,Linkage of STRAP biopsies to the published per-patient data,210
+Supplementary Table S21,Approved biologic and targeted synthetic DMARD targets and their most specific state,10
+Supplementary Table S22,Open Targets RA target evidence per state,54
+Supplementary Table S23,Genetic and clinical target shares of immune- vs stromal-specific genes,13
+Supplementary Table S24,Stroma-specific genes with Open Targets genetic evidence,192

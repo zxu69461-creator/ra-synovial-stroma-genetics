@@ -1,0 +1,14 @@
+assignment,evidence,threshold,immune_hit,immune_n,stromal_hit,stromal_n,odds_ratio,p,base_rate
+exclusive,genetic,0.1,396,5183,192,3181,1.287824,0.005483,
+exclusive,genetic,0.3,230,5183,99,3181,1.445629,0.002542,
+exclusive,genetic,0.5,108,5183,34,3181,1.969725,0.000447,
+exclusive,clinical,0.5,24,5183,6,3181,2.461717,0.057564,
+exclusive4,genetic,0.1,99,1453,54,643,0.797514,0.203121,
+exclusive4,genetic,0.3,63,1453,29,643,0.959613,0.907999,
+exclusive4,genetic,0.5,36,1453,8,643,2.016584,0.071077,
+exclusive4,clinical,0.5,4,1453,3,643,0.588912,0.444854,
+maxstate,genetic,0.1,411,5525,196,3211,1.236267,0.018423,
+maxstate,genetic,0.3,245,5525,100,3211,1.443551,0.002076,
+maxstate,genetic,0.5,112,5525,33,3211,1.992599,0.000341,
+maxstate,clinical,0.5,25,5525,9,3211,1.617172,0.284667,
+maxstate,approved b/tsDMARD targets (ChEMBL phase 4),,9,10,1,10,,0.009126,0.490153

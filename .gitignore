@@ -1,0 +1,13 @@
+# data and generated outputs (public inputs are downloaded by scripts/00_*; outputs are regenerated)
+raw/
+refs/
+tools/
+db/
+cache/
+tmp/
+logs/
+figures/
+results/Supplementary_Tables.xlsx
+__pycache__/
+*.pyc
+.DS_Store

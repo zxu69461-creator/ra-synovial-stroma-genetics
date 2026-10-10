@@ -1,0 +1,820 @@
+section,key,value,text,source
+atlas,n_samples,25,synovial samples in Edalat et al. 2024 (E-MTAB-11791),atlas_qc_by_sample
+atlas,n_cells_qc,88302,cells passing QC,atlas_qc_by_sample
+atlas,n_cells_states,83503,cells in curated states,atlas_cells_state
+atlas,n_states,54,curated cell states,atlas_cells_state
+atlas,n_states_T/NK,13,states in T/NK,atlas_cells_state
+atlas,n_states_B/plasma,5,states in B/plasma,atlas_cells_state
+atlas,n_states_Myeloid,14,states in Myeloid,atlas_cells_state
+atlas,n_states_Endothelial,7,states in Endothelial,atlas_cells_state
+atlas,n_states_Stromal,15,states in Stromal,atlas_cells_state
+atlas,n_states_usable_sig,52,states with a usable bulk signature (>=10 genes),state_signature_summary
+atlas,median_sig_genes,50,median signature size,state_signature_summary
+genetics,ra_eur_median_z_T/NK,4.42,"RA Ishigaki: median scDRS z, T/NK",scdrs_state_load
+genetics,ra_eur_nfdr_T/NK,12/13,"RA Ishigaki: states FDR<0.05, T/NK",scdrs_state_load
+genetics,ra_eur_median_z_B/plasma,5.48,"RA Ishigaki: median scDRS z, B/plasma",scdrs_state_load
+genetics,ra_eur_nfdr_B/plasma,4/5,"RA Ishigaki: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,ra_eur_median_z_Myeloid,5.58,"RA Ishigaki: median scDRS z, Myeloid",scdrs_state_load
+genetics,ra_eur_nfdr_Myeloid,13/14,"RA Ishigaki: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,ra_eur_median_z_Endothelial,0.22,"RA Ishigaki: median scDRS z, Endothelial",scdrs_state_load
+genetics,ra_eur_nfdr_Endothelial,0/7,"RA Ishigaki: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,ra_eur_median_z_Stromal,-3.12,"RA Ishigaki: median scDRS z, Stromal",scdrs_state_load
+genetics,ra_eur_nfdr_Stromal,0/15,"RA Ishigaki: states FDR<0.05, Stromal",scdrs_state_load
+genetics,ra_eur_nfdr_all,29/54,RA Ishigaki: states FDR<0.05,scdrs_state_load
+genetics,ra_eur_stromal_n_negative,15/15,RA Ishigaki: stromal states with z<0,scdrs_state_load
+genetics,ra_eur_mw_immune_vs_stromal,2.3e-08,RA Ishigaki: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,ra_eur_noMHC_median_z_T/NK,6.37,"RA Ishigaki noMHC: median scDRS z, T/NK",scdrs_state_load
+genetics,ra_eur_noMHC_nfdr_T/NK,11/13,"RA Ishigaki noMHC: states FDR<0.05, T/NK",scdrs_state_load
+genetics,ra_eur_noMHC_median_z_B/plasma,2.37,"RA Ishigaki noMHC: median scDRS z, B/plasma",scdrs_state_load
+genetics,ra_eur_noMHC_nfdr_B/plasma,4/5,"RA Ishigaki noMHC: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,ra_eur_noMHC_median_z_Myeloid,3.35,"RA Ishigaki noMHC: median scDRS z, Myeloid",scdrs_state_load
+genetics,ra_eur_noMHC_nfdr_Myeloid,12/14,"RA Ishigaki noMHC: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,ra_eur_noMHC_median_z_Endothelial,-1.33,"RA Ishigaki noMHC: median scDRS z, Endothelial",scdrs_state_load
+genetics,ra_eur_noMHC_nfdr_Endothelial,0/7,"RA Ishigaki noMHC: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,ra_eur_noMHC_median_z_Stromal,-1.72,"RA Ishigaki noMHC: median scDRS z, Stromal",scdrs_state_load
+genetics,ra_eur_noMHC_nfdr_Stromal,0/15,"RA Ishigaki noMHC: states FDR<0.05, Stromal",scdrs_state_load
+genetics,ra_eur_noMHC_nfdr_all,27/54,RA Ishigaki noMHC: states FDR<0.05,scdrs_state_load
+genetics,ra_eur_noMHC_stromal_n_negative,15/15,RA Ishigaki noMHC: stromal states with z<0,scdrs_state_load
+genetics,ra_eur_noMHC_mw_immune_vs_stromal,2.3e-08,RA Ishigaki noMHC: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,ra_eur_seropos_median_z_T/NK,5.24,"RA Ishigaki seropositive: median scDRS z, T/NK",scdrs_state_load
+genetics,ra_eur_seropos_nfdr_T/NK,13/13,"RA Ishigaki seropositive: states FDR<0.05, T/NK",scdrs_state_load
+genetics,ra_eur_seropos_median_z_B/plasma,5.18,"RA Ishigaki seropositive: median scDRS z, B/plasma",scdrs_state_load
+genetics,ra_eur_seropos_nfdr_B/plasma,4/5,"RA Ishigaki seropositive: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,ra_eur_seropos_median_z_Myeloid,5.05,"RA Ishigaki seropositive: median scDRS z, Myeloid",scdrs_state_load
+genetics,ra_eur_seropos_nfdr_Myeloid,13/14,"RA Ishigaki seropositive: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,ra_eur_seropos_median_z_Endothelial,0.42,"RA Ishigaki seropositive: median scDRS z, Endothelial",scdrs_state_load
+genetics,ra_eur_seropos_nfdr_Endothelial,0/7,"RA Ishigaki seropositive: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,ra_eur_seropos_median_z_Stromal,-3.00,"RA Ishigaki seropositive: median scDRS z, Stromal",scdrs_state_load
+genetics,ra_eur_seropos_nfdr_Stromal,0/15,"RA Ishigaki seropositive: states FDR<0.05, Stromal",scdrs_state_load
+genetics,ra_eur_seropos_nfdr_all,30/54,RA Ishigaki seropositive: states FDR<0.05,scdrs_state_load
+genetics,ra_eur_seropos_stromal_n_negative,15/15,RA Ishigaki seropositive: stromal states with z<0,scdrs_state_load
+genetics,ra_eur_seropos_mw_immune_vs_stromal,2.3e-08,RA Ishigaki seropositive: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,fg_ra_median_z_T/NK,4.82,"RA FinnGen: median scDRS z, T/NK",scdrs_state_load
+genetics,fg_ra_nfdr_T/NK,13/13,"RA FinnGen: states FDR<0.05, T/NK",scdrs_state_load
+genetics,fg_ra_median_z_B/plasma,4.47,"RA FinnGen: median scDRS z, B/plasma",scdrs_state_load
+genetics,fg_ra_nfdr_B/plasma,5/5,"RA FinnGen: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,fg_ra_median_z_Myeloid,4.62,"RA FinnGen: median scDRS z, Myeloid",scdrs_state_load
+genetics,fg_ra_nfdr_Myeloid,12/14,"RA FinnGen: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,fg_ra_median_z_Endothelial,-0.44,"RA FinnGen: median scDRS z, Endothelial",scdrs_state_load
+genetics,fg_ra_nfdr_Endothelial,0/7,"RA FinnGen: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,fg_ra_median_z_Stromal,-2.37,"RA FinnGen: median scDRS z, Stromal",scdrs_state_load
+genetics,fg_ra_nfdr_Stromal,0/15,"RA FinnGen: states FDR<0.05, Stromal",scdrs_state_load
+genetics,fg_ra_nfdr_all,30/54,RA FinnGen: states FDR<0.05,scdrs_state_load
+genetics,fg_ra_stromal_n_negative,14/15,RA FinnGen: stromal states with z<0,scdrs_state_load
+genetics,fg_ra_mw_immune_vs_stromal,2.3e-08,RA FinnGen: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,fg_ra_noMHC_median_z_T/NK,4.62,"RA FinnGen noMHC: median scDRS z, T/NK",scdrs_state_load
+genetics,fg_ra_noMHC_nfdr_T/NK,9/13,"RA FinnGen noMHC: states FDR<0.05, T/NK",scdrs_state_load
+genetics,fg_ra_noMHC_median_z_B/plasma,1.15,"RA FinnGen noMHC: median scDRS z, B/plasma",scdrs_state_load
+genetics,fg_ra_noMHC_nfdr_B/plasma,0/5,"RA FinnGen noMHC: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,fg_ra_noMHC_median_z_Myeloid,3.09,"RA FinnGen noMHC: median scDRS z, Myeloid",scdrs_state_load
+genetics,fg_ra_noMHC_nfdr_Myeloid,10/14,"RA FinnGen noMHC: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,fg_ra_noMHC_median_z_Endothelial,-2.53,"RA FinnGen noMHC: median scDRS z, Endothelial",scdrs_state_load
+genetics,fg_ra_noMHC_nfdr_Endothelial,0/7,"RA FinnGen noMHC: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,fg_ra_noMHC_median_z_Stromal,-0.95,"RA FinnGen noMHC: median scDRS z, Stromal",scdrs_state_load
+genetics,fg_ra_noMHC_nfdr_Stromal,0/15,"RA FinnGen noMHC: states FDR<0.05, Stromal",scdrs_state_load
+genetics,fg_ra_noMHC_nfdr_all,19/54,RA FinnGen noMHC: states FDR<0.05,scdrs_state_load
+genetics,fg_ra_noMHC_stromal_n_negative,12/15,RA FinnGen noMHC: stromal states with z<0,scdrs_state_load
+genetics,fg_ra_noMHC_mw_immune_vs_stromal,4.9e-08,RA FinnGen noMHC: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,fg_ra_seropos_median_z_T/NK,4.94,"RA FinnGen seropositive: median scDRS z, T/NK",scdrs_state_load
+genetics,fg_ra_seropos_nfdr_T/NK,12/13,"RA FinnGen seropositive: states FDR<0.05, T/NK",scdrs_state_load
+genetics,fg_ra_seropos_median_z_B/plasma,4.21,"RA FinnGen seropositive: median scDRS z, B/plasma",scdrs_state_load
+genetics,fg_ra_seropos_nfdr_B/plasma,5/5,"RA FinnGen seropositive: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,fg_ra_seropos_median_z_Myeloid,4.53,"RA FinnGen seropositive: median scDRS z, Myeloid",scdrs_state_load
+genetics,fg_ra_seropos_nfdr_Myeloid,13/14,"RA FinnGen seropositive: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,fg_ra_seropos_median_z_Endothelial,0.77,"RA FinnGen seropositive: median scDRS z, Endothelial",scdrs_state_load
+genetics,fg_ra_seropos_nfdr_Endothelial,0/7,"RA FinnGen seropositive: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,fg_ra_seropos_median_z_Stromal,-2.74,"RA FinnGen seropositive: median scDRS z, Stromal",scdrs_state_load
+genetics,fg_ra_seropos_nfdr_Stromal,0/15,"RA FinnGen seropositive: states FDR<0.05, Stromal",scdrs_state_load
+genetics,fg_ra_seropos_nfdr_all,30/54,RA FinnGen seropositive: states FDR<0.05,scdrs_state_load
+genetics,fg_ra_seropos_stromal_n_negative,15/15,RA FinnGen seropositive: stromal states with z<0,scdrs_state_load
+genetics,fg_ra_seropos_mw_immune_vs_stromal,2.3e-08,RA FinnGen seropositive: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,fg_ra_seroneg_median_z_T/NK,2.65,"RA FinnGen seronegative: median scDRS z, T/NK",scdrs_state_load
+genetics,fg_ra_seroneg_nfdr_T/NK,7/13,"RA FinnGen seronegative: states FDR<0.05, T/NK",scdrs_state_load
+genetics,fg_ra_seroneg_median_z_B/plasma,3.97,"RA FinnGen seronegative: median scDRS z, B/plasma",scdrs_state_load
+genetics,fg_ra_seroneg_nfdr_B/plasma,4/5,"RA FinnGen seronegative: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,fg_ra_seroneg_median_z_Myeloid,4.08,"RA FinnGen seronegative: median scDRS z, Myeloid",scdrs_state_load
+genetics,fg_ra_seroneg_nfdr_Myeloid,14/14,"RA FinnGen seronegative: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,fg_ra_seroneg_median_z_Endothelial,0.78,"RA FinnGen seronegative: median scDRS z, Endothelial",scdrs_state_load
+genetics,fg_ra_seroneg_nfdr_Endothelial,0/7,"RA FinnGen seronegative: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,fg_ra_seroneg_median_z_Stromal,-2.75,"RA FinnGen seronegative: median scDRS z, Stromal",scdrs_state_load
+genetics,fg_ra_seroneg_nfdr_Stromal,0/15,"RA FinnGen seronegative: states FDR<0.05, Stromal",scdrs_state_load
+genetics,fg_ra_seroneg_nfdr_all,25/54,RA FinnGen seronegative: states FDR<0.05,scdrs_state_load
+genetics,fg_ra_seroneg_stromal_n_negative,15/15,RA FinnGen seronegative: stromal states with z<0,scdrs_state_load
+genetics,fg_ra_seroneg_mw_immune_vs_stromal,2.3e-08,RA FinnGen seronegative: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,fg_oa_median_z_T/NK,0.56,"OA FinnGen: median scDRS z, T/NK",scdrs_state_load
+genetics,fg_oa_nfdr_T/NK,0/13,"OA FinnGen: states FDR<0.05, T/NK",scdrs_state_load
+genetics,fg_oa_median_z_B/plasma,0.36,"OA FinnGen: median scDRS z, B/plasma",scdrs_state_load
+genetics,fg_oa_nfdr_B/plasma,0/5,"OA FinnGen: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,fg_oa_median_z_Myeloid,-1.85,"OA FinnGen: median scDRS z, Myeloid",scdrs_state_load
+genetics,fg_oa_nfdr_Myeloid,0/14,"OA FinnGen: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,fg_oa_median_z_Endothelial,0.41,"OA FinnGen: median scDRS z, Endothelial",scdrs_state_load
+genetics,fg_oa_nfdr_Endothelial,0/7,"OA FinnGen: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,fg_oa_median_z_Stromal,1.93,"OA FinnGen: median scDRS z, Stromal",scdrs_state_load
+genetics,fg_oa_nfdr_Stromal,0/15,"OA FinnGen: states FDR<0.05, Stromal",scdrs_state_load
+genetics,fg_oa_nfdr_all,0/54,OA FinnGen: states FDR<0.05,scdrs_state_load
+genetics,fg_oa_stromal_n_negative,0/15,OA FinnGen: stromal states with z<0,scdrs_state_load
+genetics,fg_oa_mw_immune_vs_stromal,1.000,OA FinnGen: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,fg_height_median_z_T/NK,1.31,"Height FinnGen: median scDRS z, T/NK",scdrs_state_load
+genetics,fg_height_nfdr_T/NK,1/13,"Height FinnGen: states FDR<0.05, T/NK",scdrs_state_load
+genetics,fg_height_median_z_B/plasma,0.59,"Height FinnGen: median scDRS z, B/plasma",scdrs_state_load
+genetics,fg_height_nfdr_B/plasma,0/5,"Height FinnGen: states FDR<0.05, B/plasma",scdrs_state_load
+genetics,fg_height_median_z_Myeloid,-2.35,"Height FinnGen: median scDRS z, Myeloid",scdrs_state_load
+genetics,fg_height_nfdr_Myeloid,0/14,"Height FinnGen: states FDR<0.05, Myeloid",scdrs_state_load
+genetics,fg_height_median_z_Endothelial,0.71,"Height FinnGen: median scDRS z, Endothelial",scdrs_state_load
+genetics,fg_height_nfdr_Endothelial,0/7,"Height FinnGen: states FDR<0.05, Endothelial",scdrs_state_load
+genetics,fg_height_median_z_Stromal,3.57,"Height FinnGen: median scDRS z, Stromal",scdrs_state_load
+genetics,fg_height_nfdr_Stromal,13/15,"Height FinnGen: states FDR<0.05, Stromal",scdrs_state_load
+genetics,fg_height_nfdr_all,14/54,Height FinnGen: states FDR<0.05,scdrs_state_load
+genetics,fg_height_stromal_n_negative,0/15,Height FinnGen: stromal states with z<0,scdrs_state_load
+genetics,fg_height_mw_immune_vs_stromal,1.000,Height FinnGen: MW P immune > stromal state z (one-sided),scdrs_state_load
+genetics,rho_ra_eur_noMHC__fg_ra_noMHC,0.93,Spearman rho of state z: ra_eur_noMHC vs fg_ra_noMHC,scdrs_trait_concordance
+genetics,rho_ra_eur__fg_ra,0.96,Spearman rho of state z: ra_eur vs fg_ra,scdrs_trait_concordance
+genetics,rho_ra_eur__ra_eur_noMHC,0.87,Spearman rho of state z: ra_eur vs ra_eur_noMHC,scdrs_trait_concordance
+genetics,rho_fg_ra_seropos__fg_ra_seroneg,0.93,Spearman rho of state z: fg_ra_seropos vs fg_ra_seroneg,scdrs_trait_concordance
+genetics,rho_ra_eur_noMHC__fg_oa,-0.49,Spearman rho of state z: ra_eur_noMHC vs fg_oa,scdrs_trait_concordance
+genetics,rho_ra_eur_noMHC__fg_height,-0.51,Spearman rho of state z: ra_eur_noMHC vs fg_height,scdrs_trait_concordance
+genetics,rho_top500_vs_top1000,0.98,ra_eur_noMHC: state z with top-500 vs top-1000 genes,scdrs_group_state_top500
+genetics,rho_top2000_vs_top1000,0.97,ra_eur_noMHC: state z with top-2000 vs top-1000 genes,scdrs_group_state_top2000
+cohorts,GSE198520_n_baseline,46,GSE198520: baseline biopsies scored,bulk_samples
+cohorts,GSE198520_n_response,33 (14 non-responders),GSE198520: baseline with binary response,bulk_samples
+cohorts,GSE24742_n_baseline,12,GSE24742: baseline biopsies scored,bulk_samples
+cohorts,GSE24742_n_response,6 (3 non-responders),GSE24742: baseline with binary response,bulk_samples
+cohorts,GSE45867_n_baseline,20,GSE45867: baseline biopsies scored,bulk_samples
+cohorts,GSE45867_n_response,14 (5 non-responders),GSE45867: baseline with binary response,bulk_samples
+cohorts,PEAC_n_baseline,86,PEAC: baseline biopsies scored,bulk_samples
+cohorts,R4RA_n_baseline,130,R4RA: baseline biopsies scored,bulk_samples
+cohorts,R4RA_n_response,130 (65 non-responders),R4RA: baseline with binary response,bulk_samples
+cohorts,STRAP_n_baseline,210,STRAP: baseline biopsies scored,bulk_samples
+cohorts,STRAP_n_response,135 (45 non-responders),STRAP: baseline with binary response,bulk_samples
+cohorts,R4RA_n_quantified,181,R4RA: runs quantified with Salmon,r4ra_salmon_qc
+cohorts,R4RA_mapping_median,62.90,R4RA: median Salmon mapping rate (%),r4ra_salmon_qc
+cohorts,STRAP_n_quantified,210,STRAP: runs quantified with Salmon,strap_salmon_qc
+cohorts,STRAP_mapping_median,78.50,STRAP: median Salmon mapping rate (%),strap_salmon_qc
+cohorts,PEAC_n_quantified,86,PEAC: runs quantified with Salmon,peac_salmon_qc
+cohorts,PEAC_mapping_median,88.70,PEAC: median Salmon mapping rate (%),peac_salmon_qc
+cohorts,GSE198520_pathotype_nfdr,6/52,"GSE198520: states differing by pathotype (KW, FDR<0.05)",pathotype_assoc_state
+cohorts,GSE198520_pathotype_top_Stromal,8/15,GSE198520: Stromal states highest in Fibroid,pathotype_assoc_state
+cohorts,GSE198520_pathotype_top_T/NK,2/13,GSE198520: T/NK states highest in Lymphoid,pathotype_assoc_state
+cohorts,GSE198520_pathotype_top_B/plasma,1/3,GSE198520: B/plasma states highest in Lymphoid,pathotype_assoc_state
+cohorts,PEAC_pathotype_nfdr,42/52,"PEAC: states differing by pathotype (KW, FDR<0.05)",pathotype_assoc_state
+cohorts,PEAC_pathotype_top_Stromal,11/15,PEAC: Stromal states highest in Fibroid,pathotype_assoc_state
+cohorts,PEAC_pathotype_top_T/NK,13/13,PEAC: T/NK states highest in Lymphoid,pathotype_assoc_state
+cohorts,PEAC_pathotype_top_B/plasma,3/3,PEAC: B/plasma states highest in Lymphoid,pathotype_assoc_state
+cohorts,R4RA_pathotype_nfdr,31/52,"R4RA: states differing by pathotype (KW, FDR<0.05)",pathotype_assoc_state
+cohorts,R4RA_pathotype_top_Stromal,4/15,R4RA: Stromal states highest in Fibroid,pathotype_assoc_state
+cohorts,R4RA_pathotype_top_T/NK,13/13,R4RA: T/NK states highest in Lymphoid,pathotype_assoc_state
+cohorts,R4RA_pathotype_top_B/plasma,3/3,R4RA: B/plasma states highest in Lymphoid,pathotype_assoc_state
+cohorts,STRAP_pathotype_nfdr,40/52,"STRAP: states differing by pathotype (KW, FDR<0.05)",pathotype_assoc_state
+cohorts,STRAP_pathotype_top_Stromal,3/15,STRAP: Stromal states highest in Fibroid,pathotype_assoc_state
+cohorts,STRAP_pathotype_top_T/NK,9/13,STRAP: T/NK states highest in Lymphoid,pathotype_assoc_state
+cohorts,STRAP_pathotype_top_B/plasma,3/3,STRAP: B/plasma states highest in Lymphoid,pathotype_assoc_state
+cohorts,strap_n_matched,135/210,STRAP biopsies confidently linked to published arm/ACR20,strap_sample_match
+cohorts,strap_matched_arms,Rituximab 53; Tocilizumab 42; Etanercept 40,STRAP matched per arm,strap_sample_match
+cohorts,strap_profile_r_median,0.90,median correlation of recomputed vs published AMP1 profile (matched),strap_sample_match
+response,GSE198520_n_nominal,34/52,GSE198520: states nominally associated with non-response,response_assoc_state
+response,GSE198520_min_fdr,0.03,GSE198520: smallest FDR,response_assoc_state
+response,GSE198520_median_logOR_T/NK,1.75,"GSE198520: median log OR non-response, T/NK",response_assoc_state
+response,GSE198520_median_logOR_B/plasma,0.84,"GSE198520: median log OR non-response, B/plasma",response_assoc_state
+response,GSE198520_median_logOR_Myeloid,-0.60,"GSE198520: median log OR non-response, Myeloid",response_assoc_state
+response,GSE198520_median_logOR_Endothelial,0.83,"GSE198520: median log OR non-response, Endothelial",response_assoc_state
+response,GSE198520_median_logOR_Stromal,-1.10,"GSE198520: median log OR non-response, Stromal",response_assoc_state
+response,GSE45867_n_nominal,0/52,GSE45867: states nominally associated with non-response,response_assoc_state
+response,GSE45867_min_fdr,0.98,GSE45867: smallest FDR,response_assoc_state
+response,GSE45867_median_logOR_T/NK,0.39,"GSE45867: median log OR non-response, T/NK",response_assoc_state
+response,GSE45867_median_logOR_B/plasma,0.50,"GSE45867: median log OR non-response, B/plasma",response_assoc_state
+response,GSE45867_median_logOR_Myeloid,0.40,"GSE45867: median log OR non-response, Myeloid",response_assoc_state
+response,GSE45867_median_logOR_Endothelial,-0.01,"GSE45867: median log OR non-response, Endothelial",response_assoc_state
+response,GSE45867_median_logOR_Stromal,-0.08,"GSE45867: median log OR non-response, Stromal",response_assoc_state
+response,R4RA_n_nominal,3/52,R4RA: states nominally associated with non-response,response_assoc_state
+response,R4RA_min_fdr,0.58,R4RA: smallest FDR,response_assoc_state
+response,R4RA_median_logOR_T/NK,-0.09,"R4RA: median log OR non-response, T/NK",response_assoc_state
+response,R4RA_median_logOR_B/plasma,0.12,"R4RA: median log OR non-response, B/plasma",response_assoc_state
+response,R4RA_median_logOR_Myeloid,-0.17,"R4RA: median log OR non-response, Myeloid",response_assoc_state
+response,R4RA_median_logOR_Endothelial,0.11,"R4RA: median log OR non-response, Endothelial",response_assoc_state
+response,R4RA_median_logOR_Stromal,0.31,"R4RA: median log OR non-response, Stromal",response_assoc_state
+response,STRAP_n_nominal,0/52,STRAP: states nominally associated with non-response,response_assoc_state
+response,STRAP_min_fdr,0.81,STRAP: smallest FDR,response_assoc_state
+response,STRAP_median_logOR_T/NK,-0.18,"STRAP: median log OR non-response, T/NK",response_assoc_state
+response,STRAP_median_logOR_B/plasma,-0.32,"STRAP: median log OR non-response, B/plasma",response_assoc_state
+response,STRAP_median_logOR_Myeloid,-0.23,"STRAP: median log OR non-response, Myeloid",response_assoc_state
+response,STRAP_median_logOR_Endothelial,0.07,"STRAP: median log OR non-response, Endothelial",response_assoc_state
+response,STRAP_median_logOR_Stromal,-0.07,"STRAP: median log OR non-response, Stromal",response_assoc_state
+response,R4RA_top_state,"Fib SCARA5+ TNXB+ sublining: OR 1.56 (1.08-2.25), P = 0.019, FDR = 0.58",R4RA strongest state,response_assoc_state
+response,gli_GSE198520_ra_eur_noMHC,"OR 4.00 (1.25-12.81), P = 0.02, perm P = 0.79, n = 33 (14 NR)","GLI vs non-response: GSE198520, RA (Ishigaki, MHC removed)",gli_response
+response,gli_GSE198520_fg_ra_noMHC,"OR 2.51 (1.01-6.22), P = 0.05, perm P = 0.72, n = 33 (14 NR)","GLI vs non-response: GSE198520, RA (FinnGen, MHC removed)",gli_response
+response,gli_GSE198520_fg_oa,"OR 0.73 (0.35-1.53), P = 0.41, perm P = 0.42, n = 33 (14 NR)","GLI vs non-response: GSE198520, Osteoarthritis (contrast)",gli_response
+response,gli_GSE24742_ra_eur_noMHC,"OR 1.73 (0.28-10.74), P = 0.56, perm P = 0.70, n = 6 (3 NR)","GLI vs non-response: GSE24742, RA (Ishigaki, MHC removed)",gli_response
+response,gli_GSE24742_fg_ra_noMHC,"OR 1.91 (0.30-12.26), P = 0.49, perm P = 0.74, n = 6 (3 NR)","GLI vs non-response: GSE24742, RA (FinnGen, MHC removed)",gli_response
+response,gli_GSE24742_fg_oa,"OR 0.34 (0.04-2.55), P = 0.29, perm P = 0.15, n = 6 (3 NR)","GLI vs non-response: GSE24742, Osteoarthritis (contrast)",gli_response
+response,gli_GSE45867_ra_eur_noMHC,"OR 1.27 (0.42-3.87), P = 0.67, perm P = 0.68, n = 14 (5 NR)","GLI vs non-response: GSE45867, RA (Ishigaki, MHC removed)",gli_response
+response,gli_GSE45867_fg_ra_noMHC,"OR 1.24 (0.41-3.80), P = 0.70, perm P = 0.66, n = 14 (5 NR)","GLI vs non-response: GSE45867, RA (FinnGen, MHC removed)",gli_response
+response,gli_GSE45867_fg_oa,"OR 0.68 (0.22-2.13), P = 0.51, perm P = 0.21, n = 14 (5 NR)","GLI vs non-response: GSE45867, Osteoarthritis (contrast)",gli_response
+response,gli_R4RA_ra_eur_noMHC,"OR 0.80 (0.56-1.13), P = 0.20, perm P = 0.17, n = 130 (65 NR)","GLI vs non-response: R4RA, RA (Ishigaki, MHC removed)",gli_response
+response,gli_R4RA_fg_ra_noMHC,"OR 0.81 (0.57-1.15), P = 0.24, perm P = 0.23, n = 130 (65 NR)","GLI vs non-response: R4RA, RA (FinnGen, MHC removed)",gli_response
+response,gli_R4RA_fg_oa,"OR 1.39 (0.97-1.99), P = 0.07, perm P = 0.92, n = 130 (65 NR)","GLI vs non-response: R4RA, Osteoarthritis (contrast)",gli_response
+response,gli_STRAP_ra_eur_noMHC,"OR 0.87 (0.60-1.25), P = 0.44, perm P = 0.18, n = 135 (45 NR)","GLI vs non-response: STRAP, RA (Ishigaki, MHC removed)",gli_response
+response,gli_STRAP_fg_ra_noMHC,"OR 0.85 (0.59-1.23), P = 0.39, perm P = 0.14, n = 135 (45 NR)","GLI vs non-response: STRAP, RA (FinnGen, MHC removed)",gli_response
+response,gli_STRAP_fg_oa,"OR 1.12 (0.78-1.61), P = 0.55, perm P = 0.74, n = 135 (45 NR)","GLI vs non-response: STRAP, Osteoarthritis (contrast)",gli_response
+response,gli_pooled_trials_ra_eur_noMHC,"OR 0.83 (0.64-1.07), P = 0.15, I2 = 0%","GLI pooled R4RA+STRAP, ra_eur_noMHC",gli_response
+response,gli_pooled_all_ra_eur_noMHC,"OR 1.05 (0.62-1.79), P = 0.85, I2 = 71% (GSE198520, R4RA, STRAP)","GLI pooled all eligible cohorts, ra_eur_noMHC",gli_response
+response,gli_pooled_trials_fg_ra_noMHC,"OR 0.83 (0.65-1.07), P = 0.15, I2 = 0%","GLI pooled R4RA+STRAP, fg_ra_noMHC",gli_response
+response,gli_pooled_all_fg_ra_noMHC,"OR 1.00 (0.64-1.57), P = 0.99, I2 = 63% (GSE198520, R4RA, STRAP)","GLI pooled all eligible cohorts, fg_ra_noMHC",gli_response
+response,gli_pooled_trials_fg_oa,"OR 1.25 (0.97-1.61), P = 0.09, I2 = 0%","GLI pooled R4RA+STRAP, fg_oa",gli_response
+response,gli_pooled_all_fg_oa,"OR 1.16 (0.88-1.54), P = 0.29, I2 = 21% (GSE198520, R4RA, STRAP)","GLI pooled all eligible cohorts, fg_oa",gli_response
+response,R4RA_compartment_mw_T/NK,"median NR - R = -0.03, MW P = 0.638","R4RA: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,R4RA_compartment_mw_B/plasma,"median NR - R = +0.10, MW P = 0.485","R4RA: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,R4RA_compartment_mw_Myeloid,"median NR - R = -0.20, MW P = 0.092","R4RA: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,R4RA_compartment_mw_Endothelial,"median NR - R = +0.15, MW P = 0.713","R4RA: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,R4RA_compartment_mw_Stromal,"median NR - R = +0.12, MW P = 0.032","R4RA: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,STRAP_compartment_mw_T/NK,"median NR - R = -0.10, MW P = 0.561","STRAP: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,STRAP_compartment_mw_B/plasma,"median NR - R = -0.11, MW P = 0.284","STRAP: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,STRAP_compartment_mw_Myeloid,"median NR - R = -0.05, MW P = 0.394","STRAP: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,STRAP_compartment_mw_Endothelial,"median NR - R = -0.07, MW P = 0.806","STRAP: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,STRAP_compartment_mw_Stromal,"median NR - R = -0.07, MW P = 0.778","STRAP: compartment-mean score, non-responders vs responders",bulk_state_scores
+response,strap_drug_min_p_interaction,0.11,STRAP: smallest variable x arm interaction P,strap_drug_specific
+response,strap_drug_gli,etanercept OR 0.63 (0.32-1.22); rituximab OR 0.79 (0.43-1.47); tocilizumab OR 1.33 (0.68-2.62); interaction P = 0.27,STRAP GLI by arm,strap_drug_specific
+activity,B/plasma_crp,"rho 0.10 (0.01-0.19), P = 0.033, I2 = 0%, n = 453",pooled baseline B/plasma vs crp,activity_assoc_pooled
+activity,B/plasma_das28,"rho 0.12 (0.03-0.20), P = 0.012, I2 = 1%, n = 490",pooled baseline B/plasma vs das28,activity_assoc_pooled
+activity,B/plasma_esr,"rho 0.14 (0.04-0.25), P = 0.009, I2 = 23%, n = 470",pooled baseline B/plasma vs esr,activity_assoc_pooled
+activity,B/plasma_sjc,"rho 0.01 (-0.08-0.11), P = 0.753, I2 = 0%, n = 470",pooled baseline B/plasma vs sjc,activity_assoc_pooled
+activity,Endothelial_crp,"rho 0.01 (-0.20-0.23), P = 0.899, I2 = 79%, n = 453",pooled baseline Endothelial vs crp,activity_assoc_pooled
+activity,Endothelial_das28,"rho 0.06 (-0.03-0.14), P = 0.225, I2 = 0%, n = 490",pooled baseline Endothelial vs das28,activity_assoc_pooled
+activity,Endothelial_esr,"rho 0.06 (-0.03-0.15), P = 0.176, I2 = 0%, n = 470",pooled baseline Endothelial vs esr,activity_assoc_pooled
+activity,Endothelial_sjc,"rho -0.06 (-0.18-0.07), P = 0.399, I2 = 43%, n = 470",pooled baseline Endothelial vs sjc,activity_assoc_pooled
+activity,GLI (OA contrast)_crp,"rho -0.29 (-0.41--0.16), P = 2.3e-05, I2 = 48%, n = 453",pooled baseline GLI (OA contrast) vs crp,activity_assoc_pooled
+activity,GLI (OA contrast)_das28,"rho -0.21 (-0.29--0.12), P = 4.7e-06, I2 = 0%, n = 490",pooled baseline GLI (OA contrast) vs das28,activity_assoc_pooled
+activity,GLI (OA contrast)_esr,"rho -0.22 (-0.30--0.13), P = 1.9e-06, I2 = 0%, n = 470",pooled baseline GLI (OA contrast) vs esr,activity_assoc_pooled
+activity,GLI (OA contrast)_sjc,"rho -0.11 (-0.19--0.01), P = 0.024, I2 = 0%, n = 470",pooled baseline GLI (OA contrast) vs sjc,activity_assoc_pooled
+activity,GLI (RA)_crp,"rho 0.22 (0.11-0.31), P = 6.1e-05, I2 = 19%, n = 453",pooled baseline GLI (RA) vs crp,activity_assoc_pooled
+activity,GLI (RA)_das28,"rho 0.18 (0.08-0.27), P = 2.4e-04, I2 = 7%, n = 490",pooled baseline GLI (RA) vs das28,activity_assoc_pooled
+activity,GLI (RA)_esr,"rho 0.17 (0.08-0.25), P = 3.4e-04, I2 = 0%, n = 470",pooled baseline GLI (RA) vs esr,activity_assoc_pooled
+activity,GLI (RA)_sjc,"rho 0.11 (0.02-0.20), P = 0.014, I2 = 0%, n = 470",pooled baseline GLI (RA) vs sjc,activity_assoc_pooled
+activity,Myeloid_crp,"rho 0.25 (0.11-0.38), P = 4.5e-04, I2 = 52%, n = 453",pooled baseline Myeloid vs crp,activity_assoc_pooled
+activity,Myeloid_das28,"rho 0.15 (0.06-0.23), P = 0.001, I2 = 0%, n = 490",pooled baseline Myeloid vs das28,activity_assoc_pooled
+activity,Myeloid_esr,"rho 0.20 (0.11-0.29), P = 9.8e-06, I2 = 0%, n = 470",pooled baseline Myeloid vs esr,activity_assoc_pooled
+activity,Myeloid_sjc,"rho 0.05 (-0.04-0.14), P = 0.295, I2 = 0%, n = 470",pooled baseline Myeloid vs sjc,activity_assoc_pooled
+activity,Stromal_crp,"rho -0.17 (-0.34-0.00), P = 0.054, I2 = 69%, n = 453",pooled baseline Stromal vs crp,activity_assoc_pooled
+activity,Stromal_das28,"rho -0.15 (-0.24--0.05), P = 0.003, I2 = 7%, n = 490",pooled baseline Stromal vs das28,activity_assoc_pooled
+activity,Stromal_esr,"rho -0.11 (-0.20--0.02), P = 0.021, I2 = 0%, n = 470",pooled baseline Stromal vs esr,activity_assoc_pooled
+activity,Stromal_sjc,"rho -0.13 (-0.22--0.04), P = 0.006, I2 = 0%, n = 470",pooled baseline Stromal vs sjc,activity_assoc_pooled
+activity,T/NK_crp,"rho 0.17 (0.08-0.26), P = 3.9e-04, I2 = 0%, n = 453",pooled baseline T/NK vs crp,activity_assoc_pooled
+activity,T/NK_das28,"rho 0.20 (0.06-0.34), P = 0.006, I2 = 54%, n = 490",pooled baseline T/NK vs das28,activity_assoc_pooled
+activity,T/NK_esr,"rho 0.18 (0.07-0.28), P = 0.002, I2 = 28%, n = 470",pooled baseline T/NK vs esr,activity_assoc_pooled
+activity,T/NK_sjc,"rho 0.05 (-0.04-0.15), P = 0.242, I2 = 0%, n = 470",pooled baseline T/NK vs sjc,activity_assoc_pooled
+activity,cohorts,"R4RA (n = 130), STRAP (n = 208), PEAC (n = 86), GSE198520 (n = 46), GSE45867 (n = 20)",cohorts in activity analysis,activity_assoc
+remodel,GSE198520_n_nominal_interaction,9/52,GSE198520: states with nominal time x response interaction,remodel_state
+remodel,GSE198520_min_fdr_interaction,0.08,GSE198520: smallest FDR,remodel_state
+remodel,R4RA_n_nominal_interaction,0/52,R4RA: states with nominal time x response interaction,remodel_state
+remodel,R4RA_min_fdr_interaction,0.54,R4RA: smallest FDR,remodel_state
+remodel,GSE198520_n_fdr_resp,15/52,GSE198520: states changing in responders (FDR<0.05),remodel_state
+remodel,GSE198520_n_fdr_nonresp,0/52,GSE198520: states changing in non-responders (FDR<0.05),remodel_state
+remodel,GSE198520_median_change,T/NK R -0.22 / NR -0.17; B/plasma R -0.18 / NR -0.28; Myeloid R -0.46 / NR -0.11; Endothelial R +0.19 / NR +0.02; Stromal R -0.07 / NR +0.23,GSE198520: median change by compartment,remodel_state
+remodel,R4RA_n_fdr_resp,27/52,R4RA: states changing in responders (FDR<0.05),remodel_state
+remodel,R4RA_n_fdr_nonresp,20/52,R4RA: states changing in non-responders (FDR<0.05),remodel_state
+remodel,R4RA_median_change,T/NK R -0.34 / NR -0.08; B/plasma R -0.28 / NR -0.17; Myeloid R -0.49 / NR -0.31; Endothelial R +0.16 / NR +0.45; Stromal R +0.34 / NR +0.19,R4RA: median change by compartment,remodel_state
+remodel,rho_resp_change_cohorts,0.76 (P = 8.7e-11),responder change R4RA vs GSE198520,remodel_state
+remodel,R4RA_gli_delta,"median change responders -0.38 vs non-responders -0.14, MW P = 0.28 (18 R / 27 NR)",R4RA: change in GLI,remodel_gli
+remodel,GSE198520_gli_delta,"median change responders -0.21 vs non-responders -0.22, MW P = 0.68 (19 R / 14 NR)",GSE198520: change in GLI,remodel_gli
+spatial,n_patients,17,Xenium 5k pre-treatment sections,xenium_sample_qc
+spatial,n_cells,966226,segmented cells,xenium_sample_qc
+spatial,n_niches,10,k-means niches,xenium_niche_response
+spatial,niche_min_p,0.31,smallest remission vs non-remission niche P,xenium_niche_response
+spatial,n_rem_non,10 remission / 5 non-remission,patients by outcome,xenium_niche_response
+spatial,rho_nb_load_same,0.79 (P = 1.3e-12),state load vs neighbourhood load (all),xenium_state_load_niche
+spatial,rho_nb_load_xcomp,-0.51 (P = 7.1e-05),state load vs cross-compartment neighbourhood load,xenium_state_load_niche
+targets,rho_load_frac_genetic,0.70 (P = 4.4e-09),state genetic load vs % specific genes that are genetic RA targets,ot_target_state_summary
+targets,n_ot_targets,8420,Open Targets RA-associated targets,ot_ra_targets
+targets,n_ot_genetic,227,genetic_association >= 0.5,ot_ra_targets
+targets,n_ot_clinical,46,clinical >= 0.5,ot_ra_targets
+targets,immune_specific_genetic,108/5183 (2.1%),immune-specific genes with genetic support,"state_pseudobulk_long, ot_ra_targets"
+targets,immune_specific_clinical,24 (3 with genetic support),clinically pursued targets specific to immune states,"state_pseudobulk_long, ot_ra_targets"
+targets,stromal_specific_genetic,34/3181 (1.1%),stromal-specific genes with genetic support,"state_pseudobulk_long, ot_ra_targets"
+targets,stromal_specific_clinical,6 (1 with genetic support),clinically pursued targets specific to stromal states,"state_pseudobulk_long, ot_ra_targets"
+targets,mw_immune_vs_stromal_ga,0.011,MW P genetic score immune- > stromal-specific genes,"state_pseudobulk_long, ot_ra_targets"
+targets,fisher_immune_vs_stromal,4.5e-04,Fisher P genetic-target share immune vs stromal,"state_pseudobulk_long, ot_ra_targets"
+genmap,scDRS|discovery|fg_height|T/NK,1/13; median z 1.31,"scDRS, discovery, fg_height: T/NK",genetic_map_matrix
+genmap,scDRS|discovery|fg_height|B/plasma,0/5; median z 0.59,"scDRS, discovery, fg_height: B/plasma",genetic_map_matrix
+genmap,scDRS|discovery|fg_height|Myeloid,0/14; median z -2.35,"scDRS, discovery, fg_height: Myeloid",genetic_map_matrix
+genmap,scDRS|discovery|fg_height|Endothelial,0/7; median z 0.71,"scDRS, discovery, fg_height: Endothelial",genetic_map_matrix
+genmap,scDRS|discovery|fg_height|Stromal,13/15; median z 3.57,"scDRS, discovery, fg_height: Stromal",genetic_map_matrix
+genmap,scDRS|discovery|fg_oa|T/NK,0/13; median z 0.56,"scDRS, discovery, fg_oa: T/NK",genetic_map_matrix
+genmap,scDRS|discovery|fg_oa|B/plasma,0/5; median z 0.36,"scDRS, discovery, fg_oa: B/plasma",genetic_map_matrix
+genmap,scDRS|discovery|fg_oa|Myeloid,0/14; median z -1.85,"scDRS, discovery, fg_oa: Myeloid",genetic_map_matrix
+genmap,scDRS|discovery|fg_oa|Endothelial,0/7; median z 0.41,"scDRS, discovery, fg_oa: Endothelial",genetic_map_matrix
+genmap,scDRS|discovery|fg_oa|Stromal,0/15; median z 1.93,"scDRS, discovery, fg_oa: Stromal",genetic_map_matrix
+genmap,scDRS|discovery|fg_ra_noMHC|T/NK,9/13; median z 4.62,"scDRS, discovery, fg_ra_noMHC: T/NK",genetic_map_matrix
+genmap,scDRS|discovery|fg_ra_noMHC|B/plasma,0/5; median z 1.15,"scDRS, discovery, fg_ra_noMHC: B/plasma",genetic_map_matrix
+genmap,scDRS|discovery|fg_ra_noMHC|Myeloid,10/14; median z 3.09,"scDRS, discovery, fg_ra_noMHC: Myeloid",genetic_map_matrix
+genmap,scDRS|discovery|fg_ra_noMHC|Endothelial,0/7; median z -2.53,"scDRS, discovery, fg_ra_noMHC: Endothelial",genetic_map_matrix
+genmap,scDRS|discovery|fg_ra_noMHC|Stromal,0/15; median z -0.95,"scDRS, discovery, fg_ra_noMHC: Stromal",genetic_map_matrix
+genmap,scDRS|discovery|ra_eur_noMHC|T/NK,11/13; median z 6.37,"scDRS, discovery, ra_eur_noMHC: T/NK",genetic_map_matrix
+genmap,scDRS|discovery|ra_eur_noMHC|B/plasma,4/5; median z 2.37,"scDRS, discovery, ra_eur_noMHC: B/plasma",genetic_map_matrix
+genmap,scDRS|discovery|ra_eur_noMHC|Myeloid,12/14; median z 3.35,"scDRS, discovery, ra_eur_noMHC: Myeloid",genetic_map_matrix
+genmap,scDRS|discovery|ra_eur_noMHC|Endothelial,0/7; median z -1.33,"scDRS, discovery, ra_eur_noMHC: Endothelial",genetic_map_matrix
+genmap,scDRS|discovery|ra_eur_noMHC|Stromal,0/15; median z -1.72,"scDRS, discovery, ra_eur_noMHC: Stromal",genetic_map_matrix
+genmap,scDRS|discovery|ra_eas_noMHC|T/NK,10/13; median z 3.19,"scDRS, discovery, ra_eas_noMHC: T/NK",genetic_map_matrix
+genmap,scDRS|discovery|ra_eas_noMHC|B/plasma,4/5; median z 3.04,"scDRS, discovery, ra_eas_noMHC: B/plasma",genetic_map_matrix
+genmap,scDRS|discovery|ra_eas_noMHC|Myeloid,13/14; median z 2.93,"scDRS, discovery, ra_eas_noMHC: Myeloid",genetic_map_matrix
+genmap,scDRS|discovery|ra_eas_noMHC|Endothelial,0/7; median z -1.29,"scDRS, discovery, ra_eas_noMHC: Endothelial",genetic_map_matrix
+genmap,scDRS|discovery|ra_eas_noMHC|Stromal,0/15; median z -1.50,"scDRS, discovery, ra_eas_noMHC: Stromal",genetic_map_matrix
+genmap,scDRS|discovery|fg_dupuytren|T/NK,0/13; median z -0.02,"scDRS, discovery, fg_dupuytren: T/NK",genetic_map_matrix
+genmap,scDRS|discovery|fg_dupuytren|B/plasma,0/5; median z -0.61,"scDRS, discovery, fg_dupuytren: B/plasma",genetic_map_matrix
+genmap,scDRS|discovery|fg_dupuytren|Myeloid,0/14; median z -0.99,"scDRS, discovery, fg_dupuytren: Myeloid",genetic_map_matrix
+genmap,scDRS|discovery|fg_dupuytren|Endothelial,0/7; median z 0.53,"scDRS, discovery, fg_dupuytren: Endothelial",genetic_map_matrix
+genmap,scDRS|discovery|fg_dupuytren|Stromal,7/15; median z 2.14,"scDRS, discovery, fg_dupuytren: Stromal",genetic_map_matrix
+genmap,scDRS|replication|fg_height|T/NK,0/37; median z -1.14,"scDRS, replication, fg_height: T/NK",genetic_map_matrix
+genmap,scDRS|replication|fg_height|B/plasma,0/9; median z 0.56,"scDRS, replication, fg_height: B/plasma",genetic_map_matrix
+genmap,scDRS|replication|fg_height|Myeloid,0/15; median z -1.95,"scDRS, replication, fg_height: Myeloid",genetic_map_matrix
+genmap,scDRS|replication|fg_height|Endothelial,1/5; median z 1.38,"scDRS, replication, fg_height: Endothelial",genetic_map_matrix
+genmap,scDRS|replication|fg_height|Stromal,10/10; median z 5.04,"scDRS, replication, fg_height: Stromal",genetic_map_matrix
+genmap,scDRS|replication|fg_oa|T/NK,0/37; median z -0.90,"scDRS, replication, fg_oa: T/NK",genetic_map_matrix
+genmap,scDRS|replication|fg_oa|B/plasma,0/9; median z 0.51,"scDRS, replication, fg_oa: B/plasma",genetic_map_matrix
+genmap,scDRS|replication|fg_oa|Myeloid,0/15; median z -2.51,"scDRS, replication, fg_oa: Myeloid",genetic_map_matrix
+genmap,scDRS|replication|fg_oa|Endothelial,0/5; median z 0.93,"scDRS, replication, fg_oa: Endothelial",genetic_map_matrix
+genmap,scDRS|replication|fg_oa|Stromal,10/10; median z 3.75,"scDRS, replication, fg_oa: Stromal",genetic_map_matrix
+genmap,scDRS|replication|fg_ra_noMHC|T/NK,26/37; median z 3.20,"scDRS, replication, fg_ra_noMHC: T/NK",genetic_map_matrix
+genmap,scDRS|replication|fg_ra_noMHC|B/plasma,0/9; median z 1.03,"scDRS, replication, fg_ra_noMHC: B/plasma",genetic_map_matrix
+genmap,scDRS|replication|fg_ra_noMHC|Myeloid,12/15; median z 2.48,"scDRS, replication, fg_ra_noMHC: Myeloid",genetic_map_matrix
+genmap,scDRS|replication|fg_ra_noMHC|Endothelial,0/5; median z -2.05,"scDRS, replication, fg_ra_noMHC: Endothelial",genetic_map_matrix
+genmap,scDRS|replication|fg_ra_noMHC|Stromal,0/10; median z -2.05,"scDRS, replication, fg_ra_noMHC: Stromal",genetic_map_matrix
+genmap,scDRS|replication|ra_eur_noMHC|T/NK,32/37; median z 4.64,"scDRS, replication, ra_eur_noMHC: T/NK",genetic_map_matrix
+genmap,scDRS|replication|ra_eur_noMHC|B/plasma,6/9; median z 2.41,"scDRS, replication, ra_eur_noMHC: B/plasma",genetic_map_matrix
+genmap,scDRS|replication|ra_eur_noMHC|Myeloid,8/15; median z 2.03,"scDRS, replication, ra_eur_noMHC: Myeloid",genetic_map_matrix
+genmap,scDRS|replication|ra_eur_noMHC|Endothelial,0/5; median z -1.57,"scDRS, replication, ra_eur_noMHC: Endothelial",genetic_map_matrix
+genmap,scDRS|replication|ra_eur_noMHC|Stromal,0/10; median z -2.03,"scDRS, replication, ra_eur_noMHC: Stromal",genetic_map_matrix
+genmap,scDRS|replication|ra_eas_noMHC|T/NK,32/37; median z 4.40,"scDRS, replication, ra_eas_noMHC: T/NK",genetic_map_matrix
+genmap,scDRS|replication|ra_eas_noMHC|B/plasma,5/9; median z 2.49,"scDRS, replication, ra_eas_noMHC: B/plasma",genetic_map_matrix
+genmap,scDRS|replication|ra_eas_noMHC|Myeloid,14/15; median z 3.26,"scDRS, replication, ra_eas_noMHC: Myeloid",genetic_map_matrix
+genmap,scDRS|replication|ra_eas_noMHC|Endothelial,0/5; median z -1.19,"scDRS, replication, ra_eas_noMHC: Endothelial",genetic_map_matrix
+genmap,scDRS|replication|ra_eas_noMHC|Stromal,0/10; median z -2.44,"scDRS, replication, ra_eas_noMHC: Stromal",genetic_map_matrix
+genmap,scDRS|replication|fg_dupuytren|T/NK,0/37; median z -0.72,"scDRS, replication, fg_dupuytren: T/NK",genetic_map_matrix
+genmap,scDRS|replication|fg_dupuytren|B/plasma,0/9; median z -1.93,"scDRS, replication, fg_dupuytren: B/plasma",genetic_map_matrix
+genmap,scDRS|replication|fg_dupuytren|Myeloid,0/15; median z -0.82,"scDRS, replication, fg_dupuytren: Myeloid",genetic_map_matrix
+genmap,scDRS|replication|fg_dupuytren|Endothelial,0/5; median z 1.03,"scDRS, replication, fg_dupuytren: Endothelial",genetic_map_matrix
+genmap,scDRS|replication|fg_dupuytren|Stromal,7/10; median z 4.20,"scDRS, replication, fg_dupuytren: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_dupuytren|T/NK,0/37; median -log10 P 0.01,"MAGMA cell-type, replication, fg_dupuytren: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_dupuytren|B/plasma,0/9; median -log10 P 0.04,"MAGMA cell-type, replication, fg_dupuytren: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_dupuytren|Myeloid,0/15; median -log10 P 0.56,"MAGMA cell-type, replication, fg_dupuytren: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_dupuytren|Endothelial,0/5; median -log10 P 1.49,"MAGMA cell-type, replication, fg_dupuytren: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_dupuytren|Stromal,10/10; median -log10 P 3.59,"MAGMA cell-type, replication, fg_dupuytren: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_height|T/NK,0/37; median -log10 P 0.00,"MAGMA cell-type, replication, fg_height: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_height|B/plasma,0/9; median -log10 P 0.56,"MAGMA cell-type, replication, fg_height: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_height|Myeloid,1/15; median -log10 P 0.12,"MAGMA cell-type, replication, fg_height: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_height|Endothelial,5/5; median -log10 P 2.37,"MAGMA cell-type, replication, fg_height: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_height|Stromal,10/10; median -log10 P 7.98,"MAGMA cell-type, replication, fg_height: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_oa|T/NK,0/37; median -log10 P 0.02,"MAGMA cell-type, replication, fg_oa: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_oa|B/plasma,0/9; median -log10 P 0.63,"MAGMA cell-type, replication, fg_oa: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_oa|Myeloid,0/15; median -log10 P 0.05,"MAGMA cell-type, replication, fg_oa: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_oa|Endothelial,1/5; median -log10 P 0.76,"MAGMA cell-type, replication, fg_oa: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_oa|Stromal,6/10; median -log10 P 2.60,"MAGMA cell-type, replication, fg_oa: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_ra_noMHC|T/NK,13/37; median -log10 P 1.47,"MAGMA cell-type, replication, fg_ra_noMHC: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_ra_noMHC|B/plasma,0/9; median -log10 P 1.07,"MAGMA cell-type, replication, fg_ra_noMHC: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_ra_noMHC|Myeloid,0/15; median -log10 P 0.46,"MAGMA cell-type, replication, fg_ra_noMHC: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_ra_noMHC|Endothelial,0/5; median -log10 P 0.00,"MAGMA cell-type, replication, fg_ra_noMHC: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|replication|fg_ra_noMHC|Stromal,0/10; median -log10 P 0.00,"MAGMA cell-type, replication, fg_ra_noMHC: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eas_noMHC|T/NK,31/37; median -log10 P 3.45,"MAGMA cell-type, replication, ra_eas_noMHC: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eas_noMHC|B/plasma,5/9; median -log10 P 1.73,"MAGMA cell-type, replication, ra_eas_noMHC: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eas_noMHC|Myeloid,1/15; median -log10 P 0.10,"MAGMA cell-type, replication, ra_eas_noMHC: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eas_noMHC|Endothelial,0/5; median -log10 P 0.00,"MAGMA cell-type, replication, ra_eas_noMHC: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eas_noMHC|Stromal,0/10; median -log10 P 0.00,"MAGMA cell-type, replication, ra_eas_noMHC: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eur_noMHC|T/NK,13/37; median -log10 P 1.47,"MAGMA cell-type, replication, ra_eur_noMHC: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eur_noMHC|B/plasma,3/9; median -log10 P 1.57,"MAGMA cell-type, replication, ra_eur_noMHC: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eur_noMHC|Myeloid,0/15; median -log10 P 0.20,"MAGMA cell-type, replication, ra_eur_noMHC: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eur_noMHC|Endothelial,0/5; median -log10 P 0.00,"MAGMA cell-type, replication, ra_eur_noMHC: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|replication|ra_eur_noMHC|Stromal,0/10; median -log10 P 0.00,"MAGMA cell-type, replication, ra_eur_noMHC: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_dupuytren|T/NK,0/13; median -log10 P 0.02,"MAGMA cell-type, discovery, fg_dupuytren: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_dupuytren|B/plasma,0/5; median -log10 P 0.02,"MAGMA cell-type, discovery, fg_dupuytren: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_dupuytren|Myeloid,0/14; median -log10 P 0.02,"MAGMA cell-type, discovery, fg_dupuytren: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_dupuytren|Endothelial,0/7; median -log10 P 0.82,"MAGMA cell-type, discovery, fg_dupuytren: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_dupuytren|Stromal,12/15; median -log10 P 2.73,"MAGMA cell-type, discovery, fg_dupuytren: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_height|T/NK,0/13; median -log10 P 0.00,"MAGMA cell-type, discovery, fg_height: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_height|B/plasma,0/5; median -log10 P 0.20,"MAGMA cell-type, discovery, fg_height: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_height|Myeloid,0/14; median -log10 P 0.00,"MAGMA cell-type, discovery, fg_height: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_height|Endothelial,0/7; median -log10 P 0.93,"MAGMA cell-type, discovery, fg_height: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_height|Stromal,15/15; median -log10 P 4.43,"MAGMA cell-type, discovery, fg_height: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_oa|T/NK,0/13; median -log10 P 0.15,"MAGMA cell-type, discovery, fg_oa: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_oa|B/plasma,0/5; median -log10 P 0.41,"MAGMA cell-type, discovery, fg_oa: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_oa|Myeloid,0/14; median -log10 P 0.01,"MAGMA cell-type, discovery, fg_oa: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_oa|Endothelial,0/7; median -log10 P 0.35,"MAGMA cell-type, discovery, fg_oa: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_oa|Stromal,0/15; median -log10 P 1.42,"MAGMA cell-type, discovery, fg_oa: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_ra_noMHC|T/NK,12/13; median -log10 P 2.34,"MAGMA cell-type, discovery, fg_ra_noMHC: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_ra_noMHC|B/plasma,4/5; median -log10 P 3.85,"MAGMA cell-type, discovery, fg_ra_noMHC: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_ra_noMHC|Myeloid,1/14; median -log10 P 1.01,"MAGMA cell-type, discovery, fg_ra_noMHC: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_ra_noMHC|Endothelial,0/7; median -log10 P 0.00,"MAGMA cell-type, discovery, fg_ra_noMHC: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|fg_ra_noMHC|Stromal,0/15; median -log10 P 0.00,"MAGMA cell-type, discovery, fg_ra_noMHC: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eas_noMHC|T/NK,13/13; median -log10 P 5.53,"MAGMA cell-type, discovery, ra_eas_noMHC: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eas_noMHC|B/plasma,4/5; median -log10 P 4.83,"MAGMA cell-type, discovery, ra_eas_noMHC: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eas_noMHC|Myeloid,1/14; median -log10 P 0.89,"MAGMA cell-type, discovery, ra_eas_noMHC: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eas_noMHC|Endothelial,0/7; median -log10 P 0.00,"MAGMA cell-type, discovery, ra_eas_noMHC: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eas_noMHC|Stromal,0/15; median -log10 P 0.00,"MAGMA cell-type, discovery, ra_eas_noMHC: Stromal",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eur_noMHC|T/NK,13/13; median -log10 P 3.11,"MAGMA cell-type, discovery, ra_eur_noMHC: T/NK",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eur_noMHC|B/plasma,4/5; median -log10 P 4.42,"MAGMA cell-type, discovery, ra_eur_noMHC: B/plasma",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eur_noMHC|Myeloid,1/14; median -log10 P 1.01,"MAGMA cell-type, discovery, ra_eur_noMHC: Myeloid",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eur_noMHC|Endothelial,0/7; median -log10 P 0.00,"MAGMA cell-type, discovery, ra_eur_noMHC: Endothelial",genetic_map_matrix
+genmap,MAGMA cell-type|discovery|ra_eur_noMHC|Stromal,0/15; median -log10 P 0.00,"MAGMA cell-type, discovery, ra_eur_noMHC: Stromal",genetic_map_matrix
+genmap,Causal genes (all)|replication|ra_causal|T/NK,11/37; compartment enrichment z 3.44,"Causal genes (all), replication, ra_causal: T/NK",genetic_map_matrix
+genmap,Causal genes (all)|replication|ra_causal|B/plasma,2/9; compartment enrichment z 3.15,"Causal genes (all), replication, ra_causal: B/plasma",genetic_map_matrix
+genmap,Causal genes (all)|replication|ra_causal|Myeloid,1/15; compartment enrichment z -0.71,"Causal genes (all), replication, ra_causal: Myeloid",genetic_map_matrix
+genmap,Causal genes (all)|replication|ra_causal|Endothelial,0/5; compartment enrichment z -4.28,"Causal genes (all), replication, ra_causal: Endothelial",genetic_map_matrix
+genmap,Causal genes (all)|replication|ra_causal|Stromal,0/10; compartment enrichment z -3.89,"Causal genes (all), replication, ra_causal: Stromal",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|replication|ra_causal|T/NK,9/37; compartment enrichment z 2.94,"Causal genes (coding_or_finemap), replication, ra_causal: T/NK",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|replication|ra_causal|B/plasma,0/9; compartment enrichment z 2.00,"Causal genes (coding_or_finemap), replication, ra_causal: B/plasma",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|replication|ra_causal|Myeloid,0/15; compartment enrichment z 0.56,"Causal genes (coding_or_finemap), replication, ra_causal: Myeloid",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|replication|ra_causal|Endothelial,0/5; compartment enrichment z -3.19,"Causal genes (coding_or_finemap), replication, ra_causal: Endothelial",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|replication|ra_causal|Stromal,0/10; compartment enrichment z -4.40,"Causal genes (coding_or_finemap), replication, ra_causal: Stromal",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|replication|ra_causal|T/NK,13/37; compartment enrichment z 3.45,"Causal genes (no_blueprint_only), replication, ra_causal: T/NK",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|replication|ra_causal|B/plasma,1/9; compartment enrichment z 2.66,"Causal genes (no_blueprint_only), replication, ra_causal: B/plasma",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|replication|ra_causal|Myeloid,1/15; compartment enrichment z -0.44,"Causal genes (no_blueprint_only), replication, ra_causal: Myeloid",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|replication|ra_causal|Endothelial,0/5; compartment enrichment z -4.27,"Causal genes (no_blueprint_only), replication, ra_causal: Endothelial",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|replication|ra_causal|Stromal,0/10; compartment enrichment z -3.77,"Causal genes (no_blueprint_only), replication, ra_causal: Stromal",genetic_map_matrix
+genmap,Causal genes (all)|discovery|ra_causal|T/NK,12/13; compartment enrichment z 4.57,"Causal genes (all), discovery, ra_causal: T/NK",genetic_map_matrix
+genmap,Causal genes (all)|discovery|ra_causal|B/plasma,4/5; compartment enrichment z 3.96,"Causal genes (all), discovery, ra_causal: B/plasma",genetic_map_matrix
+genmap,Causal genes (all)|discovery|ra_causal|Myeloid,4/14; compartment enrichment z 2.39,"Causal genes (all), discovery, ra_causal: Myeloid",genetic_map_matrix
+genmap,Causal genes (all)|discovery|ra_causal|Endothelial,0/7; compartment enrichment z -4.92,"Causal genes (all), discovery, ra_causal: Endothelial",genetic_map_matrix
+genmap,Causal genes (all)|discovery|ra_causal|Stromal,0/15; compartment enrichment z -4.27,"Causal genes (all), discovery, ra_causal: Stromal",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|discovery|ra_causal|T/NK,13/13; compartment enrichment z 4.84,"Causal genes (coding_or_finemap), discovery, ra_causal: T/NK",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|discovery|ra_causal|B/plasma,4/5; compartment enrichment z 3.17,"Causal genes (coding_or_finemap), discovery, ra_causal: B/plasma",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|discovery|ra_causal|Myeloid,3/14; compartment enrichment z 2.16,"Causal genes (coding_or_finemap), discovery, ra_causal: Myeloid",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|discovery|ra_causal|Endothelial,0/7; compartment enrichment z -3.28,"Causal genes (coding_or_finemap), discovery, ra_causal: Endothelial",genetic_map_matrix
+genmap,Causal genes (coding_or_finemap)|discovery|ra_causal|Stromal,0/15; compartment enrichment z -4.99,"Causal genes (coding_or_finemap), discovery, ra_causal: Stromal",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|discovery|ra_causal|T/NK,11/13; compartment enrichment z 4.09,"Causal genes (no_blueprint_only), discovery, ra_causal: T/NK",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|discovery|ra_causal|B/plasma,3/5; compartment enrichment z 3.37,"Causal genes (no_blueprint_only), discovery, ra_causal: B/plasma",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|discovery|ra_causal|Myeloid,4/14; compartment enrichment z 2.48,"Causal genes (no_blueprint_only), discovery, ra_causal: Myeloid",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|discovery|ra_causal|Endothelial,0/7; compartment enrichment z -4.59,"Causal genes (no_blueprint_only), discovery, ra_causal: Endothelial",genetic_map_matrix
+genmap,Causal genes (no_blueprint_only)|discovery|ra_causal|Stromal,0/15; compartment enrichment z -3.96,"Causal genes (no_blueprint_only), discovery, ra_causal: Stromal",genetic_map_matrix
+genmap,n_causal_genes,154,likely causal RA genes (MHC excluded),ra_causal_genes
+genmap,causal_evidence,gtex 106; blueprint 37; coding 29; finemap 27,evidence counts,ra_causal_genes
+genmap,causal|discovery|all|B/plasma,"z 3.96, P = 2.0e-04, n genes 102",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|all|Endothelial,"z -4.92, P = 1.000, n genes 102",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|all|Myeloid,"z 2.39, P = 0.009, n genes 102",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|all|Stromal,"z -4.27, P = 1.000, n genes 102",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|all|T/NK,"z 4.57, P = 1.0e-04, n genes 102",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|no_blueprint_only|B/plasma,"z 3.37, P = 0.001, n genes 95",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|no_blueprint_only|Endothelial,"z -4.59, P = 1.000, n genes 95",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|no_blueprint_only|Myeloid,"z 2.48, P = 0.008, n genes 95",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|no_blueprint_only|Stromal,"z -3.96, P = 1.000, n genes 95",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|no_blueprint_only|T/NK,"z 4.09, P = 1.0e-04, n genes 95",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|coding_or_finemap|B/plasma,"z 3.17, P = 0.002, n genes 38",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|coding_or_finemap|Endothelial,"z -3.28, P = 1.000, n genes 38",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|coding_or_finemap|Myeloid,"z 2.16, P = 0.015, n genes 38",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|coding_or_finemap|Stromal,"z -4.99, P = 1.000, n genes 38",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|discovery|coding_or_finemap|T/NK,"z 4.84, P = 1.0e-04, n genes 38",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|all|B/plasma,"z 3.15, P = 0.002, n genes 105",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|all|Endothelial,"z -4.28, P = 1.000, n genes 105",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|all|Myeloid,"z -0.71, P = 0.763, n genes 105",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|all|Stromal,"z -3.89, P = 1.000, n genes 105",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|all|T/NK,"z 3.44, P = 7.0e-04, n genes 105",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|no_blueprint_only|B/plasma,"z 2.66, P = 0.006, n genes 97",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|no_blueprint_only|Endothelial,"z -4.27, P = 1.000, n genes 97",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|no_blueprint_only|Myeloid,"z -0.44, P = 0.665, n genes 97",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|no_blueprint_only|Stromal,"z -3.77, P = 1.000, n genes 97",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|no_blueprint_only|T/NK,"z 3.45, P = 3.0e-04, n genes 97",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|coding_or_finemap|B/plasma,"z 2.00, P = 0.028, n genes 42",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|coding_or_finemap|Endothelial,"z -3.19, P = 1.000, n genes 42",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|coding_or_finemap|Myeloid,"z 0.56, P = 0.287, n genes 42",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|coding_or_finemap|Stromal,"z -4.40, P = 1.000, n genes 42",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,causal|replication|coding_or_finemap|T/NK,"z 2.94, P = 0.001, n genes 42",compartment enrichment of causal genes,causal_gene_state_enrichment
+genmap,gupta_atlas,"27856 nuclei, 76 states, 11 RA donors; B/plasma 9; Endothelial 5; Myeloid 15; Stromal 10; T/NK 37",replication atlas,gupta_state_summary
+activity,state_test|crp|all states,"rho 0.64 (P = 3.4e-07, 52 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|crp|within Endothelial,"rho 0.39 (P = 0.383, 7 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|crp|within Myeloid,"rho -0.28 (P = 0.326, 14 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|crp|within Stromal,"rho 0.38 (P = 0.164, 15 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|crp|within T/NK,"rho -0.62 (P = 0.025, 13 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|das28|all states,"rho 0.68 (P = 2.3e-08, 52 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|das28|within Endothelial,"rho 0.36 (P = 0.432, 7 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|das28|within Myeloid,"rho -0.45 (P = 0.106, 14 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|das28|within Stromal,"rho 0.27 (P = 0.328, 15 states)",state-level genetic load vs activity association,activity_state_test
+activity,state_test|das28|within T/NK,"rho -0.48 (P = 0.094, 13 states)",state-level genetic load vs activity association,activity_state_test
+activity,longitudinal|B/plasma|crp,"rho -0.12 (-0.33-0.10), P = 0.297, I2 = 0%, n = 82",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|B/plasma|das28,"rho -0.12 (-0.30-0.07), P = 0.226, I2 = 0%, n = 111",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|Endothelial|crp,"rho -0.10 (-0.31-0.12), P = 0.383, I2 = 0%, n = 82",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|Endothelial|das28,"rho -0.06 (-0.25-0.13), P = 0.515, I2 = 0%, n = 111",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|GLI (OA contrast)|crp,"rho -0.03 (-0.56-0.52), P = 0.923, I2 = 86%, n = 82",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|GLI (OA contrast)|das28,"rho -0.03 (-0.26-0.21), P = 0.810, I2 = 30%, n = 111",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|GLI (RA)|crp,"rho 0.12 (-0.29-0.49), P = 0.577, I2 = 71%, n = 82",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|GLI (RA)|das28,"rho 0.04 (-0.21-0.29), P = 0.749, I2 = 41%, n = 111, perm P = 0.32",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|Myeloid|crp,"rho -0.07 (-0.38-0.26), P = 0.692, I2 = 55%, n = 82",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|Myeloid|das28,"rho 0.07 (-0.12-0.26), P = 0.481, I2 = 0%, n = 111",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|Stromal|crp,"rho -0.09 (-0.47-0.32), P = 0.674, I2 = 71%, n = 82",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|Stromal|das28,"rho 0.03 (-0.42-0.47), P = 0.890, I2 = 82%, n = 111",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|T/NK|crp,"rho 0.02 (-0.26-0.29), P = 0.894, I2 = 36%, n = 82",within-patient change association (pooled),activity_longitudinal_pooled
+activity,longitudinal|T/NK|das28,"rho -0.01 (-0.20-0.18), P = 0.889, I2 = 0%, n = 111",within-patient change association (pooled),activity_longitudinal_pooled
+activity,das28_sources,GSE198520: DAS28 (deposited); GSE45867: DAS28-CRP (deposited); PEAC: DAS28 (deposited); R4RA: DAS28-ESR (computed); STRAP: DAS28-ESR (computed),DAS28 source per cohort,clin_activity_harmonised
+chromatin,annot|AllPeaks,"197417 regions, 53.0 Mb, median 200 bp, 182297 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|AllPeaks_ext,"141451 regions, 213.7 Mb, median 1200 bp, 768072 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_TNK,"13231 regions, 2.6 Mb, median 200 bp, 9315 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Bplasma,"13214 regions, 2.6 Mb, median 200 bp, 9124 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Myeloid,"13219 regions, 2.6 Mb, median 200 bp, 8674 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Endothelial,"13214 regions, 2.6 Mb, median 200 bp, 9019 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Stromal,"13230 regions, 2.6 Mb, median 200 bp, 8669 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|fls_basal,"75727 regions, 25.6 Mb, median 236 bp, 88534 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|fls_stim,"92338 regions, 26.3 Mb, median 181 bp, 91296 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|fls_tnfgained,"41579 regions, 5.7 Mb, median 107 bp, 20682 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|fls_active,"158360 regions, 479.1 Mb, median 1752 bp, 1602997 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_TNK_ext,"11350 regions, 14.7 Mb, median 1200 bp, 49298 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Bplasma_ext,"10941 regions, 14.4 Mb, median 1200 bp, 49001 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Myeloid_ext,"11696 regions, 14.9 Mb, median 1200 bp, 51538 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Endothelial_ext,"10920 regions, 14.3 Mb, median 1200 bp, 49243 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,annot|iv_Stromal_ext,"11633 regions, 14.8 Mb, median 1200 bp, 50808 1000G SNPs",S-LDSC annotation size (hg19),sldsc_annotations
+chromatin,sldsc|iv_TNK|ra_eur,"enrichment 92.61 (SE 28.40; 95% CI 36.95 to 148.27); prop h2 7.9% (SE 2.4) of 0.08% SNPs; tau z 2.86, one-sided P = 0.002, FDR 0.010; tau* 2.49",S-LDSC iv_TNK x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK|fg_ra,"enrichment 77.56 (SE 27.04; 95% CI 24.57 to 130.55); prop h2 6.6% (SE 2.3) of 0.08% SNPs; tau z 2.19, one-sided P = 0.014, FDR 0.050; tau* 1.84",S-LDSC iv_TNK x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK|fg_oa,"enrichment 6.80 (SE 9.65; 95% CI -12.11 to 25.70); prop h2 0.6% (SE 0.8) of 0.08% SNPs; tau z 0.51, one-sided P = 0.306, FDR 0.715; tau* 0.15",S-LDSC iv_TNK x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK|fg_height,"enrichment 6.90 (SE 7.72; 95% CI -8.23 to 22.04); prop h2 0.6% (SE 0.7) of 0.08% SNPs; tau z -0.09, one-sided P = 0.534, FDR 0.979; tau* -0.02",S-LDSC iv_TNK x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK|fg_dupuytren,"enrichment 12.47 (SE 24.27; 95% CI -35.09 to 60.04); prop h2 1.1% (SE 2.1) of 0.08% SNPs; tau z -0.17, one-sided P = 0.566, FDR 0.889; tau* -0.12",S-LDSC iv_TNK x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma|ra_eur,"enrichment 71.79 (SE 22.61; 95% CI 27.47 to 116.11); prop h2 6.2% (SE 1.9) of 0.09% SNPs; tau z 2.74, one-sided P = 0.003, FDR 0.011; tau* 1.88",S-LDSC iv_Bplasma x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma|fg_ra,"enrichment 101.03 (SE 24.96; 95% CI 52.11 to 149.95); prop h2 8.7% (SE 2.2) of 0.09% SNPs; tau z 3.62, one-sided P = 1.5e-04, FDR 0.001; tau* 2.63",S-LDSC iv_Bplasma x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma|fg_oa,"enrichment -2.55 (SE 5.92; 95% CI -14.15 to 9.05); prop h2 -0.2% (SE 0.5) of 0.09% SNPs; tau z -0.71, one-sided P = 0.760, FDR 0.999; tau* -0.13",S-LDSC iv_Bplasma x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma|fg_height,"enrichment -0.31 (SE 6.29; 95% CI -12.65 to 12.02); prop h2 -0.0% (SE 0.5) of 0.09% SNPs; tau z -1.24, one-sided P = 0.892, FDR 0.979; tau* -0.24",S-LDSC iv_Bplasma x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma|fg_dupuytren,"enrichment 8.44 (SE 19.78; 95% CI -30.33 to 47.21); prop h2 0.7% (SE 1.7) of 0.09% SNPs; tau z -0.34, one-sided P = 0.635, FDR 0.889; tau* -0.21",S-LDSC iv_Bplasma x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid|ra_eur,"enrichment -36.78 (SE 15.39; 95% CI -66.94 to -6.62); prop h2 -3.1% (SE 1.3) of 0.08% SNPs; tau z -2.83, one-sided P = 0.998, FDR 0.998; tau* -1.38",S-LDSC iv_Myeloid x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid|fg_ra,"enrichment 13.92 (SE 17.25; 95% CI -19.88 to 47.72); prop h2 1.2% (SE 1.4) of 0.08% SNPs; tau z -0.05, one-sided P = 0.521, FDR 1.000; tau* -0.03",S-LDSC iv_Myeloid x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid|fg_oa,"enrichment -3.82 (SE 7.17; 95% CI -17.87 to 10.24); prop h2 -0.3% (SE 0.6) of 0.08% SNPs; tau z -0.51, one-sided P = 0.694, FDR 0.999; tau* -0.11",S-LDSC iv_Myeloid x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid|fg_height,"enrichment -2.89 (SE 6.60; 95% CI -15.83 to 10.04); prop h2 -0.2% (SE 0.6) of 0.08% SNPs; tau z -1.26, one-sided P = 0.895, FDR 0.979; tau* -0.24",S-LDSC iv_Myeloid x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid|fg_dupuytren,"enrichment 14.38 (SE 28.97; 95% CI -42.40 to 71.16); prop h2 1.2% (SE 2.4) of 0.08% SNPs; tau z -0.04, one-sided P = 0.516, FDR 0.889; tau* -0.03",S-LDSC iv_Myeloid x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial|ra_eur,"enrichment -23.34 (SE 14.63; 95% CI -52.01 to 5.33); prop h2 -2.0% (SE 1.2) of 0.08% SNPs; tau z -2.30, one-sided P = 0.989, FDR 0.998; tau* -0.97",S-LDSC iv_Endothelial x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial|fg_ra,"enrichment -31.84 (SE 16.37; 95% CI -63.92 to 0.24); prop h2 -2.7% (SE 1.4) of 0.08% SNPs; tau z -2.88, one-sided P = 0.998, FDR 1.000; tau* -1.42",S-LDSC iv_Endothelial x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial|fg_oa,"enrichment 17.05 (SE 8.70; 95% CI -0.00 to 34.10); prop h2 1.4% (SE 0.7) of 0.08% SNPs; tau z 1.64, one-sided P = 0.050, FDR 0.140; tau* 0.43",S-LDSC iv_Endothelial x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial|fg_height,"enrichment 14.36 (SE 7.26; 95% CI 0.12 to 28.59); prop h2 1.2% (SE 0.6) of 0.08% SNPs; tau z 0.82, one-sided P = 0.207, FDR 0.578; tau* 0.18",S-LDSC iv_Endothelial x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial|fg_dupuytren,"enrichment 52.58 (SE 22.69; 95% CI 8.10 to 97.06); prop h2 4.4% (SE 1.9) of 0.08% SNPs; tau z 1.55, one-sided P = 0.060, FDR 0.234; tau* 1.11",S-LDSC iv_Endothelial x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal|ra_eur,"enrichment -15.97 (SE 12.84; 95% CI -41.14 to 9.19); prop h2 -1.3% (SE 1.1) of 0.08% SNPs; tau z -1.48, one-sided P = 0.931, FDR 0.998; tau* -0.58",S-LDSC iv_Stromal x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal|fg_ra,"enrichment -16.91 (SE 14.38; 95% CI -45.09 to 11.27); prop h2 -1.4% (SE 1.2) of 0.08% SNPs; tau z -1.95, one-sided P = 0.974, FDR 1.000; tau* -0.82",S-LDSC iv_Stromal x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal|fg_oa,"enrichment 19.28 (SE 8.06; 95% CI 3.50 to 35.07); prop h2 1.6% (SE 0.7) of 0.08% SNPs; tau z 2.17, one-sided P = 0.015, FDR 0.070; tau* 0.51",S-LDSC iv_Stromal x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal|fg_height,"enrichment 38.88 (SE 8.92; 95% CI 21.40 to 56.37); prop h2 3.2% (SE 0.7) of 0.08% SNPs; tau z 3.55, one-sided P = 1.9e-04, FDR 0.001; tau* 0.96",S-LDSC iv_Stromal x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal|fg_dupuytren,"enrichment 48.61 (SE 22.36; 95% CI 4.78 to 92.44); prop h2 4.0% (SE 1.8) of 0.08% SNPs; tau z 1.44, one-sided P = 0.075, FDR 0.234; tau* 0.92",S-LDSC iv_Stromal x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_basal|ra_eur,"enrichment 1.80 (SE 4.59; 95% CI -7.20 to 10.80); prop h2 1.5% (SE 3.9) of 0.84% SNPs; tau z -0.96, one-sided P = 0.833, FDR 0.998; tau* -0.57",S-LDSC fls_basal x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_basal|fg_ra,"enrichment -2.35 (SE 5.16; 95% CI -12.46 to 7.76); prop h2 -2.0% (SE 4.4) of 0.84% SNPs; tau z -3.67, one-sided P = 1.000, FDR 1.000; tau* -2.67",S-LDSC fls_basal x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_basal|fg_oa,"enrichment -0.47 (SE 2.33; 95% CI -5.03 to 4.09); prop h2 -0.4% (SE 2.0) of 0.84% SNPs; tau z -1.39, one-sided P = 0.918, FDR 0.999; tau* -0.45",S-LDSC fls_basal x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_basal|fg_height,"enrichment 5.69 (SE 2.14; 95% CI 1.50 to 9.89); prop h2 4.8% (SE 1.8) of 0.84% SNPs; tau z -0.56, one-sided P = 0.712, FDR 0.979; tau* -0.16",S-LDSC fls_basal x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_basal|fg_dupuytren,"enrichment 8.29 (SE 5.86; 95% CI -3.20 to 19.77); prop h2 7.0% (SE 4.9) of 0.84% SNPs; tau z -1.71, one-sided P = 0.957, FDR 0.957; tau* -1.36",S-LDSC fls_basal x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_stim|ra_eur,"enrichment 1.04 (SE 4.56; 95% CI -7.89 to 9.98); prop h2 0.9% (SE 4.0) of 0.87% SNPs; tau z -1.35, one-sided P = 0.911, FDR 0.998; tau* -0.81",S-LDSC fls_stim x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_stim|fg_ra,"enrichment -0.01 (SE 4.84; 95% CI -9.49 to 9.47); prop h2 -0.0% (SE 4.2) of 0.87% SNPs; tau z -3.11, one-sided P = 0.999, FDR 1.000; tau* -2.34",S-LDSC fls_stim x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_stim|fg_oa,"enrichment -3.03 (SE 2.13; 95% CI -7.21 to 1.15); prop h2 -2.6% (SE 1.9) of 0.87% SNPs; tau z -3.12, one-sided P = 0.999, FDR 0.999; tau* -0.95",S-LDSC fls_stim x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_stim|fg_height,"enrichment 4.54 (SE 2.08; 95% CI 0.45 to 8.63); prop h2 3.9% (SE 1.8) of 0.87% SNPs; tau z -1.44, one-sided P = 0.925, FDR 0.979; tau* -0.40",S-LDSC fls_stim x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_stim|fg_dupuytren,"enrichment 10.59 (SE 6.47; 95% CI -2.09 to 23.27); prop h2 9.2% (SE 5.6) of 0.87% SNPs; tau z -1.06, one-sided P = 0.856, FDR 0.957; tau* -0.96",S-LDSC fls_stim x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_tnfgained|ra_eur,"enrichment -0.62 (SE 9.76; 95% CI -19.75 to 18.50); prop h2 -0.1% (SE 2.0) of 0.20% SNPs; tau z -0.22, one-sided P = 0.588, FDR 0.998; tau* -0.10",S-LDSC fls_tnfgained x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_tnfgained|fg_ra,"enrichment 17.16 (SE 13.47; 95% CI -9.24 to 43.57); prop h2 3.5% (SE 2.7) of 0.20% SNPs; tau z 0.69, one-sided P = 0.246, FDR 0.688; tau* 0.45",S-LDSC fls_tnfgained x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_tnfgained|fg_oa,"enrichment 0.78 (SE 4.64; 95% CI -8.32 to 9.87); prop h2 0.2% (SE 0.9) of 0.20% SNPs; tau z -0.05, one-sided P = 0.521, FDR 0.999; tau* -0.01",S-LDSC fls_tnfgained x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_tnfgained|fg_height,"enrichment 0.97 (SE 4.06; 95% CI -7.00 to 8.93); prop h2 0.2% (SE 0.8) of 0.20% SNPs; tau z -1.18, one-sided P = 0.881, FDR 0.979; tau* -0.23",S-LDSC fls_tnfgained x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_tnfgained|fg_dupuytren,"enrichment 10.29 (SE 14.16; 95% CI -17.45 to 38.04); prop h2 2.1% (SE 2.9) of 0.20% SNPs; tau z -0.35, one-sided P = 0.635, FDR 0.889; tau* -0.23",S-LDSC fls_tnfgained x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_active|ra_eur,"enrichment 2.30 (SE 0.38; 95% CI 1.55 to 3.05); prop h2 36.1% (SE 6.0) of 15.70% SNPs; tau z -0.51, one-sided P = 0.696, FDR 0.998; tau* -0.10",S-LDSC fls_active x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_active|fg_ra,"enrichment 2.45 (SE 0.40; 95% CI 1.66 to 3.24); prop h2 38.4% (SE 6.3) of 15.70% SNPs; tau z -1.43, one-sided P = 0.924, FDR 1.000; tau* -0.35",S-LDSC fls_active x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_active|fg_oa,"enrichment 2.12 (SE 0.22; 95% CI 1.70 to 2.55); prop h2 33.4% (SE 3.4) of 15.70% SNPs; tau z 1.71, one-sided P = 0.043, FDR 0.140; tau* 0.22",S-LDSC fls_active x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_active|fg_height,"enrichment 3.86 (SE 0.23; 95% CI 3.42 to 4.31); prop h2 60.7% (SE 3.6) of 15.70% SNPs; tau z 5.96, one-sided P = 1.3e-09, FDR 0.000; tau* 1.01",S-LDSC fls_active x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|fls_active|fg_dupuytren,"enrichment 4.87 (SE 0.49; 95% CI 3.91 to 5.84); prop h2 76.5% (SE 7.7) of 15.70% SNPs; tau z 3.97, one-sided P = 3.5e-05, FDR 0.000; tau* 1.35",S-LDSC fls_active x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK_ext|ra_eur,"enrichment 38.25 (SE 6.82; 95% CI 24.87 to 51.62); prop h2 17.9% (SE 3.2) of 0.47% SNPs; tau z 3.95, one-sided P = 3.9e-05, FDR 0.001; tau* 2.11",S-LDSC iv_TNK_ext x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK_ext|fg_ra,"enrichment 30.26 (SE 7.30; 95% CI 15.96 to 44.56); prop h2 14.1% (SE 3.4) of 0.47% SNPs; tau z 2.56, one-sided P = 0.005, FDR 0.024; tau* 1.42",S-LDSC iv_TNK_ext x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK_ext|fg_oa,"enrichment -0.42 (SE 2.76; 95% CI -5.82 to 4.98); prop h2 -0.2% (SE 1.3) of 0.47% SNPs; tau z -0.99, one-sided P = 0.839, FDR 0.999; tau* -0.18",S-LDSC iv_TNK_ext x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK_ext|fg_height,"enrichment 2.46 (SE 2.38; 95% CI -2.21 to 7.13); prop h2 1.1% (SE 1.1) of 0.47% SNPs; tau z -0.85, one-sided P = 0.802, FDR 0.979; tau* -0.15",S-LDSC iv_TNK_ext x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_TNK_ext|fg_dupuytren,"enrichment -0.26 (SE 6.17; 95% CI -12.36 to 11.83); prop h2 -0.1% (SE 2.9) of 0.47% SNPs; tau z -1.33, one-sided P = 0.908, FDR 0.957; tau* -0.56",S-LDSC iv_TNK_ext x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma_ext|ra_eur,"enrichment 35.13 (SE 7.61; 95% CI 20.21 to 50.06); prop h2 16.6% (SE 3.6) of 0.47% SNPs; tau z 3.60, one-sided P = 1.6e-04, FDR 0.001; tau* 1.89",S-LDSC iv_Bplasma_ext x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma_ext|fg_ra,"enrichment 40.94 (SE 9.13; 95% CI 23.04 to 58.84); prop h2 19.3% (SE 4.3) of 0.47% SNPs; tau z 3.89, one-sided P = 4.9e-05, FDR 0.001; tau* 2.34",S-LDSC iv_Bplasma_ext x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma_ext|fg_oa,"enrichment -1.79 (SE 1.99; 95% CI -5.69 to 2.11); prop h2 -0.8% (SE 0.9) of 0.47% SNPs; tau z -1.78, one-sided P = 0.963, FDR 0.999; tau* -0.26",S-LDSC iv_Bplasma_ext x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma_ext|fg_height,"enrichment 1.46 (SE 2.06; 95% CI -2.57 to 5.49); prop h2 0.7% (SE 1.0) of 0.47% SNPs; tau z -1.49, one-sided P = 0.931, FDR 0.979; tau* -0.23",S-LDSC iv_Bplasma_ext x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Bplasma_ext|fg_dupuytren,"enrichment 5.65 (SE 6.21; 95% CI -6.54 to 17.83); prop h2 2.7% (SE 2.9) of 0.47% SNPs; tau z -0.06, one-sided P = 0.523, FDR 0.889; tau* -0.02",S-LDSC iv_Bplasma_ext x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid_ext|ra_eur,"enrichment 2.65 (SE 4.13; 95% CI -5.44 to 10.75); prop h2 1.3% (SE 2.1) of 0.51% SNPs; tau z -1.37, one-sided P = 0.914, FDR 0.998; tau* -0.47",S-LDSC iv_Myeloid_ext x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid_ext|fg_ra,"enrichment 10.97 (SE 4.71; 95% CI 1.75 to 20.19); prop h2 5.6% (SE 2.4) of 0.51% SNPs; tau z 0.35, one-sided P = 0.364, FDR 0.849; tau* 0.13",S-LDSC iv_Myeloid_ext x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid_ext|fg_oa,"enrichment -1.35 (SE 2.09; 95% CI -5.45 to 2.76); prop h2 -0.7% (SE 1.1) of 0.51% SNPs; tau z -0.77, one-sided P = 0.778, FDR 0.999; tau* -0.12",S-LDSC iv_Myeloid_ext x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid_ext|fg_height,"enrichment -1.25 (SE 1.69; 95% CI -4.55 to 2.06); prop h2 -0.6% (SE 0.9) of 0.51% SNPs; tau z -2.03, one-sided P = 0.979, FDR 0.979; tau* -0.26",S-LDSC iv_Myeloid_ext x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Myeloid_ext|fg_dupuytren,"enrichment 1.59 (SE 6.00; 95% CI -10.16 to 13.35); prop h2 0.8% (SE 3.0) of 0.51% SNPs; tau z -0.65, one-sided P = 0.744, FDR 0.947; tau* -0.31",S-LDSC iv_Myeloid_ext x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial_ext|ra_eur,"enrichment -0.24 (SE 4.11; 95% CI -8.30 to 7.81); prop h2 -0.1% (SE 1.9) of 0.47% SNPs; tau z -2.06, one-sided P = 0.980, FDR 0.998; tau* -0.61",S-LDSC iv_Endothelial_ext x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial_ext|fg_ra,"enrichment -7.16 (SE 4.71; 95% CI -16.39 to 2.08); prop h2 -3.4% (SE 2.2) of 0.47% SNPs; tau z -3.60, one-sided P = 1.000, FDR 1.000; tau* -1.23",S-LDSC iv_Endothelial_ext x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial_ext|fg_oa,"enrichment 7.74 (SE 2.63; 95% CI 2.59 to 12.89); prop h2 3.7% (SE 1.2) of 0.47% SNPs; tau z 2.20, one-sided P = 0.014, FDR 0.070; tau* 0.42",S-LDSC iv_Endothelial_ext x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial_ext|fg_height,"enrichment 8.53 (SE 2.35; 95% CI 3.93 to 13.13); prop h2 4.0% (SE 1.1) of 0.47% SNPs; tau z 1.54, one-sided P = 0.062, FDR 0.218; tau* 0.27",S-LDSC iv_Endothelial_ext x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Endothelial_ext|fg_dupuytren,"enrichment 15.18 (SE 6.21; 95% CI 3.02 to 27.35); prop h2 7.2% (SE 2.9) of 0.47% SNPs; tau z 1.38, one-sided P = 0.084, FDR 0.234; tau* 0.67",S-LDSC iv_Endothelial_ext x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal_ext|ra_eur,"enrichment 0.23 (SE 3.83; 95% CI -7.28 to 7.74); prop h2 0.1% (SE 1.9) of 0.50% SNPs; tau z -0.91, one-sided P = 0.820, FDR 0.998; tau* -0.28",S-LDSC iv_Stromal_ext x ra_eur (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal_ext|fg_ra,"enrichment 0.76 (SE 4.17; 95% CI -7.40 to 8.93); prop h2 0.4% (SE 2.1) of 0.50% SNPs; tau z -1.25, one-sided P = 0.894, FDR 1.000; tau* -0.38",S-LDSC iv_Stromal_ext x fg_ra (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal_ext|fg_oa,"enrichment 7.97 (SE 2.61; 95% CI 2.86 to 13.08); prop h2 4.0% (SE 1.3) of 0.50% SNPs; tau z 2.50, one-sided P = 0.006, FDR 0.070; tau* 0.48",S-LDSC iv_Stromal_ext x fg_oa (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal_ext|fg_height,"enrichment 12.43 (SE 2.06; 95% CI 8.40 to 16.46); prop h2 6.2% (SE 1.0) of 0.50% SNPs; tau z 4.38, one-sided P = 5.9e-06, FDR 0.000; tau* 0.67",S-LDSC iv_Stromal_ext x fg_height (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+chromatin,sldsc|iv_Stromal_ext|fg_dupuytren,"enrichment 20.59 (SE 5.93; 95% CI 8.97 to 32.22); prop h2 10.3% (SE 3.0) of 0.50% SNPs; tau z 2.33, one-sided P = 0.010, FDR 0.069; tau* 0.96",S-LDSC iv_Stromal_ext x fg_dupuytren (baselineLD v2.2 + AllPeaks control),sldsc_chromatin
+genmap,concordance|discovery|scDRS z|ra_eur_noMHC|ra_eas_noMHC,"rho 0.90, P = 1.7e-20, 54 states",state-level concordance,genetic_map_concordance
+genmap,concordance|discovery|scDRS z|ra_eur_noMHC|fg_ra_noMHC,"rho 0.93, P = 2.4e-24, 54 states",state-level concordance,genetic_map_concordance
+genmap,concordance|discovery|scDRS z|ra_eur_noMHC|fg_height,"rho -0.51, P = 8.1e-05, 54 states",state-level concordance,genetic_map_concordance
+genmap,concordance|discovery|scDRS z|ra_eur_noMHC|fg_oa,"rho -0.49, P = 1.5e-04, 54 states",state-level concordance,genetic_map_concordance
+genmap,concordance|discovery|scDRS z|ra_eur_noMHC|fg_dupuytren,"rho -0.47, P = 3.0e-04, 54 states",state-level concordance,genetic_map_concordance
+genmap,concordance|discovery|scDRS z vs MAGMA -log10P|ra_eur_noMHC|ra_eur_noMHC,"rho 0.80, P = 6.1e-13, 54 states",state-level concordance,genetic_map_concordance
+genmap,concordance|replication|scDRS z|ra_eur_noMHC|ra_eas_noMHC,"rho 0.90, P = 2.4e-28, 76 states",state-level concordance,genetic_map_concordance
+genmap,concordance|replication|scDRS z|ra_eur_noMHC|fg_ra_noMHC,"rho 0.86, P = 1.4e-23, 76 states",state-level concordance,genetic_map_concordance
+genmap,concordance|replication|scDRS z|ra_eur_noMHC|fg_height,"rho -0.56, P = 1.4e-07, 76 states",state-level concordance,genetic_map_concordance
+genmap,concordance|replication|scDRS z|ra_eur_noMHC|fg_oa,"rho -0.40, P = 3.8e-04, 76 states",state-level concordance,genetic_map_concordance
+genmap,concordance|replication|scDRS z|ra_eur_noMHC|fg_dupuytren,"rho -0.45, P = 3.8e-05, 76 states",state-level concordance,genetic_map_concordance
+genmap,concordance|replication|scDRS z vs MAGMA -log10P|ra_eur_noMHC|ra_eur_noMHC,"rho 0.83, P = 1.9e-20, 76 states",state-level concordance,genetic_map_concordance
+chromatin,h2_upper|iv_TNK|ra_eur,7.9% (upper 95% bound 12.6%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK|fg_ra,6.6% (upper 95% bound 11.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK|fg_oa,0.6% (upper 95% bound 2.2%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK|fg_height,0.6% (upper 95% bound 1.9%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK|fg_dupuytren,1.1% (upper 95% bound 5.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma|ra_eur,6.2% (upper 95% bound 10.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma|fg_ra,8.7% (upper 95% bound 12.9%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma|fg_oa,-0.2% (upper 95% bound 0.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma|fg_height,-0.0% (upper 95% bound 1.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma|fg_dupuytren,0.7% (upper 95% bound 4.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid|ra_eur,-3.1% (upper 95% bound -0.6%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid|fg_ra,1.2% (upper 95% bound 4.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid|fg_oa,-0.3% (upper 95% bound 0.9%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid|fg_height,-0.2% (upper 95% bound 0.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid|fg_dupuytren,1.2% (upper 95% bound 6.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial|ra_eur,-2.0% (upper 95% bound 0.4%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial|fg_ra,-2.7% (upper 95% bound 0.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial|fg_oa,1.4% (upper 95% bound 2.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial|fg_height,1.2% (upper 95% bound 2.4%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial|fg_dupuytren,4.4% (upper 95% bound 8.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal|ra_eur,-1.3% (upper 95% bound 0.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal|fg_ra,-1.4% (upper 95% bound 0.9%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal|fg_oa,1.6% (upper 95% bound 2.9%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal|fg_height,3.2% (upper 95% bound 4.6%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal|fg_dupuytren,4.0% (upper 95% bound 7.6%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_basal|ra_eur,1.5% (upper 95% bound 9.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_basal|fg_ra,-2.0% (upper 95% bound 6.5%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_basal|fg_oa,-0.4% (upper 95% bound 3.5%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_basal|fg_height,4.8% (upper 95% bound 8.3%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_basal|fg_dupuytren,7.0% (upper 95% bound 16.7%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_stim|ra_eur,0.9% (upper 95% bound 8.7%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_stim|fg_ra,-0.0% (upper 95% bound 8.2%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_stim|fg_oa,-2.6% (upper 95% bound 1.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_stim|fg_height,3.9% (upper 95% bound 7.5%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_stim|fg_dupuytren,9.2% (upper 95% bound 20.2%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_tnfgained|ra_eur,-0.1% (upper 95% bound 3.7%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_tnfgained|fg_ra,3.5% (upper 95% bound 8.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_tnfgained|fg_oa,0.2% (upper 95% bound 2.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_tnfgained|fg_height,0.2% (upper 95% bound 1.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_tnfgained|fg_dupuytren,2.1% (upper 95% bound 7.7%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_active|ra_eur,36.1% (upper 95% bound 47.9%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_active|fg_ra,38.4% (upper 95% bound 50.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_active|fg_oa,33.4% (upper 95% bound 40.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_active|fg_height,60.7% (upper 95% bound 67.7%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|fls_active|fg_dupuytren,76.5% (upper 95% bound 91.6%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK_ext|ra_eur,17.9% (upper 95% bound 24.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK_ext|fg_ra,14.1% (upper 95% bound 20.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK_ext|fg_oa,-0.2% (upper 95% bound 2.3%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK_ext|fg_height,1.1% (upper 95% bound 3.3%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_TNK_ext|fg_dupuytren,-0.1% (upper 95% bound 5.5%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma_ext|ra_eur,16.6% (upper 95% bound 23.6%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma_ext|fg_ra,19.3% (upper 95% bound 27.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma_ext|fg_oa,-0.8% (upper 95% bound 1.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma_ext|fg_height,0.7% (upper 95% bound 2.6%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Bplasma_ext|fg_dupuytren,2.7% (upper 95% bound 8.4%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid_ext|ra_eur,1.3% (upper 95% bound 5.5%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid_ext|fg_ra,5.6% (upper 95% bound 10.3%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid_ext|fg_oa,-0.7% (upper 95% bound 1.4%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid_ext|fg_height,-0.6% (upper 95% bound 1.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Myeloid_ext|fg_dupuytren,0.8% (upper 95% bound 6.8%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial_ext|ra_eur,-0.1% (upper 95% bound 3.7%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial_ext|fg_ra,-3.4% (upper 95% bound 1.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial_ext|fg_oa,3.7% (upper 95% bound 6.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial_ext|fg_height,4.0% (upper 95% bound 6.2%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Endothelial_ext|fg_dupuytren,7.2% (upper 95% bound 13.0%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal_ext|ra_eur,0.1% (upper 95% bound 3.9%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal_ext|fg_ra,0.4% (upper 95% bound 4.5%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal_ext|fg_oa,4.0% (upper 95% bound 6.5%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal_ext|fg_height,6.2% (upper 95% bound 8.2%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin,h2_upper|iv_Stromal_ext|fg_dupuytren,10.3% (upper 95% bound 16.1%),proportion of h2 and upper bound,sldsc_chromatin
+chromatin_sensitivity,AllPeaks control|fls_active_316_RA_MCP|fg_dupuytren,"enrichment 5.79 (SE 0.76, marginal P = 9.4e-08); prop h2 54.9% of 9.49% SNPs (upper 69.0%); tau z 2.75, one-sided P = 0.003, FDR 0.007",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_316_RA_MCP|fg_height,"enrichment 4.71 (SE 0.33, marginal P = 6.3e-19); prop h2 44.7% of 9.49% SNPs (upper 50.9%); tau z 5.60, one-sided P = 1.1e-08, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_316_RA_MCP|ra_eur,"enrichment 2.88 (SE 0.63, marginal P = 0.003); prop h2 27.3% of 9.49% SNPs (upper 39.0%); tau z -0.29, one-sided P = 0.613, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_335_OA_KN|fg_dupuytren,"enrichment 6.04 (SE 0.70, marginal P = 4.1e-09); prop h2 64.3% of 10.65% SNPs (upper 79.0%); tau z 3.47, one-sided P = 2.6e-04, FDR 0.001",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_335_OA_KN|fg_height,"enrichment 4.78 (SE 0.32, marginal P = 3.2e-20); prop h2 50.9% of 10.65% SNPs (upper 57.5%); tau z 6.05, one-sided P = 7.4e-10, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_335_OA_KN|ra_eur,"enrichment 2.92 (SE 0.57, marginal P = 6.7e-04); prop h2 31.0% of 10.65% SNPs (upper 43.0%); tau z 0.29, one-sided P = 0.384, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_341_RA_SH|fg_dupuytren,"enrichment 6.35 (SE 0.78, marginal P = 1.6e-09); prop h2 61.2% of 9.65% SNPs (upper 75.9%); tau z 3.44, one-sided P = 2.9e-04, FDR 0.001",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_341_RA_SH|fg_height,"enrichment 4.91 (SE 0.35, marginal P = 4.5e-19); prop h2 47.4% of 9.65% SNPs (upper 54.0%); tau z 5.76, one-sided P = 4.2e-09, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_341_RA_SH|ra_eur,"enrichment 2.82 (SE 0.62, marginal P = 0.003); prop h2 27.2% of 9.65% SNPs (upper 38.9%); tau z -0.28, one-sided P = 0.612, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_343_OA_MCP|fg_dupuytren,"enrichment 6.10 (SE 0.74, marginal P = 4.9e-09); prop h2 64.0% of 10.49% SNPs (upper 79.1%); tau z 3.45, one-sided P = 2.8e-04, FDR 0.001",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_343_OA_MCP|fg_height,"enrichment 4.72 (SE 0.34, marginal P = 2.7e-18); prop h2 49.5% of 10.49% SNPs (upper 56.4%); tau z 5.58, one-sided P = 1.2e-08, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_343_OA_MCP|ra_eur,"enrichment 2.73 (SE 0.56, marginal P = 0.002); prop h2 28.6% of 10.49% SNPs (upper 40.1%); tau z -0.30, one-sided P = 0.619, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_368_RA_KN|fg_dupuytren,"enrichment 6.36 (SE 0.80, marginal P = 2.2e-08); prop h2 61.6% of 9.70% SNPs (upper 76.8%); tau z 3.05, one-sided P = 0.001, FDR 0.004",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_368_RA_KN|fg_height,"enrichment 4.49 (SE 0.33, marginal P = 2.0e-18); prop h2 43.5% of 9.70% SNPs (upper 49.8%); tau z 5.22, one-sided P = 8.8e-08, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_368_RA_KN|ra_eur,"enrichment 2.79 (SE 0.63, marginal P = 0.004); prop h2 27.0% of 9.70% SNPs (upper 39.0%); tau z -0.25, one-sided P = 0.598, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_384_OA_SH|fg_dupuytren,"enrichment 6.15 (SE 0.74, marginal P = 1.4e-09); prop h2 65.8% of 10.69% SNPs (upper 81.2%); tau z 3.45, one-sided P = 2.8e-04, FDR 0.001",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_384_OA_SH|fg_height,"enrichment 4.47 (SE 0.30, marginal P = 9.0e-20); prop h2 47.8% of 10.69% SNPs (upper 54.2%); tau z 5.72, one-sided P = 5.4e-09, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_384_OA_SH|ra_eur,"enrichment 2.58 (SE 0.55, marginal P = 0.004); prop h2 27.6% of 10.69% SNPs (upper 39.2%); tau z -0.60, one-sided P = 0.726, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_88_healthy_KN|fg_dupuytren,"enrichment 10.72 (SE 1.82, marginal P = 1.0e-06); prop h2 41.7% of 3.89% SNPs (upper 55.5%); tau z 3.01, one-sided P = 0.001, FDR 0.004",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_88_healthy_KN|fg_height,"enrichment 7.07 (SE 0.73, marginal P = 7.4e-14); prop h2 27.5% of 3.89% SNPs (upper 33.1%); tau z 4.98, one-sided P = 3.1e-07, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|fls_active_88_healthy_KN|ra_eur,"enrichment 4.02 (SE 1.37, marginal P = 0.027); prop h2 15.6% of 3.89% SNPs (upper 26.1%); tau z -0.39, one-sided P = 0.650, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_active|fg_dupuytren,"enrichment 4.81 (SE 0.49, marginal P = 7.2e-11); prop h2 75.5% of 15.70% SNPs (upper 90.5%); tau z 4.15, one-sided P = 1.6e-05, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_active|fg_height,"enrichment 3.87 (SE 0.23, marginal P = 1.9e-21); prop h2 60.8% of 15.70% SNPs (upper 67.8%); tau z 5.94, one-sided P = 1.4e-09, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_active|ra_eur,"enrichment 2.32 (SE 0.38, marginal P = 4.0e-04); prop h2 36.5% of 15.70% SNPs (upper 48.1%); tau z -0.67, one-sided P = 0.747, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_basal|fg_dupuytren,"enrichment 9.86 (SE 5.93, marginal P = 0.127); prop h2 8.3% of 0.84% SNPs (upper 18.1%); tau z 0.93, one-sided P = 0.176, FDR 0.317",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_basal|fg_height,"enrichment 5.92 (SE 2.15, marginal P = 0.025); prop h2 5.0% of 0.84% SNPs (upper 8.6%); tau z 0.65, one-sided P = 0.256, FDR 0.399",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_basal|ra_eur,"enrichment 1.80 (SE 4.65, marginal P = 0.862); prop h2 1.5% of 0.84% SNPs (upper 9.2%); tau z -1.22, one-sided P = 0.890, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_stim|fg_dupuytren,"enrichment 11.79 (SE 6.49, marginal P = 0.085); prop h2 10.2% of 0.87% SNPs (upper 21.2%); tau z 1.15, one-sided P = 0.125, FDR 0.280",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_stim|fg_height,"enrichment 4.80 (SE 2.09, marginal P = 0.072); prop h2 4.2% of 0.87% SNPs (upper 7.7%); tau z 0.13, one-sided P = 0.449, FDR 0.571",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_stim|ra_eur,"enrichment 1.13 (SE 4.61, marginal P = 0.978); prop h2 1.0% of 0.87% SNPs (upper 8.8%); tau z -1.46, one-sided P = 0.928, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_tnfgained|fg_dupuytren,"enrichment 12.12 (SE 14.21, marginal P = 0.441); prop h2 2.4% of 0.20% SNPs (upper 8.1%); tau z 0.63, one-sided P = 0.264, FDR 0.397",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_tnfgained|fg_height,"enrichment 1.25 (SE 4.06, marginal P = 0.951); prop h2 0.3% of 0.20% SNPs (upper 1.9%); tau z -0.50, one-sided P = 0.691, FDR 0.806",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|fls_tnfgained|ra_eur,"enrichment -0.98 (SE 9.80, marginal P = 0.839); prop h2 -0.2% of 0.20% SNPs (upper 3.7%); tau z -0.53, one-sided P = 0.704, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Bplasma|fg_dupuytren,"enrichment 7.94 (SE 19.84, marginal P = 0.724); prop h2 0.7% of 0.09% SNPs (upper 4.0%); tau z 0.12, one-sided P = 0.452, FDR 0.452",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Bplasma|fg_height,"enrichment -0.47 (SE 6.28, marginal P = 0.815); prop h2 -0.0% of 0.09% SNPs (upper 1.0%); tau z -0.94, one-sided P = 0.826, FDR 0.826",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Bplasma|ra_eur,"enrichment 71.91 (SE 22.62, marginal P = 0.002); prop h2 6.2% of 0.09% SNPs (upper 10.0%); tau z 2.64, one-sided P = 0.004, FDR 0.029",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Bplasma_acc|fg_height,"enrichment 10.31 (SE 3.52, marginal P = 0.008); prop h2 4.6% of 0.44% SNPs (upper 7.6%); tau z 1.18, one-sided P = 0.119, FDR 0.276",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Bplasma_acc|ra_eur,"enrichment 21.03 (SE 8.68, marginal P = 0.020); prop h2 9.3% of 0.44% SNPs (upper 16.8%); tau z 1.15, one-sided P = 0.125, FDR 0.438",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Bplasma_acc|fg_dupuytren,"enrichment 7.73 (SE 8.02, marginal P = 0.395); prop h2 3.4% of 0.44% SNPs (upper 10.3%); tau z -1.03, one-sided P = 0.849, FDR 0.902",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Bplasma_acc|fg_height,"enrichment 10.31 (SE 3.53, marginal P = 0.008); prop h2 4.6% of 0.44% SNPs (upper 7.6%); tau z 0.70, one-sided P = 0.241, FDR 0.315",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Bplasma_acc|ra_eur,"enrichment 21.22 (SE 8.71, marginal P = 0.019); prop h2 9.4% of 0.44% SNPs (upper 16.9%); tau z 1.57, one-sided P = 0.059, FDR 0.249",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Endothelial|fg_dupuytren,"enrichment 52.58 (SE 22.69, marginal P = 0.027); prop h2 4.4% of 0.08% SNPs (upper 8.1%); tau z 1.98, one-sided P = 0.024, FDR 0.072",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Endothelial|fg_height,"enrichment 14.36 (SE 7.25, marginal P = 0.064); prop h2 1.2% of 0.08% SNPs (upper 2.4%); tau z 1.11, one-sided P = 0.133, FDR 0.276",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Endothelial|ra_eur,"enrichment -23.32 (SE 14.62, marginal P = 0.093); prop h2 -1.9% of 0.08% SNPs (upper 0.4%); tau z -2.38, one-sided P = 0.991, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Endothelial_acc|fg_height,"enrichment 13.33 (SE 2.80, marginal P = 1.2e-05); prop h2 5.9% of 0.44% SNPs (upper 8.3%); tau z 2.43, one-sided P = 0.008, FDR 0.026",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Endothelial_acc|ra_eur,"enrichment -8.29 (SE 6.50, marginal P = 0.150); prop h2 -3.7% of 0.44% SNPs (upper 2.0%); tau z -3.13, one-sided P = 0.999, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Endothelial_acc|fg_dupuytren,"enrichment 19.93 (SE 8.71, marginal P = 0.029); prop h2 8.8% of 0.44% SNPs (upper 16.4%); tau z 0.58, one-sided P = 0.280, FDR 0.396",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Endothelial_acc|fg_height,"enrichment 13.27 (SE 2.80, marginal P = 1.3e-05); prop h2 5.9% of 0.44% SNPs (upper 8.3%); tau z 1.89, one-sided P = 0.029, FDR 0.041",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Endothelial_acc|ra_eur,"enrichment -8.38 (SE 6.46, marginal P = 0.144); prop h2 -3.7% of 0.44% SNPs (upper 1.9%); tau z -3.06, one-sided P = 0.999, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Myeloid|fg_dupuytren,"enrichment 15.07 (SE 28.96, marginal P = 0.625); prop h2 1.3% of 0.08% SNPs (upper 6.0%); tau z 0.35, one-sided P = 0.362, FDR 0.452",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Myeloid|fg_height,"enrichment -2.83 (SE 6.60, marginal P = 0.561); prop h2 -0.2% of 0.08% SNPs (upper 0.8%); tau z -0.89, one-sided P = 0.813, FDR 0.826",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Myeloid|ra_eur,"enrichment -36.84 (SE 15.38, marginal P = 0.016); prop h2 -3.1% of 0.08% SNPs (upper -0.6%); tau z -2.96, one-sided P = 0.998, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Myeloid_acc|fg_height,"enrichment 8.91 (SE 3.04, marginal P = 0.008); prop h2 4.0% of 0.45% SNPs (upper 6.6%); tau z 1.09, one-sided P = 0.139, FDR 0.276",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Myeloid_acc|ra_eur,"enrichment -11.25 (SE 6.73, marginal P = 0.070); prop h2 -5.0% of 0.45% SNPs (upper 0.9%); tau z -3.57, one-sided P = 1.000, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Myeloid_acc|fg_dupuytren,"enrichment 16.02 (SE 9.29, marginal P = 0.101); prop h2 7.2% of 0.45% SNPs (upper 15.3%); tau z 0.07, one-sided P = 0.473, FDR 0.619",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Myeloid_acc|fg_height,"enrichment 8.87 (SE 3.04, marginal P = 0.009); prop h2 4.0% of 0.45% SNPs (upper 6.6%); tau z 0.46, one-sided P = 0.323, FDR 0.374",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Myeloid_acc|ra_eur,"enrichment -11.32 (SE 6.73, marginal P = 0.068); prop h2 -5.1% of 0.45% SNPs (upper 0.8%); tau z -3.49, one-sided P = 1.000, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Stromal|fg_dupuytren,"enrichment 51.01 (SE 22.18, marginal P = 0.015); prop h2 4.2% of 0.08% SNPs (upper 7.7%); tau z 2.16, one-sided P = 0.015, FDR 0.069",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Stromal|fg_height,"enrichment 38.98 (SE 8.89, marginal P = 4.2e-05); prop h2 3.2% of 0.08% SNPs (upper 4.6%); tau z 3.73, one-sided P = 9.6e-05, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Stromal|ra_eur,"enrichment -16.41 (SE 12.81, marginal P = 0.170); prop h2 -1.3% of 0.08% SNPs (upper 0.7%); tau z -1.74, one-sided P = 0.959, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Stromal_acc|fg_height,"enrichment 21.39 (SE 3.27, marginal P = 2.5e-09); prop h2 9.4% of 0.44% SNPs (upper 12.2%); tau z 4.65, one-sided P = 1.7e-06, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_Stromal_acc|ra_eur,"enrichment -11.04 (SE 6.90, marginal P = 0.083); prop h2 -4.8% of 0.44% SNPs (upper 1.1%); tau z -3.12, one-sided P = 0.999, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Stromal_acc|fg_dupuytren,"enrichment 34.83 (SE 11.19, marginal P = 5.1e-04); prop h2 15.3% of 0.44% SNPs (upper 24.9%); tau z 1.85, one-sided P = 0.032, FDR 0.061",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Stromal_acc|fg_height,"enrichment 21.57 (SE 3.28, marginal P = 1.8e-09); prop h2 9.5% of 0.44% SNPs (upper 12.3%); tau z 4.59, one-sided P = 2.2e-06, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_Stromal_acc|ra_eur,"enrichment -11.29 (SE 6.86, marginal P = 0.075); prop h2 -5.0% of 0.44% SNPs (upper 0.9%); tau z -3.09, one-sided P = 0.999, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_TNK|fg_dupuytren,"enrichment 11.33 (SE 24.28, marginal P = 0.668); prop h2 1.0% of 0.08% SNPs (upper 5.0%); tau z 0.19, one-sided P = 0.424, FDR 0.452",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_TNK|fg_height,"enrichment 6.75 (SE 7.74, marginal P = 0.456); prop h2 0.6% of 0.08% SNPs (upper 1.9%); tau z 0.14, one-sided P = 0.445, FDR 0.571",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_TNK|ra_eur,"enrichment 92.96 (SE 28.37, marginal P = 0.002); prop h2 7.9% of 0.08% SNPs (upper 12.6%); tau z 2.76, one-sided P = 0.003, FDR 0.029",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_TNK_acc|fg_height,"enrichment 9.38 (SE 3.09, marginal P = 0.006); prop h2 4.1% of 0.44% SNPs (upper 6.8%); tau z 1.00, one-sided P = 0.158, FDR 0.276",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,baseline only|iv_TNK_acc|ra_eur,"enrichment 30.12 (SE 8.80, marginal P = 0.001); prop h2 13.2% of 0.44% SNPs (upper 20.8%); tau z 2.20, one-sided P = 0.014, FDR 0.064",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_TNK_acc|fg_dupuytren,"enrichment -0.28 (SE 8.63, marginal P = 0.881); prop h2 -0.1% of 0.44% SNPs (upper 7.3%); tau z -1.99, one-sided P = 0.976, FDR 0.976",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_TNK_acc|fg_height,"enrichment 9.42 (SE 3.10, marginal P = 0.006); prop h2 4.1% of 0.44% SNPs (upper 6.8%); tau z 0.44, one-sided P = 0.330, FDR 0.374",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_TNK_acc|ra_eur,"enrichment 30.17 (SE 8.82, marginal P = 0.001); prop h2 13.2% of 0.44% SNPs (upper 20.8%); tau z 2.61, one-sided P = 0.005, FDR 0.026",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_fib_lining|fg_dupuytren,"enrichment 41.98 (SE 22.98, marginal P = 0.057); prop h2 3.5% of 0.08% SNPs (upper 7.2%); tau z 1.14, one-sided P = 0.126, FDR 0.197",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_fib_lining|fg_height,"enrichment 25.13 (SE 6.20, marginal P = 1.3e-04); prop h2 2.1% of 0.08% SNPs (upper 3.1%); tau z 2.93, one-sided P = 0.002, FDR 0.003",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_fib_lining|ra_eur,"enrichment -16.78 (SE 13.56, marginal P = 0.191); prop h2 -1.4% of 0.08% SNPs (upper 0.8%); tau z -1.51, one-sided P = 0.935, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_fib_sublining|fg_dupuytren,"enrichment 58.38 (SE 22.32, marginal P = 0.005); prop h2 4.7% of 0.08% SNPs (upper 8.3%); tau z 1.98, one-sided P = 0.024, FDR 0.050",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_fib_sublining|fg_height,"enrichment 34.64 (SE 7.82, marginal P = 3.9e-05); prop h2 2.8% of 0.08% SNPs (upper 4.0%); tau z 3.44, one-sided P = 2.9e-04, FDR 0.001",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_fib_sublining|ra_eur,"enrichment -18.23 (SE 12.44, marginal P = 0.121); prop h2 -1.5% of 0.08% SNPs (upper 0.5%); tau z -1.73, one-sided P = 0.959, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_mural|fg_dupuytren,"enrichment 41.64 (SE 21.70, marginal P = 0.052); prop h2 3.5% of 0.08% SNPs (upper 7.1%); tau z 1.14, one-sided P = 0.128, FDR 0.197",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_mural|fg_height,"enrichment 34.05 (SE 8.70, marginal P = 2.3e-04); prop h2 2.9% of 0.08% SNPs (upper 4.3%); tau z 2.87, one-sided P = 0.002, FDR 0.003",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|iv_mural|ra_eur,"enrichment -18.57 (SE 15.24, marginal P = 0.199); prop h2 -1.6% of 0.08% SNPs (upper 1.0%); tau z -1.80, one-sided P = 0.964, FDR 1.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|rm_B_active|fg_dupuytren,"enrichment 2.72 (SE 1.25, marginal P = 0.162); prop h2 13.4% of 4.94% SNPs (upper 25.5%); tau z -0.68, one-sided P = 0.750, FDR 0.902",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|rm_B_active|fg_height,"enrichment 3.04 (SE 0.50, marginal P = 3.9e-05); prop h2 15.0% of 4.94% SNPs (upper 19.8%); tau z -0.76, one-sided P = 0.776, FDR 0.776",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|rm_B_active|ra_eur,"enrichment 9.35 (SE 1.20, marginal P = 1.7e-12); prop h2 46.2% of 4.94% SNPs (upper 57.8%); tau z 5.11, one-sided P = 1.6e-07, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|rm_T_active|fg_dupuytren,"enrichment 2.60 (SE 1.26, marginal P = 0.208); prop h2 13.1% of 5.03% SNPs (upper 25.5%); tau z -1.00, one-sided P = 0.841, FDR 0.902",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|rm_T_active|fg_height,"enrichment 3.29 (SE 0.43, marginal P = 1.6e-07); prop h2 16.5% of 5.03% SNPs (upper 20.8%); tau z -0.53, one-sided P = 0.703, FDR 0.747",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,AllPeaks control|rm_T_active|ra_eur,"enrichment 9.42 (SE 1.06, marginal P = 1.5e-12); prop h2 47.3% of 5.03% SNPs (upper 57.8%); tau z 5.23, one-sided P = 8.6e-08, FDR 0.000",S-LDSC sensitivity,sldsc_chromatin_r2b
+chromatin_sensitivity,finemap|AllPeaks,6.2% of PIP (10 of 167 variants) vs 1.82% of SNPs; fold 3.4,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|AllPeaks_ext,29.0% of PIP (44 of 167 variants) vs 7.68% of SNPs; fold 3.8,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_TNK,3.8% of PIP (5 of 167 variants) vs 0.09% of SNPs; fold 41.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Bplasma,1.2% of PIP (3 of 167 variants) vs 0.09% of SNPs; fold 12.9,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Myeloid,1.1% of PIP (1 of 167 variants) vs 0.09% of SNPs; fold 12.6,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Endothelial,0.5% of PIP (2 of 167 variants) vs 0.09% of SNPs; fold 5.7,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Stromal,0.0% of PIP (0 of 167 variants) vs 0.09% of SNPs; fold 0.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_basal,0.0% of PIP (0 of 167 variants) vs 0.89% of SNPs; fold 0.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_stim,0.5% of PIP (1 of 167 variants) vs 0.91% of SNPs; fold 0.6,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_tnfgained,0.0% of PIP (0 of 167 variants) vs 0.21% of SNPs; fold 0.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active,32.8% of PIP (61 of 167 variants) vs 16.03% of SNPs; fold 2.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_TNK_ext,8.3% of PIP (11 of 167 variants) vs 0.49% of SNPs; fold 16.9,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Bplasma_ext,4.9% of PIP (10 of 167 variants) vs 0.49% of SNPs; fold 9.9,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Myeloid_ext,3.5% of PIP (3 of 167 variants) vs 0.52% of SNPs; fold 6.7,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Endothelial_ext,2.2% of PIP (5 of 167 variants) vs 0.49% of SNPs; fold 4.5,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Stromal_ext,0.0% of PIP (0 of 167 variants) vs 0.51% of SNPs; fold 0.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active_335_OA_KN,22.6% of PIP (47 of 167 variants) vs 10.94% of SNPs; fold 2.1,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active_368_RA_KN,22.8% of PIP (40 of 167 variants) vs 9.96% of SNPs; fold 2.3,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active_384_OA_SH,22.1% of PIP (40 of 167 variants) vs 10.99% of SNPs; fold 2.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active_341_RA_SH,23.7% of PIP (45 of 167 variants) vs 9.92% of SNPs; fold 2.4,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active_343_OA_MCP,21.8% of PIP (40 of 167 variants) vs 10.77% of SNPs; fold 2.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active_316_RA_MCP,20.6% of PIP (38 of 167 variants) vs 9.76% of SNPs; fold 2.1,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|fls_active_88_healthy_KN,9.0% of PIP (17 of 167 variants) vs 4.05% of SNPs; fold 2.2,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|rm_T_active,32.0% of PIP (45 of 167 variants) vs 5.21% of SNPs; fold 6.2,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|rm_B_active,32.7% of PIP (59 of 167 variants) vs 5.08% of SNPs; fold 6.4,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_TNK_acc,4.6% of PIP (7 of 167 variants) vs 0.47% of SNPs; fold 9.9,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Bplasma_acc,4.5% of PIP (7 of 167 variants) vs 0.47% of SNPs; fold 9.7,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Myeloid_acc,2.6% of PIP (4 of 167 variants) vs 0.47% of SNPs; fold 5.6,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Endothelial_acc,1.0% of PIP (3 of 167 variants) vs 0.47% of SNPs; fold 2.2,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_Stromal_acc,0.5% of PIP (2 of 167 variants) vs 0.47% of SNPs; fold 1.1,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_fib_lining,0.0% of PIP (0 of 167 variants) vs 0.09% of SNPs; fold 0.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_fib_sublining,0.0% of PIP (0 of 167 variants) vs 0.09% of SNPs; fold 0.0,fine-mapped overlap,finemap_overlap
+chromatin_sensitivity,finemap|iv_mural,0.0% of PIP (0 of 167 variants) vs 0.09% of SNPs; fold 0.0,fine-mapped overlap,finemap_overlap
+power,spikein|k=0.00,stromal 0/10 (median z -2.03); T/NK 32/37 (median z 4.64),scDRS spike-in,spikein_power
+power,spikein|k=0.10,stromal 0/10 (median z -0.60); T/NK 8/37 (median z 1.84),scDRS spike-in,spikein_power
+power,spikein|k=0.20,stromal 0/10 (median z 0.06); T/NK 8/37 (median z 1.85),scDRS spike-in,spikein_power
+power,spikein|k=0.30,stromal 2/10 (median z 0.12); T/NK 10/37 (median z 1.35),scDRS spike-in,spikein_power
+power,spikein|k=0.50,stromal 0/10 (median z 1.56); T/NK 0/37 (median z 0.51),scDRS spike-in,spikein_power
+activity,partial|Stromal|adj immune|cdai,"rho -0.08 (-0.19 to 0.02), P = 0.132, n = 338",partial Spearman,activity_partial
+activity,partial|Stromal|adj immune|crp,"rho -0.10 (-0.32 to 0.13), P = 0.375, n = 453",partial Spearman,activity_partial
+activity,partial|Stromal|adj immune|das28,"rho -0.10 (-0.19 to -0.01), P = 0.026, n = 490",partial Spearman,activity_partial
+activity,partial|Stromal|adj immune|esr,"rho -0.05 (-0.14 to 0.04), P = 0.302, n = 470",partial Spearman,activity_partial
+activity,partial|Stromal|adj immune|sjc,"rho -0.12 (-0.21 to -0.02), P = 0.013, n = 470",partial Spearman,activity_partial
+activity,partial|T/NK|adj Stromal|cdai,"rho 0.01 (-0.10 to 0.11), P = 0.897, n = 338",partial Spearman,activity_partial
+activity,partial|T/NK|adj Stromal|crp,"rho 0.13 (0.00 to 0.25), P = 0.042, n = 453",partial Spearman,activity_partial
+activity,partial|T/NK|adj Stromal|das28,"rho 0.14 (0.03 to 0.25), P = 0.013, n = 490",partial Spearman,activity_partial
+activity,partial|T/NK|adj Stromal|esr,"rho 0.15 (0.04 to 0.25), P = 0.007, n = 470",partial Spearman,activity_partial
+activity,partial|T/NK|adj Stromal|sjc,"rho 0.02 (-0.08 to 0.11), P = 0.708, n = 470",partial Spearman,activity_partial
+targets_sensitivity,exclusive|genetic|0.1,396/5183 vs 192/3181; OR 1.29; P = 0.005,target share tests,target_tests
+targets_sensitivity,exclusive|genetic|0.3,230/5183 vs 99/3181; OR 1.45; P = 0.003,target share tests,target_tests
+targets_sensitivity,exclusive|genetic|0.5,108/5183 vs 34/3181; OR 1.97; P = 4.5e-04,target share tests,target_tests
+targets_sensitivity,exclusive|clinical|0.5,24/5183 vs 6/3181; OR 2.46; P = 0.058,target share tests,target_tests
+targets_sensitivity,exclusive4|genetic|0.1,99/1453 vs 54/643; OR 0.80; P = 0.203,target share tests,target_tests
+targets_sensitivity,exclusive4|genetic|0.3,63/1453 vs 29/643; OR 0.96; P = 0.908,target share tests,target_tests
+targets_sensitivity,exclusive4|genetic|0.5,36/1453 vs 8/643; OR 2.02; P = 0.071,target share tests,target_tests
+targets_sensitivity,exclusive4|clinical|0.5,4/1453 vs 3/643; OR 0.59; P = 0.445,target share tests,target_tests
+targets_sensitivity,maxstate|genetic|0.1,411/5525 vs 196/3211; OR 1.24; P = 0.018,target share tests,target_tests
+targets_sensitivity,maxstate|genetic|0.3,245/5525 vs 100/3211; OR 1.44; P = 0.002,target share tests,target_tests
+targets_sensitivity,maxstate|genetic|0.5,112/5525 vs 33/3211; OR 1.99; P = 3.4e-04,target share tests,target_tests
+targets_sensitivity,maxstate|clinical|0.5,25/5525 vs 9/3211; OR 1.62; P = 0.285,target share tests,target_tests
+targets_sensitivity,maxstate|approved b/tsDMARD targets (ChEMBL phase 4)|nan,9/10 vs 1/10; OR nan; P = 0.009,target share tests,target_tests
+chromatin,dupuytren_magma_bonf,67,Dupuytren MAGMA genes at Bonferroni,magma_genes_fg_dupuytren
