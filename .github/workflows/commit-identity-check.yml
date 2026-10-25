@@ -1,0 +1,86 @@
+name: Commit identity check
+
+# Checks the commits and the description of pull requests opened by the repository owner: no
+# Claude/Anthropic author or committer, no hostname-fallback addresses (they cannot be linked to a
+# GitHub account), and no automatic Claude attribution (co-author trailer, "Generated with Claude
+# Code" footer, session link). Pull requests from other contributors and from bots are skipped.
+# Only commit metadata and the PR text are read, never file contents.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  identity:
+    if: github.event.pull_request.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check commit authorship and attribution
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_COMMITS: ${{ github.event.pull_request.commits }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          gh api --paginate "repos/$REPO/pulls/$PR_NUMBER/commits" \
+            --jq '.[] | {sha, an: .commit.author.name, ae: .commit.author.email, cn: .commit.committer.name, ce: .commit.committer.email, al: .author.login, msg: .commit.message}' > commits.jsonl
+          python3 - commits.jsonl <<'PY'
+          import json
+          import os
+          import re
+          import sys
+
+          # Input: JSON lines, one per PR commit (path in argv[1]); PR text in $PR_TITLE/$PR_BODY; $PR_COMMITS = commit count.
+          # Only commit metadata and PR text are inspected, never file contents.
+          ATTRIB = [
+              (re.compile(r"(?im)^\s*co-authored-by:[^\n]*(claude|anthropic)"), "Co-Authored-By trailer naming Claude/Anthropic"),
+              (re.compile(r"(?i)generated with\s*\[?\s*claude"), '"Generated with Claude Code" footer'),
+              (re.compile(r"claude\.ai/code/session"), "Claude session link"),
+              (re.compile(r"(?im)^\s*claude-session\s*:"), "Claude-Session trailer"),
+              (re.compile(r"(?i)noreply@anthropic\.com"), "noreply@anthropic.com address"),
+          ]
+          CLAUDE_NAME = re.compile(r"(?i)^\s*(claude(\s+(code|opus|sonnet|haiku|fable)\b.*)?|anthropic)\s*$")
+          FALLBACK_EMAIL = re.compile(r"(?i)(@anthropic\.com|\.local|@localhost|\(none\))\s*$")
+          PR_TEXT_PATTERNS = ATTRIB[1:3]
+
+          problems, warnings = [], []
+          bad_commits = 0
+          count = 0
+          for line in open(sys.argv[1], encoding="utf-8"):
+              if not line.strip():
+                  continue
+              c = json.loads(line)
+              count += 1
+              why = []
+              for role, name, email in (("author", c.get("an"), c.get("ae")), ("committer", c.get("cn"), c.get("ce"))):
+                  name, email = name or "", email or ""
+                  if CLAUDE_NAME.match(name) or FALLBACK_EMAIL.search(email):
+                      why.append(f"{role} '{name} <{email}>' is a Claude/Anthropic or hostname-fallback identity")
+              why += [f"message contains a {desc}" for pat, desc in ATTRIB if pat.search(c.get("msg") or "")]
+              if why:
+                  bad_commits += 1
+                  problems.append(f"{c['sha'][:10]}: " + "; ".join(why))
+              elif not c.get("al"):
+                  warnings.append(f"{c['sha'][:10]}: author <{c.get('ae')}> is not linked to a GitHub account")
+
+          expected = os.environ.get("PR_COMMITS", "")
+          if count == 0 or (expected.isdigit() and count != int(expected)):
+              problems.append(f"retrieved {count} commit(s) but the pull request has {expected or 'an unknown number of'}; the check cannot vouch for it")
+
+          pr_text = os.environ.get("PR_TITLE", "") + "\n" + os.environ.get("PR_BODY", "")
+          for pat, desc in PR_TEXT_PATTERNS:
+              if pat.search(pr_text):
+                  problems.append(f"PR title/description contains a {desc}")
+
+          for w in warnings[:10]:
+              print(f"::warning title=Commit identity check::{w}")
+          for i, p in enumerate(problems):
+              print(f"::error title=Commit identity check::{p}" if i < 10 else p)
+          print(f"Checked {count} commit(s): {bad_commits} with identity or attribution problems, {len(problems) - bad_commits} other problem(s), {len(warnings)} unlinked-author warning(s).")
+          sys.exit(1 if problems else 0)
+          PY

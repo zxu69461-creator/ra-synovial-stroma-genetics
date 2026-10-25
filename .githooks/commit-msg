@@ -1,0 +1,15 @@
+#!/bin/sh
+# Rejects commit messages that carry automatic Claude attribution: a Claude/Anthropic
+# Co-Authored-By trailer, a "Generated with Claude Code" footer, a claude.ai session link or a
+# Claude-Session trailer. Plain mentions of the word "Claude" in a subject are not affected.
+# Enable in a clone with:  git config core.hooksPath .githooks
+msg=$(sed -e '/^# ------------------------ >8 ------------------------$/,$d' -e '/^#/d' "$1")
+if printf '%s\n' "$msg" | grep -Eiq '^[[:space:]]*co-authored-by:.*(claude|anthropic)|generated with[[:space:]]*\[?[[:space:]]*claude|claude\.ai/code/session|^[[:space:]]*claude-session[[:space:]]*:|noreply@anthropic\.com'; then
+  cat >&2 <<'EOF'
+commit-msg: this message contains automatic Claude attribution (Co-Authored-By trailer, "Generated with
+Claude Code" footer, claude.ai session link or Claude-Session trailer). Remove it and commit again.
+The owner has switched this attribution off on purpose; see CLAUDE.md ("Git identity and attribution").
+EOF
+  exit 1
+fi
+exit 0
