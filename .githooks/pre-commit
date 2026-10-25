@@ -1,0 +1,39 @@
+#!/bin/sh
+# Rejects a commit made under a Claude/Anthropic identity or a hostname-fallback identity
+# (for example "x <x@host.local>"), which GitHub cannot link to an account.
+# The check is about the shape of the identity, so it never names a particular person and
+# leaves other contributors' own identities alone.
+# Enable in a clone with:  git config core.hooksPath .githooks
+fail=0
+for role in AUTHOR COMMITTER; do
+  ident=$(git var "GIT_${role}_IDENT" 2>/dev/null) || {
+    echo "pre-commit: cannot determine the Git ${role} identity; set user.name and user.email." >&2
+    exit 1
+  }
+  name=${ident%% <*}
+  email=${ident#*<}
+  email=${email%%>*}
+  lname=$(printf '%s' "$name" | tr '[:upper:]' '[:lower:]')
+  lemail=$(printf '%s' "$email" | tr '[:upper:]' '[:lower:]')
+  case "$lname" in
+    claude|"claude code"|claude\ opus*|claude\ sonnet*|claude\ haiku*|claude\ fable*|anthropic)
+      echo "pre-commit: the ${role} name '$name' is a Claude/Anthropic identity." >&2
+      fail=1 ;;
+  esac
+  case "$lemail" in
+    *@anthropic.com|*.local|*@localhost|""|"(none)")
+      echo "pre-commit: the ${role} email <$email> is a Claude/Anthropic or hostname-fallback address." >&2
+      fail=1 ;;
+  esac
+done
+if [ "$fail" -ne 0 ]; then
+  cat >&2 <<'EOF'
+Commit aborted. Commits for the repository owner must carry the owner's verified GitHub identity.
+Set it for this clone (not globally) and retry:
+  git config user.name  "<owner display name>"
+  git config user.email "<id>+<login>@users.noreply.github.com"
+See the "Git identity and attribution" section of CLAUDE.md. If you cannot confirm the identity, stop and ask the owner.
+EOF
+  exit 1
+fi
+exit 0
